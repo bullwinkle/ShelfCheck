@@ -262,9 +262,12 @@ async function generateContent(): Promise<void> {
   console.log('Calling GitHub Models API...');
   const content = await callGitHubModels(prompt, INSPECTOR_MORSEL_VOICE.systemPrompt);
 
-  // Extract title from first line if it's a heading
+  // Extract title from first heading line, or generate a sensible default
   const lines = content.trim().split('\n');
-  let title = lines[0]?.replace(/^#+\s*/, '').trim() ?? 'Daily Digest';
+  const headingLine = lines.find((l) => /^#{1,3}\s+/.test(l));
+  let title = headingLine
+    ? headingLine.replace(/^#+\s*/, '').trim()
+    : `${IS_DEEP ? 'Weekly Deep Dive' : 'Daily Digest'}: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`;
   if (title.length > 100) title = title.slice(0, 97) + '...';
 
   const mentionedBrands = extractBrandsFromContent(content, brands);
