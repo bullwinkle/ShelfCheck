@@ -3,7 +3,7 @@ name: Daily Data Collection & Deploy
 on:
   schedule:
     - cron: '0 6,18 * * *'
-  workflow_dispatch:  # Manual trigger for testing
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -40,30 +40,32 @@ jobs:
 
       - name: Collect recall data from FDA
         run: npx tsx scripts/collect-recalls.ts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
-      - name: Analyze recall data & compute brand scores
+      - name: Analyze recall data
         run: npx tsx scripts/analyze-recalls.ts
+        continue-on-error: true
 
       - name: Generate daily digest article
         run: npx tsx scripts/generate-content.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       - name: Generate visualizations
         run: npx tsx scripts/generate-images.ts
+        continue-on-error: true
 
-      - name: Build AnalogJS static site
-        run: npm run build
-
-      - name: Commit new data and generated content
+      - name: Commit new data
         run: |
           git config user.name "Inspector Morsel 🦝"
           git config user.email "inspector-morsel@users.noreply.github.com"
-          git add data/ src/content/articles/ public/
+          git add data/ src/content/ public/
           git diff --staged --quiet || git commit -m "chore(data): daily collection $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Build Astro site
+        run: npx astro build
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
@@ -71,7 +73,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/analog/public
+          path: dist/
 
       - name: Deploy to GitHub Pages
         id: deployment
