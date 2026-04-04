@@ -1,6 +1,8 @@
 name: Daily Data Collection & Deploy
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '0 6,18 * * *'
   workflow_dispatch:
