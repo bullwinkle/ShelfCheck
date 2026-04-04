@@ -283,7 +283,14 @@ async function generateContent(): Promise<void> {
   const articlesDir = path.resolve(process.cwd(), DATA_PATHS.articles);
   fs.mkdirSync(articlesDir, { recursive: true });
   const articlePath = path.join(articlesDir, `${slug}.md`);
-  fs.writeFileSync(articlePath, frontmatter + content);
+  // Sanitize content: replace em-dashes and en-dashes with regular dashes
+  // to avoid AnalogJS/Vite content plugin parsing issues
+  const sanitizedContent = content
+    .replace(/\u2014/g, '--')   // em-dash → --
+    .replace(/\u2013/g, '-')    // en-dash → -
+    .replace(/\u2018|\u2019/g, "'")  // smart quotes → regular
+    .replace(/\u201C|\u201D/g, '"'); // smart double quotes → regular
+  fs.writeFileSync(articlePath, frontmatter + sanitizedContent);
 
   console.log(`✅ Article written: ${articlePath}`);
 
