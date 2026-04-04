@@ -44,7 +44,14 @@ export function getStaticPaths() {
 const { frontmatter, body, slug } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const htmlContent = marked.parse(body) as string;
+// Strip leading heading if it duplicates the title
+let cleanBody = body.trim();
+const leadingH = cleanBody.match(/^##?\s+(.+)\n/);
+if (leadingH && frontmatter.title && leadingH[1].trim() === frontmatter.title.trim()) {
+  cleanBody = cleanBody.slice(leadingH[0].length);
+}
+
+const htmlContent = marked.parse(cleanBody) as string;
 const tldrHtml = frontmatter.tldr ? marked.parseInline(frontmatter.tldr) as string : '';
 const severityClass = frontmatter.severity === 'Class I' ? 'badge-red' : 'badge-amber';
 ---
