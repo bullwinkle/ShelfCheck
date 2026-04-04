@@ -1,0 +1,109 @@
+---
+import Base from '../../layouts/Base.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export function getStaticPaths() {
+  const articlesDir = path.resolve('src/content/articles');
+  if (!fs.existsSync(articlesDir)) return [];
+  
+  const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.md'));
+  return files.map(file => {
+    const slug = file.replace('.md', '');
+    const raw = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
+    
+    // Parse frontmatter
+    const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+    let frontmatter: Record<string, any> = {};
+    let body = raw;
+    
+    if (fmMatch) {
+      const fmLines = fmMatch[1].split('\n');
+      for (const line of fmLines) {
+        const colonIdx = line.indexOf(':');
+        if (colonIdx > 0) {
+          const key = line.slice(0, colonIdx).trim();
+          let val = line.slice(colonIdx + 1).trim();
+          // Remove quotes
+          if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+            val = val.slice(1, -1);
+          }
+          frontmatter[key] = val;
+        }
+      }
+      body = fmMatch[2];
+    }
+    
+    return {
+      params: { slug },
+      props: { frontmatter, body, slug },
+    };
+  });
+}
+
+const { frontmatter, body, slug } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+// Simple markdown to HTML (headers, bold, lists, links)
+function md(text: string): string {
+  return text
+    // Headers
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+    // Bold
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    // Italic
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    // Links
+    .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2">$1</a>')
+    // Unordered lists
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/(<li>.*<\/li>\n?)+/g, (m) => `<ul>${m}</ul>`)
+    // Paragraphs (double newline)
+    .replace(/\n\n(?!<[hulo])/g, '</p><p>')
+    // Line breaks
+    .replace(/\n(?!<)/g, '<br/>');
+}
+
+const htmlContent = md(body);
+const severityClass = frontmatter.severity === 'Class I' ? 'badge-red' : 'badge-amber';
+---
+<Base title={frontmatter.title || slug} description={frontmatter.tldr || ''}>
+  <article>
+    <div class="container" style="max-width: 800px; padding: 2rem 1rem;">
+      <a href={`${base}/`} style="font-size: 0.85rem; opacity: 0.7;">← Back to Home</a>
+      
+      <div style="margin-top: 1.5rem;">
+        <div class="meta" style="margin-bottom: 0.75rem;">
+          {frontmatter.date} · <span class={`badge ${severityClass}`}>{frontmatter.severity || 'Info'}</span>
+          {frontmatter.category && <span class="badge badge-amber" style="margin-left: 0.5rem;">{frontmatter.category}</span>}
+        </div>
+        
+        <h1 style="font-size: 2rem; line-height: 1.2; margin-bottom: 1rem;">{frontmatter.title || slug}</h1>
+        
+        {frontmatter.tldr && (
+          <div class="verdict" style="margin-bottom: 2rem;">
+            {frontmatter.tldr}
+          </div>
+        )}
+      </div>
+
+      <div class="article-body" set:html={htmlContent} />
+      
+      <hr style="margin: 2rem 0; border: none; border-top: 1px solid #e0e0e0;" />
+      <p style="font-size: 0.85rem; color: #666;">
+        Data sourced from <a href="https://open.fda.gov">openFDA</a>. Analysis by Inspector Morsel 🦝
+      </p>
+    </div>
+  </article>
+</Base>
+
+<style is:global>
+  .article-body h2 { margin: 1.5rem 0 0.75rem; }
+  .article-body h3 { margin: 1.2rem 0 0.5rem; }
+  .article-body p { margin-bottom: 1rem; }
+  .article-body ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+  .article-body li { margin-bottom: 0.4rem; }
+  .article-body a { color: var(--amber); }
+</style>
