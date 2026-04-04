@@ -1,69 +1,61 @@
 ---
-title: "Recalls Hit 222 in 2026: A Cautionary Tale for Snack Lovers"
+title: "Daily Digest: A Shocking Surge in Listeria Recalls"
 date: "2026-04-04"
 category: "daily-digest"
-brands: ["Made Fresh Salads Inc","CNC Noodle Corporation","House Of Flavors, Inc.","Uncle Ray's LLC"]
+brands: ["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."]
 severity: "Class I"
-tldr: "Surprise! We're not just in a food recall crisis; we're knee-deep in it, with a staggering **222 recalls** reported this year alone. And if you're wondering how serious this is, **71** of those are Cl"
+tldr: "In a staggering trend, nearly one-third (32%) of this year's 222 food recalls have been classified as Class I, highlighting a growing concern for public health. If you're wondering what that means in "
 slug: "2026-04-04-daily-digest"
-chartData: {"type":"bar","labels":["Made Fresh Salads Inc","CNC Noodle Corporation","House Of Flavors, Inc.","Uncle Ray's LLC"],"values":[87,93,90,63],"title":"Brand Recall Counts"}
+chartData: {"type":"bar","labels":["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."],"values":[89,69,31,85,97],"title":"Brand Recall Counts"}
 ---
 
-## Recalls Hit 222 in 2026: A Cautionary Tale for Snack Lovers
+## Daily Digest: A Shocking Surge in Listeria Recalls
 
-Surprise! We're not just in a food recall crisis; we're knee-deep in it, with a staggering **222 recalls** reported this year alone. And if you're wondering how serious this is, **71** of those are Class I recalls, which means they pose a significant risk to health. Buckle up, snack aficionados; let's take a closer look at the latest offenders.
+In a staggering trend, nearly one-third (32%) of this year's 222 food recalls have been classified as Class I, highlighting a growing concern for public health. If you're wondering what that means in layman's terms, Class I recalls involve food that poses a high risk of serious health consequences. This week, several products have made the headlines for all the wrong reasons, primarily due to potential listeria contamination. 
 
-## Class I Recalls: A Listeria Love Affair
+## The Recalls You Need to Know About
 
-Made Fresh Salads Inc. has certainly made a name for itself in the recall department, with **four separate Class I recalls** this week. Each item in question--a hefty **5 lb tub of cream cheese**--is potentially contaminated with *Listeria monocytogenes*. This organism can cause serious infections, particularly in pregnant women, the elderly, and those with weakened immune systems.
+### Class I Recalls
 
-- **Whipped Cream Cheese**  
-  - **Reason:** Possible Listeria contamination
+- **Made Fresh Salads Inc.** 
+  - **Products**: Multiple cream cheese varieties (Whipped, Lox, Scallion, Strawberry), all in 5 lb white plastic tubs.
+  - **Reason**: Possible contamination with *Listeria monocytogenes*, a bacterium known for causing severe illness, particularly in pregnant women, newborns, the elderly, and those with weakened immune systems.
+  - **Recall Dates**: Officially recalled on April 1, 2026.
+  
+  **Data Insight**: The CDC estimates that *Listeria* causes approximately 1,600 illnesses and 260 deaths each year in the U.S., underlining the severity of this recall.
 
-- **Lox Cream Cheese**  
-  - **Reason:** Possible Listeria contamination
+### Class II Recalls
 
-- **Scallion Cream Cheese**  
-  - **Reason:** Possible Listeria contamination
+- **Uncle Ray's LLC**
+  - **Product**: Lowes Foods sour cream and onion flavored potato chips, 8 oz. bag, UPC 7 41643 05.
+  - **Reason**: Inaccurate nutritional data, specifically understated sodium content. 
+  - **Recall Date**: April 2, 2026.
+  
+- **Willamette Valley Pie Company, LLC**
+  - **Products**: 
+    - Frozen Raw Bulk 9 inch Blueberry Crumble Pie ES (4 pies/case), Net wt. 38 oz.
+    - Frozen Raw Bulk 8 inch Blueberry Crumble Pie (4 pies/case), Net wt. 24.5 oz.
+  - **Reason**: Potential contamination with *Listeria monocytogenes*.
+  - **Recall Dates**: Both pies were recalled on April 3, 2026.
+  
+- **CNC Noodle Corporation**
+  - **Product**: STEAM NOODLES 
+  - **Reason**: Undeclared wheat, posing a risk to those with wheat allergies.
+  - **Recall Date**: April 1, 2026.
+  
+- **Cocos Wholesale and Imports, LLC**
+  - **Product**: Coco's Italian Market Cannoli Making Kit.
+  - **Reason**: Label inaccuracies regarding ingredients, specifically undeclared allergens.
+  - **Recall Date**: April 2, 2026.
 
-- **Strawberry Cream Cheese**  
-  - **Reason:** Possible Listeria contamination
+- **House Of Flavors, Inc.**
+  - **Product**: House of Flavors 4893 Chicago Vanilla Naturally Flavored Ice Cream, 3 GAL tub.
+  - **Reason**: Undeclared egg.
+  - **Recall Date**: April 1, 2026.
+  
+## What This Means For You
 
-Let's break this down: That's **20 lbs of potentially tainted cream cheese** just sitting in your fridge, waiting to wreak havoc. If you think cream cheese is a benign spread, think again. The CDC reports listeriosis has a hospitalization rate of approximately **22%**--certainly not a statistic you want to be part of.
+With the increasing number of recalls, particularly those involving *Listeria monocytogenes*, it's crucial for consumers to be vigilant. This bacterium can survive at refrigerator temperatures, making it a persistent threat. Always check product labels and stay informed about recalls. 
 
-## Class II Recalls: A Mixed Bag of Snacks and Sweets
-
-Not all recalls are created equal, but they all deserve your attention. In the Class II category, we have some head-scratchers that could leave you shaking your head in disbelief.
-
-### Uncle Ray's LLC: Snack Attack
-- **Product:** Lowes Foods Sour Cream and Onion Flavored Potato Chips  
-- **Weight:** 8 oz. bag  
-- **Reason:** Inaccurate nutritional data, including understated sodium content.  
-
-Let's talk sodium. The FDA allows a daily sodium intake of **2,300 mg**. If Uncle Ray's is misrepresenting this in their nutrition facts, you could be unknowingly packing in more salt than intended. 
-
-### Willamette Valley Pie Company: Pie-ous Contamination
-- **Product:** Frozen Raw Bulk 9 inch Blueberry Crumble Pie  
-- **Weight:** 38 oz.  
-- **Reason:** Potential *Listeria monocytogenes* contamination.  
-
-Here we go again with listeria. This pie could serve up more than just dessert; it could serve up a side of foodborne illness. They also recalled a **Frozen Raw Bulk 8 inch Blueberry Crumble Pie** for the same reason, which means two strikes against your dessert plans.
-
-### CNC Noodle Corporation: Wheat Woes
-- **Product:** STEAM NOODLES  
-- **Reason:** Undeclared wheat.  
-
-For those with wheat allergies or celiac disease, this is a big red flag. The FDA states that food manufacturers must clearly label allergens, and a failure to do so can lead to serious health consequences.
-
-### House Of Flavors, Inc.: Egg-spect the Unexpected
-- **Product:** Chicago Vanilla Naturally Flavored Ice Cream  
-- **Weight:** 3 GAL tub  
-- **Reason:** Undeclared egg.  
-
-It's baffling that a company would neglect to mention one of the most common allergens. The US has seen a growth in severe allergies, so this oversight could have dire consequences for some consumers.
-
-## Verdict: A Recipe for Caution
-
-In summary, this week's recalls are a mixed bag of serious health risks and basic labeling mishaps. The prevalence of *Listeria monocytogenes* in various cream cheese products is particularly concerning, while the inaccuracies in snack nutrition facts and undeclared allergens are red flags that should not be ignored.
-
-Inspector Morsel says: Remain vigilant and check your pantry--your health might just depend on it. Happy snacking!
+### Inspector Morsel says:
+"Remember, folks, food safety isn't just a corporate responsibility; it's a community concern. The next time you pick up a tub of cream cheese or a bag of chips, consider that ignorance is not bliss in the realm of food safety. Stay sharp, stay informed, and don't let your guard down in the snack aisle!"
