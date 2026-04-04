@@ -16,6 +16,9 @@ export default defineConfig(({ mode }) => ({
     analog({
       ssr: false,
       static: true,
+      content: {
+        highlighter: 'none',
+      },
       prerender: {
         routes: async () => [
           '/',
