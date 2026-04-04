@@ -52,7 +52,7 @@ const base = import.meta.env.BASE_URL;
               <div class="card" style="cursor: pointer; transition: box-shadow 0.2s;">
                 <div class="meta">{a.date} · <span class={`badge ${a.severity === 'Class I' ? 'badge-red' : 'badge-amber'}`}>{a.severity || 'Info'}</span></div>
                 <h3>{a.title}</h3>
-                <p>{stripMd(a.tldr?.slice(0, 150) || 'Read the full report...')}</p>
+                <p>{stripMd(a.tldr?.slice(0, 150) || 'Read the full report...')}…</p>
               </div>
             </a>
           ))}
