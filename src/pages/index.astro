@@ -64,19 +64,30 @@ const base = import.meta.env.BASE_URL;
       <div class="container">
         <h2>🔍 Worst Offenders</h2>
         <div class="grid">
-          {topBrands.map((b: any) => (
-            <div class="card">
-              <h3>{b.recalling_firm || b.brand_slug}</h3>
-              <p>
-                <strong>{b.total_recalls}</strong> recalls · 
-                Score: <strong style={`color: ${b.accountability_score > 60 ? '#2a9d8f' : b.accountability_score > 30 ? '#f0a500' : '#e63946'}`}>{b.accountability_score}/100</strong>
-              </p>
-            </div>
-          ))}
+          {topBrands.map((b: any) => {
+            const imgPath = `${base}/images/generated/brand-${b.brand_slug}.png`;
+            return (
+              <div class="card">
+                <img src={imgPath} alt={`${b.recalling_firm || b.brand_slug} recall card`} style="width:100%; border-radius:6px; margin-bottom:0.75rem;" loading="lazy" />
+                <h3>{b.recalling_firm || b.brand_slug}</h3>
+                <p>
+                  <strong>{b.total_recalls}</strong> recalls · 
+                  Score: <strong style={`color: ${b.accountability_score > 60 ? '#2a9d8f' : b.accountability_score > 30 ? '#f0a500' : '#e63946'}`}>{b.accountability_score}/100</strong>
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
   )}
+
+  <section>
+    <div class="container">
+      <h2>📊 Recall Trends</h2>
+      <img src={`${base}/images/generated/trend-chart.png`} alt="FDA recall trends — last 12 months" style="width:100%; border-radius:8px; margin: 1rem 0;" loading="lazy" />
+    </div>
+  </section>
 
   <section>
     <div class="container">
