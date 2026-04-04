@@ -37,17 +37,15 @@ function getSeverityScore(classification: string): number {
 }
 
 async function fetchPage(skip: number): Promise<FDAResponse> {
-  const url = new URL(FDA_API.baseUrl);
-  url.searchParams.set('limit', String(FDA_API.limit));
-  url.searchParams.set('skip', String(skip));
-  // Get records from the past 180 days
+  // Build URL manually to avoid URLSearchParams encoding '+' as '%2B'
+  // openFDA requires literal '+TO+' in search queries
   const since = new Date();
   since.setDate(since.getDate() - 180);
   const sinceStr = since.toISOString().slice(0, 10).replace(/-/g, '');
-  url.searchParams.set('search', `report_date:[${sinceStr}+TO+99991231]`);
-  url.searchParams.set('sort', 'report_date:desc');
+  const search = `report_date:[${sinceStr}+TO+99991231]`;
+  const url = `${FDA_API.baseUrl}?search=${search}&sort=report_date:desc&limit=${FDA_API.limit}&skip=${skip}`;
 
-  const res = await fetch(url.toString());
+  const res = await fetch(url);
   if (!res.ok) {
     throw new Error(`FDA API error: ${res.status} ${res.statusText}`);
   }
