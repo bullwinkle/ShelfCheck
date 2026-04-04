@@ -20,7 +20,9 @@ const base = import.meta.env.BASE_URL;
   <div class="hero">
     <div class="container">
       <h1>The Food Industry's<br/>Accountability Report Card</h1>
-      <div class="counter">{stats.totalRecalls || '—'}</div>
+      {stats.totalRecalls > 0 ? (
+        <div class="counter">{stats.totalRecalls}</div>
+      ) : null}
       <p>FDA food recalls in 2026 so far. <strong>Inspector Morsel</strong> 🦝 is watching.</p>
       <p style="margin-top: 1rem;">
         <span class="badge badge-red">Class I: {stats.classI || 0}</span>&nbsp;
