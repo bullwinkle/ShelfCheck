@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript incremental build
+*.tsbuildinfo
+
+# Keep data files (they're small and enable historical tracking)
+# data/*.json — TRACKED intentionally
+
+# Generated images are tracked (prebuilt for faster deploys)
+# public/images/generated/ — TRACKED intentionally
