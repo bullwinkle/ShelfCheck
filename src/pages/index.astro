@@ -8,7 +8,14 @@ let stats = { totalRecalls: 0, classI: 0, repeatOffenders: 0 };
 let brands: any[] = [];
 let articles: any[] = [];
 
-try { stats = JSON.parse(fs.readFileSync(path.join(dataDir, 'stats.json'), 'utf-8')); } catch {}
+try {
+  const raw = JSON.parse(fs.readFileSync(path.join(dataDir, 'stats.json'), 'utf-8'));
+  stats = {
+    totalRecalls: raw.total_recalls_this_year ?? raw.totalRecalls ?? 0,
+    classI: raw.class_i_this_year ?? raw.classI ?? 0,
+    repeatOffenders: raw.repeat_offenders_count ?? raw.repeatOffenders ?? 0,
+  };
+} catch {}
 try { brands = JSON.parse(fs.readFileSync(path.join(dataDir, 'brands.json'), 'utf-8')); } catch {}
 try { articles = JSON.parse(fs.readFileSync(path.join('public', 'data', 'articles-index.json'), 'utf-8')); } catch {}
 
