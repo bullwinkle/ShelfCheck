@@ -1,40 +1,46 @@
-# 🦝 Shelf Check
+# Astro Starter Kit: Basics
 
-**The food industry's accountability report card.**
+```sh
+npm create astro@latest -- --template basics
+```
 
-Every recall, every repeat offender, every cover-up — exposed with data.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## What Is This?
+## 🚀 Project Structure
 
-Shelf Check is an automated, AI-powered food safety intelligence site that:
-- Pulls recall data from FDA, USDA, CPSC, and EU RASFF APIs
-- Analyzes patterns, scores brand accountability, and identifies repeat offenders
-- Generates smart, well-researched articles with custom data visualizations
-- Publishes automatically as a static site via GitHub Pages
-- Runs 100% on GitHub Actions — zero manual intervention
+Inside of your Astro project, you'll see the following folders and files:
 
-## Personality
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
 
-**Inspector Morsel** 🦝 — a sharp-eyed raccoon in a lab coat with a magnifying glass.
-Investigative journalist meets sardonic food critic. Data-driven, never preachy.
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## Tech Stack
+## 🧞 Commands
 
-- **Framework:** AnalogJS (Angular meta-framework, SSG)
-- **Data:** openFDA API, USDA FSIS, CPSC API, EU RASFF
-- **AI:** GitHub Models (GPT-4.1-mini) for article generation
-- **Charts:** D3.js / Chart.js (server-side rendered to SVG/PNG)
-- **CI/CD:** GitHub Actions (2x daily data + weekly deep analysis)
-- **Hosting:** GitHub Pages
+All commands are run from the root of the project, from a terminal:
 
-## Content Schedule
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-| Frequency | Content Type |
-|-----------|-------------|
-| 2x daily | New recall digests |
-| Weekly (Sun) | Deep analysis — "Dirty Dozen", trend reports |
-| Monthly | "State of the Plate" comprehensive report |
+## 👀 Want to learn more?
 
-## License
-
-MIT
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

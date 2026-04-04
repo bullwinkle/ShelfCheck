@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="About" description="How Shelf Check scores brands and tracks food recalls.">
+  <section><div class="container">
+    <h1>About Shelf Check</h1>
+    <p>Shelf Check is an automated food safety intelligence site. We pull data from official government databases and use AI to analyze patterns, score brands, and write smart reports.</p>
+    <h2>Methodology</h2>
+    <p>Our Accountability Score weighs four factors:</p>
+    <ul>
+      <li><strong>Frequency (30%)</strong> — Number of recalls per 12-month period</li>
+      <li><strong>Severity (30%)</strong> — Class I (deadly risk) vs II vs III</li>
+      <li><strong>Response Speed (20%)</strong> — Days between contamination and recall</li>
+      <li><strong>Scope (20%)</strong> — Geographic distribution of affected products</li>
+    </ul>
+    <h2>Data Sources</h2>
+    <ul>
+      <li><a href="https://open.fda.gov/apis/food/enforcement/">openFDA Food Enforcement API</a></li>
+      <li><a href="https://www.fsis.usda.gov/recalls">USDA FSIS Recalls</a></li>
+    </ul>
+    <div class="verdict">We believe the FDA is understaffed and underfunded. Sunlight — data — is the best disinfectant.</div>
+  </div></section>
+</Base>

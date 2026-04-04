@@ -1,0 +1,79 @@
+---
+import Base from '../layouts/Base.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const dataDir = path.resolve('data');
+let stats = { totalRecalls: 0, classI: 0, repeatOffenders: 0 };
+let brands: any[] = [];
+let articles: any[] = [];
+
+try { stats = JSON.parse(fs.readFileSync(path.join(dataDir, 'stats.json'), 'utf-8')); } catch {}
+try { brands = JSON.parse(fs.readFileSync(path.join(dataDir, 'brands.json'), 'utf-8')); } catch {}
+try { articles = JSON.parse(fs.readFileSync(path.join('public', 'data', 'articles-index.json'), 'utf-8')); } catch {}
+
+const topBrands = brands.sort((a: any, b: any) => b.total_recalls - a.total_recalls).slice(0, 6);
+const recentArticles = articles.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 6);
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Home" description="The food industry's accountability report card. Tracking every recall, every repeat offender.">
+  <div class="hero">
+    <div class="container">
+      <h1>The Food Industry's<br/>Accountability Report Card</h1>
+      <div class="counter">{stats.totalRecalls || '—'}</div>
+      <p>FDA food recalls in 2026 so far. <strong>Inspector Morsel</strong> 🦝 is watching.</p>
+      <p style="margin-top: 1rem;">
+        <span class="badge badge-red">Class I: {stats.classI || 0}</span>&nbsp;
+        <span class="badge badge-amber">Repeat offenders: {stats.repeatOffenders || 0}</span>
+      </p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <h2>Latest Reports</h2>
+      {recentArticles.length > 0 ? (
+        <div class="grid">
+          {recentArticles.map((a: any) => (
+            <div class="card">
+              <div class="meta">{a.date} · <span class={`badge ${a.severity === 'Class I' ? 'badge-red' : 'badge-amber'}`}>{a.severity || 'Info'}</span></div>
+              <h3>{a.title}</h3>
+              <p>{a.tldr?.slice(0, 150) || 'Read the full report...'}</p>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div class="verdict">
+          First data collection hasn't run yet. Trigger the <code>daily-collect</code> workflow to populate the site with real FDA data.
+        </div>
+      )}
+    </div>
+  </section>
+
+  {topBrands.length > 0 && (
+    <section style="background: var(--light); padding: 2rem 0;">
+      <div class="container">
+        <h2>🔍 Worst Offenders</h2>
+        <div class="grid">
+          {topBrands.map((b: any) => (
+            <div class="card">
+              <h3>{b.recalling_firm || b.brand_slug}</h3>
+              <p>
+                <strong>{b.total_recalls}</strong> recalls · 
+                Score: <strong style={`color: ${b.accountability_score > 60 ? '#2a9d8f' : b.accountability_score > 30 ? '#f0a500' : '#e63946'}`}>{b.accountability_score}/100</strong>
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section>
+    <div class="container">
+      <div class="verdict">
+        Every data point comes from official government databases. We use math, not outrage. <a href={`${base}/about/`}>Read our methodology →</a>
+      </div>
+    </div>
+  </section>
+</Base>
