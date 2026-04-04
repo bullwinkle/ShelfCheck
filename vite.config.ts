@@ -5,6 +5,7 @@ import analog from '@analogjs/platform';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/ShelfCheck/',
   publicDir: 'public',
   build: {
     target: ['es2020'],
