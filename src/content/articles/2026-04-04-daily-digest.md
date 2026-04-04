@@ -1,46 +1,46 @@
 ---
-title: "222 Recalls in 94 Days: 2026’s Food Safety Circus Rolls On"
+title: "71 Class I Recalls in 94 Days: A \"Whipped\" Cream Cheese Crisis"
 date: "2026-04-04"
 category: "daily-digest"
-brands: ["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."]
+brands: ["Made Fresh Salads Inc","CNC Noodle Corporation","Uncle Ray's LLC"]
 severity: "Class I"
-tldr: "We’re only 94 days into the year, and the food industry has already racked up 222 recalls. That’s an average of more than two recalls per day. At this rate, the \"food safety\" scoreboard is starting to"
+tldr: "Here's a stat to chew on: we're just 94 days into 2026, and the FDA has already logged 71 Class I recalls—the most severe kind, where eating the product could seriously harm or kill you. That's 75% hi"
 slug: "2026-04-04-daily-digest"
-chartData: {"type":"bar","labels":["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."],"values":[28,97,73,80,50],"title":"Brand Recall Counts"}
+chartData: {"type":"bar","labels":["Made Fresh Salads Inc","CNC Noodle Corporation","Uncle Ray's LLC"],"values":[28,83,55],"title":"Brand Recall Counts"}
 ---
 
-## 222 Recalls in 94 Days: 2026's Food Safety Circus Rolls On
+## 71 Class I Recalls in 94 Days: A "Whipped" Cream Cheese Crisis
 
-We're only 94 days into the year, and the food industry has already racked up 222 recalls. That's an average of more than two recalls per day. At this rate, the "food safety" scoreboard is starting to look more like a losing streak. Let's dig into today's lineup of culinary calamities.
+Here's a stat to chew on: we're just 94 days into 2026, and the FDA has already logged 71 Class I recalls--the most severe kind, where eating the product could seriously harm or kill you. That's 75% higher than this time last year. If you're wondering what's driving this trend, look no further than today's recall roundup. Spoiler: it's not pretty, and it's definitely not spreadable.
 
-### Listeria on the Loose: Made Fresh Salads' Cream Cheese Collection
+### Made Fresh Salads, Made Fresh Problems
 
-Made Fresh Salads Inc. seems determined to make sure listeria monocytogenes gets its 15 minutes of fame. The company has issued a Class I recall for not one, not two, but FOUR varieties of its 5-pound tubs of cream cheese--whipped, lox, scallion, and strawberry. That's right: if you were hoping to spread a little breakfast joy, you might have been spreading a pathogen instead.
+Made Fresh Salads Inc. seems to have confused "cream cheese" with "bacterial petri dish." The company issued four separate Class I recalls today for their 5-pound tubs of whipped cream cheese in various flavors: plain, lox, scallion, and strawberry. The reason? Listeria monocytogenes contamination.
 
-Listeria is no joke. It's the kind of bacteria that sends people to the hospital and, in severe cases, the morgue. The CDC estimates 1,600 people get listeriosis in the U.S. annually, and about one in five of those cases ends in death. So, Made Fresh Salads, maybe figure out how to keep your cream cheese clean before you start cranking out tubs the size of toddlers.
+Listeria isn't just a bad dinner guest--it's a known killer, particularly for pregnant people, newborns, and anyone with a compromised immune system. The CDC estimates that listeria infections hospitalize 94% of those infected and kill 20%. When your brunch bagel comes with a side of potential ICU stay, it's fair to say something has gone sour.
 
-### Blueberry Crumbles: Sweet or Sinister?
+Oh, and before you write this off as a one-off mistake, remember this: Made Fresh Salads issued a similar recall just nine months ago for--you guessed it--listeria concerns in their cream cheese products. If they were a restaurant, the health inspector would've shut them down by now.
 
-Willamette Valley Pie Company, LLC is also having a listeria moment, recalling its Frozen Raw Blueberry Crumble Pies in both 9-inch and 8-inch varieties. These pies were packed in bulk--because nothing says "family bonding" like a potentially contaminated dessert.
+### Willamette Valley Pie Company: A Double Slice of Trouble
 
-Listeria in frozen foods is a sneaky threat. Freezing doesn't kill the bacteria; it just puts it in suspended animation until the food is thawed. So, if you've got one of these pies in your freezer, don't play roulette with your health. Toss it.
+Speaking of listeria, Willamette Valley Pie Company is serving up their own helping of microbial mayhem. The company recalled two types of frozen blueberry crumble pies--9-inch and 8-inch varieties--due to potential listeria contamination. While these are Class II recalls (meaning the risk isn't as high as Made Fresh's dairy disaster), no one wants to play Russian roulette with dessert.
 
-### Cream-Filled Chaos: The Cannoli Kit Conundrum
+Pro tip: if you've got any Willamette Valley pies in your freezer, consider giving them the cold shoulder.
 
-Cocos Wholesale and Imports, LLC wants to help you live out your Italian dessert dreams with its Cannoli Making Kit--except they forgot to mention a few key ingredients. The label on their product doesn't properly disclose that the shells contain flour or that the cream contains ricotta cheese. For anyone with gluten or dairy allergies, this mislabeled dessert could turn a sweet treat into an ER visit.
+### Undeclared Allergens: A Quiet but Deadly Threat
 
-### Vanilla Ice Cream: Now with a Side of Surprise Egg
+Listeria may grab the headlines, but undeclared allergens remain a persistent food safety hazard, and today's recalls are no exception. CNC Noodle Corporation pulled their Steam Noodles due to undeclared wheat, while House of Flavors Inc. flagged their 3-gallon tubs of Chicago Vanilla Naturally Flavored Ice Cream for undeclared egg. Both are Class II recalls, but for anyone with a severe food allergy, one bite could mean an ER visit--or worse.
 
-House of Flavors, Inc. has joined the recall party with its Chicago Vanilla Naturally Flavored Ice Cream. The 3-gallon tubs--because apparently, we're all supposed to have industrial freezers at home--forgot to mention they contain egg. If you're allergic, this could be a health hazard. If you aren't, it's just another example of sloppy labeling in an industry that should know better.
+Meanwhile, Coco's Italian Market recalled their Cannoli Making Kit because, apparently, they forgot to properly list key allergens like flour and ricotta cheese on the label. Yes, you read that right--they didn't clearly label flour in a product that's 50% pastry shell. If labeling basic ingredients is this hard, maybe stick to selling pre-made cannoli?
 
-### The Recalls That Make You Say "Huh?"
+### A Salty Bag of Chips
 
-Uncle Ray's LLC has pulled its sour cream and onion potato chips from shelves due to understated sodium content on the nutrition label. Because if there's one thing you should expect from potato chips, it's honesty about how much salt they're delivering. Meanwhile, CNC Noodle Corporation forgot to declare wheat in its steam noodle packaging. At this point, you have to wonder if anyone in the food industry knows how to print a label.
+Rounding out the list is Uncle Ray's LLC, which recalled their Lowes Foods Sour Cream and Onion Potato Chips for inaccurate nutritional data, including understated sodium content. You'd think a company specializing in salty snacks would know how to count sodium, but here we are. While this is only a Class II recall, it's a good reminder to take those Nutrition Facts with a grain of--well, you know.
 
-## What's the Takeaway?
+### The Bigger Picture
 
-Out of today's recalls, four are Class I--the FDA's code red for situations where eating the product could result in serious health consequences or death. Listeria alone has made a repeat appearance in multiple products, proving once again that cleaning protocols are more of a suggestion than a rule for some companies. And don't get me started on the labeling errors. If food manufacturers can't even handle the basics, how are we supposed to trust them with, you know, the actual food?
+Today's recalls bring the year's total to 222, with Class I incidents making up nearly a third of the list. When listeria-laced cream cheese and unlisted allergens are popping up like spring dandelions, it's clear that oversight isn't just slipping--it's tumbling down a hill. At this rate, 2026 is shaping up to be a banner year for food safety failures.
 
-As always, check your pantry, fridge, and freezer. And remember: a little skepticism goes a long way when you're navigating the grocery store aisles. 
+Until next time, stay sharp, read your labels twice, and maybe give cream cheese a break.
 
--- Inspector Morsel 🦝
+-- Your friendly neighborhood raccoon in a lab coat
