@@ -1,83 +1,74 @@
 ---
-title: "Surprising Recall Trends in 2026"
+title: "A Whopping 222 Recalls So Far This Year"
 date: "2026-04-05"
 category: "daily-digest"
-brands: ["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."]
+brands: ["Made Fresh Salads Inc","CNC Noodle Corporation","House Of Flavors, Inc.","Uncle Ray's LLC"]
 severity: "Class I"
-tldr: "As of today, the food industry has faced a staggering **222 recalls** this year alone. Among those, **71** of these recalls have been classified as Class I, the most severe classification, indicating "
+tldr: "In an alarming trend, food safety recalls have hit a staggering total of **222** for 2026, with **71** of those classified as Class I — the most severe category. If you thought your pantry was safe, t"
 slug: "2026-04-05-daily-digest"
-chartData: {"type":"bar","labels":["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."],"values":[79,86,89,20,60],"title":"Brand Recall Counts"}
+chartData: {"type":"bar","labels":["Made Fresh Salads Inc","CNC Noodle Corporation","House Of Flavors, Inc.","Uncle Ray's LLC"],"values":[48,72,75,22],"title":"Brand Recall Counts"}
 ---
 
-## Surprising Recall Trends in 2026
+## A Whopping 222 Recalls So Far This Year
 
-As of today, the food industry has faced a staggering **222 recalls** this year alone. Among those, **71** of these recalls have been classified as Class I, the most severe classification, indicating a reasonable probability that the use of the product will cause serious adverse health consequences or death. Clearly, food safety is still a pressing issue.
+In an alarming trend, food safety recalls have hit a staggering total of **222** for 2026, with **71** of those classified as Class I -- the most severe category. If you thought your pantry was safe, think again; the food industry is having a major meltdown. 
 
-## Class I Recalls: A Serious Concern
+## Recent Class I Recalls
 
-### Made Fresh Salads Inc. Recalls
+### Made Fresh Salads Inc. - Cream Cheese Lineup
+Made Fresh Salads Inc. is on a roll, and not the good kind. The company recalled several varieties of their cream cheese products, all in **5 lb white plastic tubs**, due to potential contamination with **Listeria monocytogenes**. This bacterium can cause severe illness, particularly in pregnant women, elderly individuals, and those with weakened immune systems. Here's the rundown:
 
-Made Fresh Salads Inc. is making headlines today for an alarming string of Class I recalls involving their cream cheese products. Here's the rundown:
+- **Whipped Cream Cheese**
+  - **Recall Date**: April 5, 2026
+  - **Reason**: Potential contamination
+- **Lox Cream Cheese**
+  - **Recall Date**: April 5, 2026
+  - **Reason**: Potential contamination
+- **Scallion Cream Cheese**
+  - **Recall Date**: April 5, 2026
+  - **Reason**: Potential contamination
+- **Strawberry Cream Cheese**
+  - **Recall Date**: April 5, 2026
+  - **Reason**: Potential contamination
 
-- **Whipped Cream Cheese**  
-  - **Weight:** 5 lb tub  
-  - **Reason:** May be contaminated with *Listeria monocytogenes*.  
-- **Lox Cream Cheese**  
-  - **Weight:** 5 lb tub  
-  - **Reason:** Same contamination concern.  
-- **Scallion Cream Cheese**  
-  - **Weight:** 5 lb tub  
-  - **Reason:** Also potentially contaminated with *Listeria monocytogenes*.  
-- **Strawberry Cream Cheese**  
-  - **Weight:** 5 lb tub  
-  - **Reason:** You guessed it--possible *Listeria* contamination.
+In total, that's four different cream cheese products at risk. Maybe they should consider a new tagline: "Cream Cheese: Now with a Side of Listeria!"
 
-*Listeria monocytogenes* can cause serious illness, particularly in pregnant women, newborns, and those with weakened immune systems. The CDC reports that approximately 1,600 people get listeriosis each year, resulting in about 260 deaths. So, if you have any of these products sitting in your fridge, it's high time to toss them.
+## Recent Class II Recalls
 
-## Class II Recalls: Notable Mentions
+### Uncle Ray's LLC - Potato Chips
+In a less severe but still concerning recall, Uncle Ray's LLC has pulled their **8oz bags of sour cream and onion flavored potato chips** off shelves. The issue? **Inaccurate nutritional data** in the Nutrition Facts, specifically an understated sodium content. 
 
-### Uncle Ray's LLC
+- **Class II Recall**
+  - **Recall Date**: April 5, 2026
+  - **UPC**: 7 41643 05
+  - **Reason**: Inaccurate nutritional data
+  
+While a little extra sodium might seem harmless, chronic overconsumption can lead to serious health issues, including hypertension. 
 
-- **Product:** Lowes Foods Sour Cream and Onion Flavored Potato Chips  
-  - **Weight:** 8 oz bag  
-  - **UPC:** 7 41643 05  
-  - **Reason:** Inaccurate nutritional data, specifically understated sodium content.  
-  - **Classification:** Class II  
-  - **Impact:** While not as immediately threatening as a listeria outbreak, misleading nutritional data can have serious health implications for those monitoring their sodium intake.
+### Willamette Valley Pie Company - Blueberry Crumble Pies
+Willamette Valley Pie Company is also in the hot seat, recalling two types of their **Blueberry Crumble Pies** due to potential contamination with -- you guessed it -- **Listeria monocytogenes**.
 
-### Willamette Valley Pie Company, LLC
+- **Frozen Raw Bulk 9 inch Blueberry Crumble Pie**
+  - **Recall Date**: April 5, 2026
+  - **Net Weight**: 38oz
+- **Frozen Raw Bulk 8 inch Blueberry Crumble Pie**
+  - **Recall Date**: April 5, 2026
+  - **Net Weight**: 24.5oz
 
-- **Products:** 
-  - Frozen Raw Bulk 9 inch Blueberry Crumble Pie  
-  - Frozen Raw Bulk 8 inch Blueberry Crumble Pie  
-  - **Reason:** Potential contamination with *Listeria monocytogenes*.  
-  - **Classification:** Both are Class II recalls.  
-  - **Impact:** Given the nature of listeria, it's essential to remain vigilant even with Class II classifications. 
+If you're thinking about whipping up a delicious dessert, make sure you're not using these potentially hazardous pies -- listeria has no place in your kitchen.
 
-### CNC Noodle Corporation
+### CNC Noodle Corporation - Undeclared Wheat
+CNC Noodle Corporation has recalled their **STEAM NOODLES** due to **undeclared wheat** in their secondary packaging. While it may seem minor, this is a significant allergen that could lead to severe reactions for those with wheat allergies.
 
-- **Product:** Steam Noodles (Secondary Packaging)  
-  - **Reason:** Undeclared wheat.  
-  - **Classification:** Class II  
-  - **Impact:** A serious concern for individuals with wheat allergies or celiac disease, undeclared allergens are a common cause of food recalls and can lead to adverse reactions.
+- **Class II Recall**
+  - **Recall Date**: April 5, 2026
+  - **Reason**: Undeclared wheat
 
-### Cocos Wholesale and Imports, LLC
-
-- **Product:** Coco's Italian Market Cannoli Making Kit  
-  - **Reason:** Misleading ingredient labeling--flour listed incorrectly as a sub-ingredient.  
-  - **Classification:** Class II  
-  - **Impact:** For those with gluten sensitivities, this is no small oversight.
-
-### House Of Flavors, Inc.
-
-- **Product:** Chicago Vanilla Naturally Flavored Ice Cream  
-  - **Weight:** 3 GAL tub  
-  - **Reason:** Undeclared egg  
-  - **Classification:** Not yet classified  
-  - **Impact:** Undeclared allergens can create serious health risks, particularly for individuals with allergies.
+## Other Notable Recalls
+- **Coco's Italian Market Cannoli Making Kit**: Recall due to a labeling error regarding flour and ricotta cheese (Class II).
+- **House Of Flavors, Inc. - Ice Cream**: A recall for **undeclared eggs** in their 3-gallon tubs of Chicago Vanilla Naturally Flavored Ice Cream (Not Yet Classified).
 
 ## Verdict
+With an eye-popping number of recalls hitting the shelves this year, consumers need to stay vigilant. The food industry's accountability is slipping, and it's your health that stands to suffer. 
 
-In summary, today's recalls highlight the ongoing challenges of food safety, particularly concerning listeria contamination and undeclared allergens. Out of the 222 recalls this year, a significant number pose serious health risks, and consumers must remain vigilant. 
-
-Inspector Morsel says: If you think food safety is just a bureaucratic nuisance, think again. It can quite literally be a matter of life and death--or at least a very unpleasant trip to the emergency room. Stay informed, stay safe, and for goodness' sake, check those labels!
+Inspector Morsel says: If you're stocking up on snacks or desserts, check those labels twice -- or better yet, skip the risk altogether. Remember, food safety isn't a game, and nobody wants a side of listeria with their cream cheese.
