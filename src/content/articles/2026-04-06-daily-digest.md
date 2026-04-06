@@ -1,75 +1,61 @@
 ---
-title: "Recalls on the Rise: 222 Cases This Year and Counting"
+title: "Daily Digest: Food Recalls on April 6, 2026"
 date: "2026-04-06"
 category: "daily-digest"
 brands: ["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."]
 severity: "Class I"
-tldr: "Surprisingly, 2026 is shaping up to be a banner year for food recalls, with a staggering **222 recalls** logged so far. That’s a 15% increase compared to this time last year. Among these, **71** are c"
+tldr: "Did you know that as of April 2026, there have been a staggering **222 food recalls** this year? That’s an average of nearly **two recalls a day**! And it’s not just any recalls; **71 of these are cla"
 slug: "2026-04-06-daily-digest"
-chartData: {"type":"bar","labels":["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."],"values":[26,38,43,35,54],"title":"Brand Recall Counts"}
+chartData: {"type":"bar","labels":["Made Fresh Salads Inc","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC","House Of Flavors, Inc."],"values":[74,46,50,80,54],"title":"Brand Recall Counts"}
 ---
 
-## Recalls on the Rise: 222 Cases This Year and Counting
+## Daily Digest: Food Recalls on April 6, 2026
 
-Surprisingly, 2026 is shaping up to be a banner year for food recalls, with a staggering **222 recalls** logged so far. That's a 15% increase compared to this time last year. Among these, **71** are classified as Class I recalls, which indicate a serious health risk. Buckle up, because today's digest brings you the highlights (or lowlights) of the latest food safety mishaps.
+Did you know that as of April 2026, there have been a staggering **222 food recalls** this year? That's an average of nearly **two recalls a day**! And it's not just any recalls; **71 of these are classified as Class I**, which means they're linked to serious health risks. Buckle up, folks -- let's dive into the latest recalls that are shaking up your pantry.
 
-## Class I Recalls: Listeria Strikes Again
+## Class I Recalls: The Big Players
 
-The most alarming entries in today's recall list come from **Made Fresh Salads Inc**, a company that seems to have a recurring issue with Listeria monocytogenes--a pathogen that can cause severe illness, particularly in vulnerable populations such as the elderly and pregnant women.
+### Made Fresh Salads Inc. - Cream Cheese Lineup
+In a concerning series of recalls, Made Fresh Salads Inc. is in the hot seat for **contaminated cream cheese products**. They recalled multiple varieties of their cream cheese, each sold in **5 lb white plastic tubs**:
 
-### The Cream Cheese Catastrophe
-- **Made Fresh Salads brand Whipped Cream Cheese**  
-  - **Weight**: 5 lb white plastic tub  
-  - **Reason**: Potential contamination with Listeria monocytogenes.
+- **Whipped Cream Cheese**
+- **Lox Cream Cheese**
+- **Scallion Cream Cheese**
+- **Strawberry Cream Cheese**
 
-- **Made Fresh Salads brand Lox Cream Cheese**  
-  - **Weight**: 5 lb white plastic tub  
-  - **Reason**: Potential contamination with Listeria monocytogenes.
+**Reason for recall**: Potential contamination with *Listeria monocytogenes*, a bacteria that can cause severe illness, particularly in pregnant women, newborns, the elderly, and those with weakened immune systems.
 
-- **Made Fresh Salads brand Scallion Cream Cheese**  
-  - **Weight**: 5 lb white plastic tub  
-  - **Reason**: Potential contamination with Listeria monocytogenes.
+### What You Need to Know
+- **Risk Level**: Class I (serious health risk)
+- **Product Size**: 5 lbs
+- **Health Impact**: Listeria can cause listeriosis, which may lead to symptoms like fever, muscle aches, and gastrointestinal issues.
 
-- **Made Fresh Salads brand Strawberry Cream Cheese**  
-  - **Weight**: 5 lb white plastic tub  
-  - **Reason**: Potential contamination with Listeria monocytogenes.
+## Class II Recalls: The Worrisome Contaminants
 
-This brings the total number of cream cheese products recalled by Made Fresh Salads to four. When you consider that Listeria can survive at refrigerator temperatures, this is not something to be taken lightly.
+### Willamette Valley Pie Company, LLC - Blueberry Crumble Pies
+This company has also issued recalls for their **Frozen Raw Bulk Blueberry Crumble Pies**. There are two sizes impacted:
 
-## Class II Recalls: A Mixed Bag of Issues
+- **9-inch Blueberry Crumble Pie** (4 pies/case; net weight: 38 oz)
+- **8-inch Blueberry Crumble Pie** (4 pies/case; net weight: 24.5 oz)
 
-While Class II recalls may not pose an immediate threat to health, they still deserve attention due to potential mislabeling and contamination risks.
+**Reason for recall**: Potential contamination with *Listeria monocytogenes*. 
 
-### Uncle Ray's LLC
-- **Product**: Lowes Foods sour cream and onion flavored potato chips  
-- **Weight**: 8 oz. bag  
-- **UPC**: 7 41643 05  
-- **Reason**: Inaccurate nutritional data in the Nutrition Facts, including understated sodium content.
+### Uncle Ray's LLC - Sour Cream and Onion Potato Chips
+Uncle Ray's has issued a recall for their **Lowes Foods sour cream and onion flavored potato chips**, specifically the **8 oz. bag** (UPC: 7 41643 05). 
 
-### Willamette Valley Pie Company, LLC
-- **Product**: Frozen Raw Bulk 9 inch Blueberry Crumble Pie  
-- **Weight**: 38 oz.  
-- **Reason**: Potential contamination with Listeria monocytogenes.
+**Reason for recall**: Inaccurate nutritional data in the Nutrition Facts, particularly an understatement of sodium content. 
 
-- **Product**: Frozen Raw Bulk 8 inch Blueberry Crumble Pie  
-- **Weight**: 24.5 oz.  
-- **Reason**: Potential contamination with Listeria monocytogenes.
+### CNC Noodle Corporation - Steam Noodles
+CNC Noodle Corporation has recalled their **Steam Noodles** due to **undeclared wheat** in the product packaging. This is a Class II recall and can pose a serious risk to those with wheat allergies.
 
-### CNC Noodle Corporation
-- **Product**: STEAM NOODLES  
-- **Reason**: Undeclared wheat--a serious concern for those with allergies.
+### Cocos Wholesale and Imports, LLC - Cannoli Making Kit
+This company recalled their **Cannoli Making Kit**, which contains cannoli shells and cream. The label misrepresents the ingredients, listing flour as a sub-ingredient of the shells and ricotta cheese as a sub-ingredient of the cream.
 
-### Cocos Wholesale and Imports, LLC
-- **Product**: Coco's Italian Market Cannoli Making Kit  
-- **Reason**: Label miscommunication regarding ingredients, including flour and ricotta cheese.
-
-### House Of Flavors, Inc.
-- **Product**: Chicago Vanilla Naturally Flavored Ice Cream  
-- **Weight**: 3 GAL tub  
-- **Reason**: Undeclared egg, which could be problematic for those with allergies.
+## Not Yet Classified
+The House Of Flavors, Inc. has announced a recall for their **Chicago Vanilla Naturally Flavored Ice Cream** (3 GAL tub) due to **undeclared egg**. While this hasn't been classified yet, it's still a significant risk for those with egg allergies.
 
 ## Verdict
+The food industry continues to face challenges with contamination and labeling accuracy, leading to a concerning number of recalls. With serious health implications linked to several of today's recalls, consumers must remain vigilant. Always check the latest recall information before indulging in your favorite snacks.
 
-This week's recalls are a mixed bag, but they underscore a critical point: food safety is non-negotiable. With 222 recalls already this year, it's clear that brands need to tighten their processes. If a product can't accurately declare its ingredients or ensure it's free from harmful bacteria, it doesn't belong on your shelf--or in your stomach.
-
-Inspector Morsel says: If you find yourself with any of these products, it might be time to take a closer look at your pantry. Your health is worth more than a few extra chips or a slice of pie. Keep those eyes peeled, folks!
+### Inspector Morsel says:
+It's hard to believe that in 2026, a simple bag of chips can pose a more significant risk than a raccoon rummaging through your trash. Stay safe out there, folks, and remember: when in doubt, toss it out!
