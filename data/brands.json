@@ -333,14 +333,14 @@
   {
     "brand_name": "Albertsons Companies LLC",
     "brand_slug": "albertsons-companies-llc",
-    "total_recalls": 10,
+    "total_recalls": 11,
     "class_i_recalls": 10,
-    "class_ii_recalls": 0,
+    "class_ii_recalls": 1,
     "class_iii_recalls": 0,
     "accountability_score": 48,
     "grade": "C",
     "is_repeat_offender": false,
-    "last_recall_date": "20251029",
+    "last_recall_date": "20260401",
     "first_recall_date": "20251029",
     "categories": [],
     "states_affected": [
@@ -356,9 +356,11 @@
       "NM",
       "NV",
       "OK",
+      "OR",
       "SD",
       "TX",
       "UT",
+      "WA",
       "WY"
     ],
     "trend": "stable"
@@ -629,6 +631,24 @@
     "categories": [],
     "states_affected": [
       "IL"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Western Mixers Produce & Nuts, Inc.",
+    "brand_slug": "western-mixers-produce-nuts-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 43,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "CA"
     ],
     "trend": "stable"
   },
@@ -1246,6 +1266,45 @@
       "NC",
       "SC",
       "VA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Distribuidora de Alimentos Sendero LLC",
+    "brand_slug": "distribuidora-de-alimentos-sendero-llc",
+    "total_recalls": 2,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 38,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Bluegrass Ingredients Inc.",
+    "brand_slug": "bluegrass-ingredients-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 38,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "FL",
+      "IL",
+      "KY",
+      "MD"
     ],
     "trend": "stable"
   },
@@ -2462,6 +2521,180 @@
     "trend": "stable"
   },
   {
+    "brand_name": "Siluetaya, LLC",
+    "brand_slug": "siluetaya-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "NM",
+      "NY",
+      "TX",
+      "UT"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Nuts.com Inc.",
+    "brand_slug": "nuts-com-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "NJ",
+      "US"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Dreamland Inc",
+    "brand_slug": "dreamland-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "WA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Kradjian Importing Company, Inc.",
+    "brand_slug": "kradjian-importing-company-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "FRITO-LAY NORTH AMERICA, INC.",
+    "brand_slug": "frito-lay-north-america-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Perfect Pasta, Incorporated",
+    "brand_slug": "perfect-pasta-incorporated",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260311",
+    "first_recall_date": "20260311",
+    "categories": [],
+    "states_affected": [
+      "UT"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Ajinomoto Foods North America Inc.",
+    "brand_slug": "ajinomoto-foods-north-america-inc",
+    "total_recalls": 11,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 11,
+    "class_iii_recalls": 0,
+    "accountability_score": 34,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable"
+  },
+  {
     "brand_name": "Prima Vera Nueva, Inc.",
     "brand_slug": "prima-vera-nueva-inc",
     "total_recalls": 10,
@@ -2506,6 +2739,28 @@
       "NC",
       "NY",
       "TN"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Mangalm LLC",
+    "brand_slug": "mangalm-llc",
+    "total_recalls": 8,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 8,
+    "class_iii_recalls": 0,
+    "accountability_score": 32,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260121",
+    "categories": [],
+    "states_affected": [
+      "CA",
+      "NV",
+      "OR",
+      "UT",
+      "WA"
     ],
     "trend": "stable"
   },
@@ -2683,6 +2938,27 @@
     "trend": "stable"
   },
   {
+    "brand_name": "Wawa Beverage Company",
+    "brand_slug": "wawa-beverage-company",
+    "total_recalls": 7,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 7,
+    "class_iii_recalls": 0,
+    "accountability_score": 31,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20251022",
+    "categories": [],
+    "states_affected": [
+      "DE",
+      "MD",
+      "NJ",
+      "PA"
+    ],
+    "trend": "stable"
+  },
+  {
     "brand_name": "Rovira Biscuit Corporation",
     "brand_slug": "rovira-biscuit-corporation",
     "total_recalls": 6,
@@ -2702,6 +2978,25 @@
       "MD",
       "PR",
       "TX"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Pacific Coast Fresh CO",
+    "brand_slug": "pacific-coast-fresh-co",
+    "total_recalls": 6,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 6,
+    "class_iii_recalls": 0,
+    "accountability_score": 30,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "OR",
+      "WA"
     ],
     "trend": "stable"
   },
@@ -2781,6 +3076,70 @@
       "IL",
       "NJ",
       "NY"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "SAPUTO CHEESE USA, INC",
+    "brand_slug": "saputo-cheese-usa-inc",
+    "total_recalls": 5,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 5,
+    "class_iii_recalls": 0,
+    "accountability_score": 29,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "AL",
+      "AZ",
+      "CA",
+      "IL",
+      "MO",
+      "MS",
+      "NM",
+      "NV",
+      "UT",
+      "WA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "House Of Flavors, Inc.",
+    "brand_slug": "house-of-flavors-inc",
+    "total_recalls": 4,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 28,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260318",
+    "first_recall_date": "20260121",
+    "categories": [],
+    "states_affected": [
+      "AL",
+      "AZ",
+      "CT",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KY",
+      "MI",
+      "MN",
+      "MO",
+      "NC",
+      "NJ",
+      "NY",
+      "OH",
+      "TN",
+      "TX",
+      "VA"
     ],
     "trend": "stable"
   },
@@ -3107,6 +3466,33 @@
     "trend": "stable"
   },
   {
+    "brand_name": "Bakkavor",
+    "brand_slug": "bakkavor",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 26,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260128",
+    "categories": [],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CT",
+      "FL",
+      "IL",
+      "MI",
+      "NC",
+      "NJ",
+      "TX",
+      "VA"
+    ],
+    "trend": "stable"
+  },
+  {
     "brand_name": "Ukrop's Homestyle Foods, LLC",
     "brand_slug": "ukrop-s-homestyle-foods-llc",
     "total_recalls": 3,
@@ -3208,27 +3594,6 @@
     "trend": "stable"
   },
   {
-    "brand_name": "Wawa Beverage Company",
-    "brand_slug": "wawa-beverage-company",
-    "total_recalls": 3,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 3,
-    "class_iii_recalls": 0,
-    "accountability_score": 26,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "last_recall_date": "20251022",
-    "first_recall_date": "20251022",
-    "categories": [],
-    "states_affected": [
-      "DE",
-      "MD",
-      "NJ",
-      "PA"
-    ],
-    "trend": "stable"
-  },
-  {
     "brand_name": "Eden¿¿¿s Elixirs, LLC",
     "brand_slug": "eden-s-elixirs-llc",
     "total_recalls": 3,
@@ -3261,6 +3626,33 @@
     "categories": [],
     "states_affected": [
       "CT"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "American Laboratories, LLC",
+    "brand_slug": "american-laboratories-llc",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 26,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "FL",
+      "MO",
+      "NE",
+      "NM",
+      "OH",
+      "SC",
+      "UT",
+      "WI"
     ],
     "trend": "stable"
   },
@@ -3464,24 +3856,6 @@
     "trend": "stable"
   },
   {
-    "brand_name": "Mangalm LLC",
-    "brand_slug": "mangalm-llc",
-    "total_recalls": 2,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 2,
-    "class_iii_recalls": 0,
-    "accountability_score": 23,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "last_recall_date": "20260121",
-    "first_recall_date": "20260121",
-    "categories": [],
-    "states_affected": [
-      "CA"
-    ],
-    "trend": "stable"
-  },
-  {
     "brand_name": "DIRECT SOURCE SEAFOOD LLC",
     "brand_slug": "direct-source-seafood-llc",
     "total_recalls": 2,
@@ -3607,6 +3981,28 @@
     "trend": "stable"
   },
   {
+    "brand_name": "Dr. Praeger's Sensible Foods Inc.",
+    "brand_slug": "dr-praeger-s-sensible-foods-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 23,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20251112",
+    "categories": [],
+    "states_affected": [
+      "FL",
+      "MD",
+      "NJ",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable"
+  },
+  {
     "brand_name": "Ice Cream Factory, LLC",
     "brand_slug": "ice-cream-factory-llc",
     "total_recalls": 2,
@@ -3709,37 +4105,40 @@
     "trend": "stable"
   },
   {
-    "brand_name": "House Of Flavors, Inc.",
-    "brand_slug": "house-of-flavors-inc",
-    "total_recalls": 3,
+    "brand_name": "Sevillo Fine Foods, Inc",
+    "brand_slug": "sevillo-fine-foods-inc",
+    "total_recalls": 2,
     "class_i_recalls": 0,
     "class_ii_recalls": 2,
     "class_iii_recalls": 0,
-    "accountability_score": 22,
+    "accountability_score": 23,
     "grade": "B",
     "is_repeat_offender": false,
-    "last_recall_date": "20260318",
-    "first_recall_date": "20260121",
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
     "categories": [],
     "states_affected": [
-      "AL",
-      "AZ",
-      "CT",
-      "GA",
-      "IA",
-      "IL",
-      "IN",
-      "KY",
-      "MI",
-      "MN",
-      "MO",
+      "CA",
       "NC",
-      "NJ",
-      "NY",
-      "OH",
-      "TN",
-      "TX",
-      "VA"
+      "UT"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "BlueFrog Foods",
+    "brand_slug": "bluefrog-foods",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 23,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "GA"
     ],
     "trend": "stable"
   },
@@ -4348,25 +4747,6 @@
     "categories": [],
     "states_affected": [
       "FL"
-    ],
-    "trend": "stable"
-  },
-  {
-    "brand_name": "Bakkavor",
-    "brand_slug": "bakkavor",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 20,
-    "grade": "A",
-    "is_repeat_offender": false,
-    "last_recall_date": "20260128",
-    "first_recall_date": "20260128",
-    "categories": [],
-    "states_affected": [
-      "NC",
-      "TX"
     ],
     "trend": "stable"
   },
@@ -5221,26 +5601,6 @@
     "trend": "stable"
   },
   {
-    "brand_name": "Dr. Praeger's Sensible Foods Inc.",
-    "brand_slug": "dr-praeger-s-sensible-foods-inc",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 20,
-    "grade": "A",
-    "is_repeat_offender": false,
-    "last_recall_date": "20251112",
-    "first_recall_date": "20251112",
-    "categories": [],
-    "states_affected": [
-      "FL",
-      "NJ",
-      "NY"
-    ],
-    "trend": "stable"
-  },
-  {
     "brand_name": "QUE RIKURA'S PRODUCTS, CORP",
     "brand_slug": "que-rikura-s-products-corp",
     "total_recalls": 1,
@@ -5847,6 +6207,186 @@
     "trend": "stable"
   },
   {
+    "brand_name": "Rose and Shore, Inc.",
+    "brand_slug": "rose-and-shore-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Lidl US TRADING",
+    "brand_slug": "lidl-us-trading",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "DC",
+      "DE",
+      "GA",
+      "MD",
+      "NC",
+      "NJ",
+      "NY",
+      "PA",
+      "SC",
+      "VA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Savannah Bee Company Inc.",
+    "brand_slug": "savannah-bee-company-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "South Florida Food, LLC",
+    "brand_slug": "south-florida-food-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "FL"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "NRS Enterprises, Inc. dba Sunflour Bakery",
+    "brand_slug": "nrs-enterprises-inc-dba-sunflour-bakery",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Herbal Creations USA",
+    "brand_slug": "herbal-creations-usa",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260401",
+    "first_recall_date": "20260401",
+    "categories": [],
+    "states_affected": [
+      "CA",
+      "US"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "ASUKAR FOODS CORP",
+    "brand_slug": "asukar-foods-corp",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 20,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "FL"
+    ],
+    "trend": "stable"
+  },
+  {
     "brand_name": "Prima Foods International, Inc.",
     "brand_slug": "prima-foods-international-inc",
     "total_recalls": 6,
@@ -6171,6 +6711,49 @@
     "states_affected": [
       "MD",
       "PA"
+    ],
+    "trend": "stable"
+  },
+  {
+    "brand_name": "Winder Laboratories, LLC",
+    "brand_slug": "winder-laboratories-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 1,
+    "accountability_score": 8,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "last_recall_date": "20260325",
+    "first_recall_date": "20260325",
+    "categories": [],
+    "states_affected": [
+      "AL",
+      "AZ",
+      "CA",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "IL",
+      "IN",
+      "MA",
+      "MI",
+      "MO",
+      "MS",
+      "NC",
+      "NJ",
+      "NY",
+      "OR",
+      "PA",
+      "PR",
+      "RI",
+      "TN",
+      "TX",
+      "UT",
+      "WA",
+      "WI",
+      "WV"
     ],
     "trend": "stable"
   }
