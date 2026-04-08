@@ -1,62 +1,52 @@
 ---
-title: "A Shocking Trend: Listeria Monocytogenes Strikes Again"
+title: "Today's Recall Landscape: A Listeria-Laden Situation"
 date: "2026-04-08"
 category: "daily-digest"
 brands: ["Made Fresh Salads Inc","House Of Flavors, Inc.","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC"]
 severity: "Class I"
-tldr: "In a year when food recalls have reached an alarming total of 286, one pathogen stands out as a recurrent villain: Listeria monocytogenes. This year alone, we've seen 82 Class I recalls, the most seve"
+tldr: "Surprisingly, 28.7% of the recalls this year have been classified as Class I, the most severe category. As of today, we stand at 286 total recalls, with 82 of those being Class I — a stark reminder th"
 slug: "2026-04-08-daily-digest"
-chartData: {"type":"bar","labels":["Made Fresh Salads Inc","House Of Flavors, Inc.","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC"],"values":[52,33,45,79,37],"title":"Brand Recall Counts"}
+chartData: {"type":"bar","labels":["Made Fresh Salads Inc","House Of Flavors, Inc.","Willamette Valley Pie Company, LLC","CNC Noodle Corporation","Cocos Wholesale and Imports, LLC"],"values":[59,36,89,97,84],"title":"Brand Recall Counts"}
 ---
 
-## A Shocking Trend: Listeria Monocytogenes Strikes Again
+## Today's Recall Landscape: A Listeria-Laden Situation
 
-In a year when food recalls have reached an alarming total of 286, one pathogen stands out as a recurrent villain: Listeria monocytogenes. This year alone, we've seen 82 Class I recalls, the most severe classification, which means serious health threats are afoot. If you're wondering why the grocery aisles seem emptier than usual, it's because consumers are increasingly wary of what they're putting in their shopping carts.
+Surprisingly, 28.7% of the recalls this year have been classified as Class I, the most severe category. As of today, we stand at 286 total recalls, with 82 of those being Class I -- a stark reminder that food safety is still a pressing concern in our grocery aisles.
 
-## Recent Recalls You Should Know About
+## Class I Recalls: A Serious Cause for Concern
 
-### Class I Recalls: Serious Health Risks
+Today, the spotlight shines on several Class I recalls that could significantly impact consumer health. 
 
-1. **Made Fresh Salads Inc.**  
-   - **Products:**  
-     - Whipped Cream Cheese; 5 lb tub  
-     - Lox Cream Cheese; 5 lb tub  
-     - Scallion Cream Cheese; 5 lb tub  
-     - Strawberry Cream Cheese; 5 lb tub  
-   - **Reason:** Potential contamination with Listeria monocytogenes.  
-   - **Impact:** Listeria can cause severe illness, particularly in pregnant women, newborns, elderly individuals, and those with weakened immune systems. This is a crucial recall, representing a significant health threat.
+- **Made Fresh Salads Inc** has issued a recall for multiple cream cheese products due to potential contamination with *Listeria monocytogenes*, a pathogen that can cause serious infections and is particularly dangerous for pregnant individuals, the elderly, and those with weakened immune systems. The affected products include:
+  - **Whipped Cream Cheese**; 5 lb white plastic tub
+  - **Lox Cream Cheese**; 5 lb white plastic tub
+  - **Scallion Cream Cheese**; 5 lb white plastic tub
+  - **Strawberry Cream Cheese**; 5 lb white plastic tub
 
-### Class II Recalls: Not to Be Ignored
+  This brings the total of Made Fresh Salads Inc cream cheese products recalled this year to a staggering four, all linked to the same hazardous contaminant. 
 
-1. **Willamette Valley Pie Company, LLC**  
-   - **Products:**  
-     - Frozen Raw Bulk 9 inch Blueberry Crumble Pie  
-     - Frozen Raw Bulk 8 inch Blueberry Crumble Pie  
-   - **Reason:** Potential contamination with Listeria monocytogenes for both products.  
-   - **Impact:** The risk here isn't immediate but could lead to serious health complications down the line. 
+## Class II Recalls: Nutritional Inaccuracy and Potential Contaminants
 
-2. **CNC Noodle Corporation**  
-   - **Products:** Secondary Packaging of STEAM NOODLES  
-   - **Reason:** Undeclared wheat.  
-   - **Impact:** A significant concern for those with wheat allergies or gluten intolerance, this isn't just a minor labeling error; it could lead to severe allergic reactions.
+While not as severe as Class I recalls, Class II incidents can still pose health risks. Here are the most notable:
 
-3. **Uncle Ray's LLC**  
-   - **Product:** Lowes Foods Sour Cream and Onion Flavored Potato Chips (8 oz. bag)  
-   - **Reason:** Inaccurate nutritional data, particularly understated sodium content.  
-   - **Impact:** While this may not seem as severe as a pathogen-induced recall, misleading nutritional information can have long-term health effects, particularly for those monitoring sodium intake for heart health.
+- **Uncle Ray's LLC** recalled their **Lowes Foods sour cream and onion flavored potato chips** (8 oz., UPC 7 41643 05) due to inaccurate nutritional data, particularly an understatement of sodium content. The FDA mandates that companies provide accurate nutritional information to avoid misleading consumers about their intake.
 
-4. **Cocos Wholesale and Imports, LLC**  
-   - **Product:** Coco's Italian Market Cannoli Making Kit  
-   - **Reason:** Misleading label regarding ingredients.  
-   - **Impact:** This may confuse consumers, especially those with dietary restrictions.
+- **Willamette Valley Pie Company, LLC** has recalled two products:
+  - **Frozen Raw Bulk 9 inch Blueberry Crumble Pie** (4 pies/case, net wt. 38 oz.) 
+  - **Frozen Raw Bulk 8 inch Blueberry Crumble Pie** (4 pies/case, net wt. 24.5 oz.)
 
-5. **House Of Flavors, Inc.**  
-   - **Product:** Chicago Vanilla Naturally Flavored Ice Cream (3 GAL tub)  
-   - **Reason:** Undeclared egg.  
-   - **Impact:** Another allergy risk; eggs can trigger severe reactions in sensitive individuals.
+  Both pies are under scrutiny for potential contamination with *Listeria monocytogenes*. The repeated mention of this pathogen today should serve as a wake-up call for consumers and manufacturers alike.
 
-## Verdict: A Call to Action
+- **CNC Noodle Corporation** has also issued a recall for their steam noodles due to undeclared wheat in the secondary packaging. Undeclared allergens can be life-threatening for those with food allergies, underscoring the importance of accurate labeling.
 
-With 286 recalls already this year, it's clear that the food industry must tighten its safety protocols. The repeated appearance of Listeria monocytogenes should serve as a wake-up call for manufacturers and consumers alike. If you're stocking up on dairy, pies, or any pre-packaged foods, you'd be wise to check recent recall lists. 
+- Lastly, **Cocos Wholesale and Imports, LLC** recalled their **Cannoli Making Kit** due to incorrect ingredient labeling, particularly concerning the flour and ricotta cheese. Such mislabeling can lead to severe allergic reactions, making accuracy critical.
 
-Inspector Morsel says: Stay alert, folks! The food industry isn't just a buffet of flavors; it can also serve up a side of danger if we're not careful. Don't let your dinner come with a side of listeria.
+## Not Yet Classified: A Cautionary Tale
+
+In a lesser-known but equally alarming recall, **House Of Flavors, Inc.** has pulled their **Chicago Vanilla Naturally Flavored Ice Cream** (3 GAL tub) from the shelves due to undeclared egg. While this recall hasn't been classified yet, eggs are a common allergen, further emphasizing the need for vigilance in food labeling.
+
+## Verdict: A Continuing Concern
+
+As we sift through today's recalls, it's clear that food safety remains an uphill battle. With multiple instances of *Listeria monocytogenes* contamination and labeling inaccuracies, consumers have every right to be concerned about the food they consume. 
+
+Inspector Morsel says: The food industry must tighten its safety protocols and ensure proper labeling, or we'll be stuck with more than our fair share of recalls. The next time you reach for a snack or meal, remember: it's not just what you eat; it's what you think you're eating. Stay sharp, and keep checking those labels!
