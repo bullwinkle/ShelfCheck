@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+
+const articles = (await getCollection('articles'))
+  .filter((entry) => entry.data.category === 'daily-digest')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+<BaseLayout title="Daily Digest" description="Daily Shelf Check dispatches on the most important FDA food recalls.">
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">Daily digest</p>
+    <h1 class="mt-3 font-headline text-5xl uppercase text-navy">Every day's edible mess, distilled.</h1>
+    <p class="mt-4 max-w-3xl text-lg text-slate-700">Short, sharp daily reports for people who want recall context without wading through government prose.</p>
+    <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+      {articles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>

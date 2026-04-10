@@ -1,0 +1,24 @@
+---
+import TrustThermometer from '@/components/TrustThermometer.astro';
+import { formatReportDate } from '@/lib/utils';
+import type { BrandScore } from '@/types';
+const { brand, compact = false } = Astro.props as { brand: BrandScore; compact?: boolean };
+---
+<article class="editorial-card rounded-3xl bg-white p-5">
+  <div class="flex items-start justify-between gap-4">
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-navy/55">Grade {brand.grade}</p>
+      <h3 class:list={['font-headline uppercase text-navy', compact ? 'text-xl' : 'text-2xl']}>{brand.brand_name}</h3>
+    </div>
+    {brand.is_repeat_offender && <span class="rounded-full bg-danger px-3 py-1 text-[10px] font-bold uppercase tracking-wide text-white">Repeat offender</span>}
+  </div>
+  <div class="mt-4 grid grid-cols-3 gap-3 text-center text-sm">
+    <div class="rounded-2xl bg-paper p-3"><div class="font-headline text-2xl text-danger">{brand.total_recalls}</div><div>recalls</div></div>
+    <div class="rounded-2xl bg-paper p-3"><div class="font-headline text-2xl text-amber">{brand.class_i_recalls}</div><div>class I</div></div>
+    <div class="rounded-2xl bg-paper p-3"><div class="font-headline text-2xl text-navy">{brand.states_affected.length}</div><div>states</div></div>
+  </div>
+  <div class="mt-4">
+    <TrustThermometer score={brand.accountability_score} />
+  </div>
+  <p class="mt-4 text-sm text-slate-600">Most recent recall: {formatReportDate(brand.last_recall_date)}</p>
+</article>

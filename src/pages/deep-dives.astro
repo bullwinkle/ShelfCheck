@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+
+const articles = (await getCollection('articles'))
+  .filter((entry) => entry.data.category === 'deep-dive')
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+<BaseLayout title="Deep Dives" description="Long-form Shelf Check investigations into trends, repeat offenders, and category risk.">
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">Deep dives</p>
+    <h1 class="mt-3 font-headline text-5xl uppercase text-navy">Patterns the press release would prefer you miss.</h1>
+    <p class="mt-4 max-w-3xl text-lg text-slate-700">Weekly analysis that zooms out from single recalls to repeat behavior, sloppy categories, and distribution risk.</p>
+    <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+      {articles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>

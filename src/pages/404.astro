@@ -1,0 +1,12 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { withBase } from '@/lib/utils';
+---
+<BaseLayout title="Not found" description="This shelf is empty.">
+  <section class="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 lg:px-8">
+    <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">404</p>
+    <h1 class="mt-4 font-headline text-6xl uppercase text-navy">This shelf is empty.</h1>
+    <p class="mt-5 text-lg text-slate-700">Either the page moved, or Inspector Morsel confiscated it as evidence.</p>
+    <a href={withBase('')} class="mt-8 inline-flex rounded-full bg-navy px-5 py-3 text-sm font-bold text-white">Back to home</a>
+  </section>
+</BaseLayout>

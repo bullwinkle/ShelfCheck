@@ -1,37 +1,17 @@
 ---
-import Base from '../layouts/Base.astro';
-import fs from 'node:fs';
-import path from 'node:path';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import BrandScoreCard from '@/components/BrandScoreCard.astro';
+import { getBrands } from '@/lib/data';
 
-let brands: any[] = [];
-try { brands = JSON.parse(fs.readFileSync(path.resolve('data/brands.json'), 'utf-8')); } catch {}
-brands.sort((a: any, b: any) => b.total_recalls - a.total_recalls);
+const brands = getBrands().sort((a, b) => b.accountability_score - a.accountability_score).slice(0, 24);
 ---
-<Base title="Brand Report Cards" description="Accountability scores for food brands based on FDA recall data.">
-  <section><div class="container">
-    <h1>Brand Report Cards</h1>
-    <p>Every brand scored on recall frequency, severity, response speed, and scope.</p>
-    {brands.length > 0 ? (
-      <div class="grid">
-        {brands.slice(0, 30).map((b: any) => {
-          const imgPath = `${import.meta.env.BASE_URL}/images/generated/brand-${b.brand_slug}.png`;
-          return (
-            <div class="card">
-              <img src={imgPath} alt={`${b.recalling_firm || b.brand_slug} recall card`} style="width:100%; border-radius:6px; margin-bottom:0.75rem;" loading="lazy" />
-              <h3>{b.recalling_firm || b.brand_slug}</h3>
-              <p>
-                <strong>{b.total_recalls}</strong> recalls · 
-                Score: <strong style={`color: ${b.accountability_score > 60 ? '#2a9d8f' : b.accountability_score > 30 ? '#f0a500' : '#e63946'}`}>
-                  {b.accountability_score}/100
-                </strong>
-              </p>
-              {b.is_repeat_offender && <span class="badge badge-red">Repeat Offender</span>}
-            </div>
-          );
-        })}
-      </div>
-    ) : (
-      <div class="verdict">No brand data yet. Run the data collection pipeline first.</div>
-    )}
-  </div></section>
-</Base>
+<BaseLayout title="Brand Reports" description="Shelf Check brand accountability scores based on frequency, severity, speed, and scope.">
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">Brand reports</p>
+    <h1 class="mt-3 font-headline text-5xl uppercase text-navy">Who keeps fumbling the pantry.</h1>
+    <p class="mt-4 max-w-3xl text-lg text-slate-700">Accountability Scores weigh frequency, severity, response speed, and geographic scope. Higher numbers mean warmer danger colors and colder confidence.</p>
+    <div class="mt-10 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+      {brands.map((brand) => <BrandScoreCard brand={brand} />)}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,8 +1,11 @@
-/** Raw recall record after processing from FDA API */
-export interface ProcessedRecall {
+export type ArticleCategory = 'daily-digest' | 'deep-dive' | 'brand-report';
+export type Severity = 'class-1' | 'class-2' | 'class-3' | 'informational';
+
+export interface RecallRecord {
   recall_number: string;
   reason_for_recall: string;
   classification: string;
+  recall_initiation_date?: string;
   recalling_firm: string;
   distribution_pattern: string;
   status: string;
@@ -22,10 +25,9 @@ export interface ProcessedRecall {
   event_id: string;
   brand_slug: string;
   severity_score: number;
-  collected_at: string;
+  collected_at?: string;
 }
 
-/** Computed brand accountability score */
 export interface BrandScore {
   brand_name: string;
   brand_slug: string;
@@ -40,10 +42,11 @@ export interface BrandScore {
   first_recall_date: string;
   categories: string[];
   states_affected: string[];
-  trend: 'improving' | 'worsening' | 'stable';
+  trend: 'improving' | 'stable' | 'worsening';
+  average_days_to_recall?: number;
+  national_recall_ratio?: number;
 }
 
-/** Aggregate site statistics */
 export interface SiteStats {
   total_recalls_this_year: number;
   total_recalls_all_time: number;
@@ -58,14 +61,8 @@ export interface SiteStats {
   category_breakdown: Record<string, number>;
 }
 
-/** Article frontmatter for generated content */
-export interface ArticleFrontmatter {
+export interface ArticleChartData {
+  labels: string[];
+  values: number[];
   title: string;
-  slug: string;
-  date: string;
-  category: string;
-  severity: string;
-  tldr: string;
-  brands: string[];
-  tags: string[];
 }

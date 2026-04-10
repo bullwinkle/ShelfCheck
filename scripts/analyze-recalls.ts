@@ -1,254 +1,204 @@
 #!/usr/bin/env tsx
-/**
- * analyze-recalls.ts
- * Processes raw recall data to compute brand accountability scores
- * and aggregate statistics. Saves to data/brands.json and data/stats.json.
- */
+import fs from 'node:fs';
+import path from 'node:path';
+import type { BrandScore, RecallRecord, SiteStats } from '../src/types';
+import { slugify } from '../src/lib/utils';
 
-import * as fs from 'node:fs';
-import * as path from 'node:path';
-import {
-  DATA_PATHS,
-  SCORING_WEIGHTS,
-  SEVERITY_SCORES,
-  GRADE_THRESHOLDS,
-} from '../shelf-check.config';
-import type { ProcessedRecall, BrandScore, SiteStats } from '../src/types/index';
-import type { Grade } from '../shelf-check.config';
+const recallsPath = path.resolve('data/recalls.json');
+const brandsPath = path.resolve('data/brands.json');
+const statsPath = path.resolve('data/stats.json');
 
-const RECALLS_FILE = path.resolve(process.cwd(), DATA_PATHS.recalls);
-const BRANDS_FILE = path.resolve(process.cwd(), DATA_PATHS.brands);
-const STATS_FILE = path.resolve(process.cwd(), DATA_PATHS.stats);
+const WEIGHTS = {
+  frequency: 0.3,
+  severity: 0.3,
+  responseSpeed: 0.2,
+  scope: 0.2,
+};
 
-const REPEAT_OFFENDER_THRESHOLD = 3;
-const REPEAT_OFFENDER_WINDOW_DAYS = 365;
-
-function loadRecalls(): ProcessedRecall[] {
-  if (!fs.existsSync(RECALLS_FILE)) {
-    console.warn('No recalls file found at', RECALLS_FILE);
-    return [];
-  }
-  return JSON.parse(fs.readFileSync(RECALLS_FILE, 'utf-8')) as ProcessedRecall[];
+function loadRecalls(): RecallRecord[] {
+  if (!fs.existsSync(recallsPath)) return [];
+  return JSON.parse(fs.readFileSync(recallsPath, 'utf8')) as RecallRecord[];
 }
 
-function getGrade(score: number): Grade {
-  for (const [grade, range] of Object.entries(GRADE_THRESHOLDS)) {
-    if (score >= range.min && score <= range.max) {
-      return grade as Grade;
+function parseFdaDate(value?: string): Date | null {
+  if (!value || value.length !== 8) return null;
+  const date = new Date(`${value.slice(0, 4)}-${value.slice(4, 6)}-${value.slice(6, 8)}T00:00:00Z`);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function daysBetween(start?: string, end?: string): number | null {
+  const a = parseFdaDate(start);
+  const b = parseFdaDate(end);
+  if (!a || !b) return null;
+  return Math.max(0, Math.round((b.getTime() - a.getTime()) / 86400000));
+}
+
+function distributionBreadth(pattern: string): number {
+  const lower = pattern.toLowerCase();
+  if (!lower) return 0.15;
+  if (lower.includes('nationwide') || lower.includes('national') || lower.includes('all states')) return 1;
+  const states = new Set(pattern.match(/\b[A-Z]{2}\b/g) ?? []);
+  return Math.min(1, Math.max(0.15, states.size / 12));
+}
+
+function gradeFor(score: number): string {
+  if (score >= 85) return 'F';
+  if (score >= 70) return 'D';
+  if (score >= 55) return 'C';
+  if (score >= 40) return 'B';
+  return 'A';
+}
+
+function frequencyComponent(totalRecalls: number): number {
+  return Math.min(100, totalRecalls * 8);
+}
+
+function severityComponent(recalls: RecallRecord[]): number {
+  const average = recalls.reduce((sum, recall) => sum + recall.severity_score, 0) / recalls.length;
+  return Math.min(100, average);
+}
+
+function responseSpeedComponent(recalls: RecallRecord[]): number {
+  const deltas = recalls
+    .map((recall) => daysBetween(recall.recall_initiation_date, recall.report_date))
+    .filter((value): value is number => value !== null);
+  if (deltas.length === 0) return 40;
+  const average = deltas.reduce((sum, value) => sum + value, 0) / deltas.length;
+  return Math.min(100, (average / 30) * 100);
+}
+
+function scopeComponent(recalls: RecallRecord[]): number {
+  const average = recalls.reduce((sum, recall) => sum + distributionBreadth(recall.distribution_pattern), 0) / recalls.length;
+  return Math.round(average * 100);
+}
+
+function isRepeatOffender(recalls: RecallRecord[]): boolean {
+  const timestamps = recalls
+    .map((recall) => parseFdaDate(recall.report_date)?.getTime())
+    .filter((value): value is number => typeof value === 'number')
+    .sort((a, b) => a - b);
+
+  for (let i = 0; i < timestamps.length; i += 1) {
+    let hits = 1;
+    for (let j = i + 1; j < timestamps.length; j += 1) {
+      if (timestamps[j] - timestamps[i] <= 365 * 86400000) hits += 1;
     }
-  }
-  return 'F';
-}
-
-function computeAccountabilityScore(recalls: ProcessedRecall[]): number {
-  if (recalls.length === 0) return 100; // Perfect score if no recalls
-
-  const total = recalls.length;
-
-  // Frequency component: log scale, max at 50+ recalls
-  const frequencyScore = Math.min(100, (Math.log(total + 1) / Math.log(51)) * 100);
-
-  // Severity component: weighted average of severity scores
-  const avgSeverity =
-    recalls.reduce((sum, r) => {
-      const score = SEVERITY_SCORES[r.classification as keyof typeof SEVERITY_SCORES] ?? 10;
-      return sum + score;
-    }, 0) / total;
-
-  // Response speed component: voluntarily vs mandated
-  const mandatedCount = recalls.filter(
-    (r) => r.voluntary_mandated?.toLowerCase().includes('fda') ||
-           r.voluntary_mandated?.toLowerCase().includes('mandatory')
-  ).length;
-  const responseScore = (mandatedCount / total) * 100;
-
-  // Scope component: national distribution gets higher penalty
-  const nationalCount = recalls.filter(
-    (r) =>
-      r.distribution_pattern?.toLowerCase().includes('nationwide') ||
-      r.distribution_pattern?.toLowerCase().includes('national')
-  ).length;
-  const scopeScore = (nationalCount / total) * 100;
-
-  // Weighted composite — higher = worse
-  const rawScore =
-    frequencyScore * SCORING_WEIGHTS.frequency +
-    avgSeverity * SCORING_WEIGHTS.severity +
-    responseScore * SCORING_WEIGHTS.responseSpeed +
-    scopeScore * SCORING_WEIGHTS.scope;
-
-  // Invert: accountability score is HIGHER for WORSE performers
-  return Math.round(rawScore);
-}
-
-function isRepeatOffender(recalls: ProcessedRecall[]): boolean {
-  // Check if 3+ recalls in any 365-day window
-  const sorted = recalls
-    .map((r) => new Date(r.report_date))
-    .filter((d) => !isNaN(d.getTime()))
-    .sort((a, b) => a.getTime() - b.getTime());
-
-  for (let i = 0; i < sorted.length; i++) {
-    const windowEnd = new Date(sorted[i].getTime() + REPEAT_OFFENDER_WINDOW_DAYS * 86400000);
-    const inWindow = sorted.filter((d) => d >= sorted[i] && d <= windowEnd);
-    if (inWindow.length >= REPEAT_OFFENDER_THRESHOLD) return true;
+    if (hits >= 3) return true;
   }
   return false;
 }
 
-function extractStates(recalls: ProcessedRecall[]): string[] {
-  const states = new Set<string>();
-  for (const r of recalls) {
-    if (r.state) states.add(r.state);
-    // Also extract from distribution_pattern
-    const match = r.distribution_pattern?.match(/\b([A-Z]{2})\b/g);
-    if (match) match.forEach((s) => states.add(s));
+function buildCategoryBreakdown(recalls: RecallRecord[]): Record<string, number> {
+  const categories: Record<string, number> = {};
+  for (const recall of recalls) {
+    const reason = recall.reason_for_recall.toLowerCase();
+    const label = reason.includes('allergen') || reason.includes('undeclared')
+      ? 'Allergen'
+      : reason.includes('listeria')
+        ? 'Listeria'
+        : reason.includes('salmonella')
+          ? 'Salmonella'
+          : reason.includes('e. coli') || reason.includes('ecoli')
+            ? 'E. coli'
+            : reason.includes('foreign') || reason.includes('metal') || reason.includes('glass')
+              ? 'Foreign Object'
+              : reason.includes('mislabel')
+                ? 'Mislabeling'
+                : 'Other';
+    categories[label] = (categories[label] ?? 0) + 1;
   }
-  return Array.from(states).filter((s) => s.length === 2).sort();
+  return categories;
 }
 
-function computeStats(recalls: ProcessedRecall[]): SiteStats {
-  const currentYear = new Date().getFullYear();
-  const thisYearRecalls = recalls.filter((r) =>
-    r.report_date?.startsWith(String(currentYear))
-  );
-
-  const monthlyBreakdown: Record<string, number> = {};
-  const categoryBreakdown: Record<string, number> = {};
-
-  for (const r of recalls) {
-    // Monthly
-    const month = r.report_date?.slice(0, 6) ?? 'unknown';
-    monthlyBreakdown[month] = (monthlyBreakdown[month] ?? 0) + 1;
-
-    // Product category (from reason heuristic)
-    const reason = r.reason_for_recall?.toLowerCase() ?? '';
-    let category = 'Other';
-    if (reason.includes('allergen') || reason.includes('undeclared')) category = 'Allergen';
-    else if (reason.includes('listeria')) category = 'Listeria';
-    else if (reason.includes('salmonella')) category = 'Salmonella';
-    else if (reason.includes('e. coli') || reason.includes('ecoli')) category = 'E. coli';
-    else if (reason.includes('foreign') || reason.includes('metal') || reason.includes('glass')) category = 'Foreign Object';
-    else if (reason.includes('mislabel')) category = 'Mislabeling';
-    categoryBreakdown[category] = (categoryBreakdown[category] ?? 0) + 1;
+function collectStates(recalls: RecallRecord[]): string[] {
+  const states = new Set<string>();
+  for (const recall of recalls) {
+    (recall.distribution_pattern.match(/\b[A-Z]{2}\b/g) ?? []).forEach((state) => states.add(state));
+    if (recall.state) states.add(recall.state);
   }
+  return [...states].sort();
+}
 
-  // Top brands by recall count
-  const brandCounts = recalls.reduce<Record<string, number>>((acc, r) => {
-    acc[r.recalling_firm] = (acc[r.recalling_firm] ?? 0) + 1;
+function monthlyBreakdown(recalls: RecallRecord[]): Record<string, number> {
+  return recalls.reduce<Record<string, number>>((acc, recall) => {
+    const key = recall.report_date.slice(0, 6);
+    if (key) acc[key] = (acc[key] ?? 0) + 1;
     return acc;
   }, {});
-  const topBrands = Object.entries(brandCounts)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 10)
-    .map(([name]) => name);
+}
 
-  const sortedDates = recalls
-    .map((r) => r.report_date)
-    .filter(Boolean)
-    .sort()
-    .reverse();
+function brandScore(recalls: RecallRecord[]): BrandScore {
+  const score = Math.round(
+    frequencyComponent(recalls.length) * WEIGHTS.frequency +
+      severityComponent(recalls) * WEIGHTS.severity +
+      responseSpeedComponent(recalls) * WEIGHTS.responseSpeed +
+      scopeComponent(recalls) * WEIGHTS.scope,
+  );
+  const days = recalls
+    .map((recall) => daysBetween(recall.recall_initiation_date, recall.report_date))
+    .filter((value): value is number => value !== null);
+  const sortedDates = recalls.map((recall) => recall.report_date).sort();
+  const scope = recalls.map((recall) => distributionBreadth(recall.distribution_pattern));
+  const sourceName = recalls[0]?.recalling_firm ?? 'Unknown firm';
 
   return {
-    total_recalls_this_year: thisYearRecalls.length,
-    total_recalls_all_time: recalls.length,
-    class_i_this_year: thisYearRecalls.filter((r) => r.classification === 'Class I').length,
-    class_ii_this_year: thisYearRecalls.filter((r) => r.classification === 'Class II').length,
-    class_iii_this_year: thisYearRecalls.filter((r) => r.classification === 'Class III').length,
-    repeat_offenders_count: 0, // Filled below
-    most_recent_recall_date: sortedDates[0] ?? '',
-    last_updated: new Date().toISOString(),
-    top_brands_by_recalls: topBrands,
-    monthly_breakdown: monthlyBreakdown,
-    category_breakdown: categoryBreakdown,
+    brand_name: sourceName,
+    brand_slug: recalls[0]?.brand_slug || slugify(sourceName),
+    total_recalls: recalls.length,
+    class_i_recalls: recalls.filter((recall) => recall.classification === 'Class I').length,
+    class_ii_recalls: recalls.filter((recall) => recall.classification === 'Class II').length,
+    class_iii_recalls: recalls.filter((recall) => recall.classification === 'Class III').length,
+    accountability_score: score,
+    grade: gradeFor(score),
+    is_repeat_offender: isRepeatOffender(recalls),
+    first_recall_date: sortedDates[0] ?? '',
+    last_recall_date: sortedDates.at(-1) ?? '',
+    categories: Object.keys(buildCategoryBreakdown(recalls)),
+    states_affected: collectStates(recalls),
+    trend: 'stable',
+    average_days_to_recall: days.length ? Math.round(days.reduce((sum, value) => sum + value, 0) / days.length) : undefined,
+    national_recall_ratio: Number((scope.reduce((sum, value) => sum + value, 0) / scope.length).toFixed(2)),
   };
 }
 
-async function analyzeRecalls(): Promise<void> {
-  console.log('🦝 Inspector Morsel analyzing recall data...');
+function buildStats(recalls: RecallRecord[], brands: BrandScore[]): SiteStats {
+  const year = String(new Date().getUTCFullYear());
+  const currentYear = recalls.filter((recall) => recall.report_date.startsWith(year));
+  const topBrands = [...brands].sort((a, b) => b.total_recalls - a.total_recalls).slice(0, 10).map((brand) => brand.brand_name);
 
-  const recalls = loadRecalls();
-  console.log(`Total records to analyze: ${recalls.length}`);
-
-  if (recalls.length === 0) {
-    console.warn('No data to analyze. Run collect-recalls.ts first.');
-    const emptyStats: SiteStats = {
-      total_recalls_this_year: 0,
-      total_recalls_all_time: 0,
-      class_i_this_year: 0,
-      class_ii_this_year: 0,
-      class_iii_this_year: 0,
-      repeat_offenders_count: 0,
-      most_recent_recall_date: '',
-      last_updated: new Date().toISOString(),
-      top_brands_by_recalls: [],
-      monthly_breakdown: {},
-      category_breakdown: {},
-    };
-    fs.mkdirSync(path.dirname(STATS_FILE), { recursive: true });
-    fs.writeFileSync(STATS_FILE, JSON.stringify(emptyStats, null, 2));
-    fs.writeFileSync(BRANDS_FILE, JSON.stringify([], null, 2));
-    return;
-  }
-
-  // Group by brand
-  const brandMap = new Map<string, ProcessedRecall[]>();
-  for (const r of recalls) {
-    const key = r.recalling_firm;
-    if (!brandMap.has(key)) brandMap.set(key, []);
-    brandMap.get(key)!.push(r);
-  }
-
-  console.log(`Unique brands/firms: ${brandMap.size}`);
-
-  const brandScores: BrandScore[] = [];
-
-  for (const [brandName, brandRecalls] of brandMap.entries()) {
-    const sortedDates = brandRecalls
-      .map((r) => r.report_date)
-      .filter(Boolean)
-      .sort();
-
-    const score = computeAccountabilityScore(brandRecalls);
-    const grade = getGrade(score);
-    const repeat = isRepeatOffender(brandRecalls);
-
-    const brandScore: BrandScore = {
-      brand_name: brandName,
-      brand_slug: brandRecalls[0]?.brand_slug ?? brandName.toLowerCase().replace(/\s+/g, '-'),
-      total_recalls: brandRecalls.length,
-      class_i_recalls: brandRecalls.filter((r) => r.classification === 'Class I').length,
-      class_ii_recalls: brandRecalls.filter((r) => r.classification === 'Class II').length,
-      class_iii_recalls: brandRecalls.filter((r) => r.classification === 'Class III').length,
-      accountability_score: score,
-      grade,
-      is_repeat_offender: repeat,
-      last_recall_date: sortedDates[sortedDates.length - 1] ?? '',
-      first_recall_date: sortedDates[0] ?? '',
-      categories: [],
-      states_affected: extractStates(brandRecalls),
-      trend: 'stable',
-    };
-
-    brandScores.push(brandScore);
-  }
-
-  // Sort by accountability score (highest = worst first)
-  brandScores.sort((a, b) => b.accountability_score - a.accountability_score);
-
-  const stats = computeStats(recalls);
-  stats.repeat_offenders_count = brandScores.filter((b) => b.is_repeat_offender).length;
-
-  fs.mkdirSync(path.dirname(BRANDS_FILE), { recursive: true });
-  fs.writeFileSync(BRANDS_FILE, JSON.stringify(brandScores, null, 2));
-  fs.writeFileSync(STATS_FILE, JSON.stringify(stats, null, 2));
-
-  console.log(`✅ Brand scores computed: ${brandScores.length}`);
-  console.log(`✅ Repeat offenders: ${stats.repeat_offenders_count}`);
-  console.log(`✅ Written to: ${BRANDS_FILE} and ${STATS_FILE}`);
+  return {
+    total_recalls_this_year: currentYear.length,
+    total_recalls_all_time: recalls.length,
+    class_i_this_year: currentYear.filter((recall) => recall.classification === 'Class I').length,
+    class_ii_this_year: currentYear.filter((recall) => recall.classification === 'Class II').length,
+    class_iii_this_year: currentYear.filter((recall) => recall.classification === 'Class III').length,
+    repeat_offenders_count: brands.filter((brand) => brand.is_repeat_offender).length,
+    most_recent_recall_date: [...recalls].sort((a, b) => b.report_date.localeCompare(a.report_date))[0]?.report_date ?? '',
+    last_updated: new Date().toISOString(),
+    top_brands_by_recalls: topBrands,
+    monthly_breakdown: monthlyBreakdown(recalls),
+    category_breakdown: buildCategoryBreakdown(recalls),
+  };
 }
 
-analyzeRecalls().catch((err) => {
-  console.error('Fatal error in analyze-recalls:', err);
-  process.exit(1);
-});
+function main() {
+  const recalls = loadRecalls();
+  const grouped = new Map<string, RecallRecord[]>();
+
+  for (const recall of recalls) {
+    const key = recall.recalling_firm || recall.brand_slug || 'Unknown firm';
+    const current = grouped.get(key) ?? [];
+    current.push(recall);
+    grouped.set(key, current);
+  }
+
+  const brands = [...grouped.values()].map(brandScore).sort((a, b) => b.accountability_score - a.accountability_score);
+  const stats = buildStats(recalls, brands);
+
+  fs.mkdirSync(path.dirname(brandsPath), { recursive: true });
+  fs.writeFileSync(brandsPath, JSON.stringify(brands, null, 2));
+  fs.writeFileSync(statsPath, JSON.stringify(stats, null, 2));
+  console.log(`Saved ${brands.length} brands and refreshed stats.`);
+}
+
+main();

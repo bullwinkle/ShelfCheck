@@ -1,0 +1,26 @@
+---
+import { NAV_ITEMS } from '@/lib/site';
+import { withBase } from '@/lib/utils';
+const currentPath = Astro.url.pathname;
+---
+<header class="border-b border-black/10 bg-white/95 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+    <a href={withBase('')} class="text-2xl font-headline uppercase tracking-wide text-navy">
+      Shelf Check <span class="text-amber">🦝</span>
+    </a>
+    <nav class="hidden gap-5 text-sm font-semibold text-navy md:flex">
+      {NAV_ITEMS.map((item) => {
+        const href = withBase(item.href);
+        const active = item.href ? currentPath.startsWith(href) : currentPath === withBase('');
+        return (
+          <a href={href} class:list={['transition hover:text-amber', active && 'text-amber']}>
+            {item.label}
+          </a>
+        );
+      })}
+    </nav>
+    <a href={withBase('support')} class="rounded-full bg-amber px-4 py-2 text-sm font-bold text-navy">
+      Support
+    </a>
+  </div>
+</header>

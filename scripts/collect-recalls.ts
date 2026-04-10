@@ -1,146 +1,109 @@
 #!/usr/bin/env tsx
-/**
- * collect-recalls.ts
- * Fetches food recall data from openFDA Enforcement API.
- * Appends new records to data/recalls.json, deduplicates by recall_number.
- */
+import fs from 'node:fs';
+import path from 'node:path';
+import type { RecallRecord } from '../src/types';
+import { slugify } from '../src/lib/utils';
 
-import * as fs from 'node:fs';
-import * as path from 'node:path';
-import { FDA_API, DATA_PATHS } from '../shelf-check.config';
-import type { ProcessedRecall } from '../src/types/index';
+const API_URL = 'https://api.fda.gov/food/enforcement.json';
+const OUTPUT = path.resolve('data/recalls.json');
+const LIMIT = 100;
+const MAX_RESULTS = 2000;
 
-const DATA_FILE = path.resolve(process.cwd(), DATA_PATHS.recalls);
-
-interface FDAResponse {
-  meta: {
-    results: {
-      total: number;
-      skip: number;
-      limit: number;
-    };
-  };
-  results: Record<string, string>[];
+interface OpenFdaResponse {
+  meta?: { results?: { total?: number } };
+  results?: Array<Record<string, string>>;
 }
 
-function slugify(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
+function getSearchWindowStart(days = 180): string {
+  const start = new Date();
+  start.setUTCDate(start.getUTCDate() - days);
+  return start.toISOString().slice(0, 10).replace(/-/g, '');
 }
 
-function getSeverityScore(classification: string): number {
+function buildUrl(skip = 0): string {
+  const from = getSearchWindowStart();
+  const search = `report_date:[${from}+TO+99991231]`;
+  return `${API_URL}?search=${search}&sort=report_date:desc&limit=${LIMIT}&skip=${skip}`;
+}
+
+function severityScore(classification: string): number {
   if (classification === 'Class I') return 100;
   if (classification === 'Class II') return 50;
-  return 10;
+  if (classification === 'Class III') return 10;
+  return 0;
 }
 
-async function fetchPage(skip: number): Promise<FDAResponse> {
-  // Build URL manually to avoid URLSearchParams encoding '+' as '%2B'
-  // openFDA requires literal '+TO+' in search queries
-  const since = new Date();
-  since.setDate(since.getDate() - 180);
-  const sinceStr = since.toISOString().slice(0, 10).replace(/-/g, '');
-  const search = `report_date:[${sinceStr}+TO+99991231]`;
-  const url = `${FDA_API.baseUrl}?search=${search}&sort=report_date:desc&limit=${FDA_API.limit}&skip=${skip}`;
+function readExisting(): RecallRecord[] {
+  if (!fs.existsSync(OUTPUT)) return [];
+  return JSON.parse(fs.readFileSync(OUTPUT, 'utf8')) as RecallRecord[];
+}
 
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`FDA API error: ${res.status} ${res.statusText}`);
+function normalize(item: Record<string, string>): RecallRecord {
+  return {
+    recall_number: item.recall_number ?? '',
+    reason_for_recall: item.reason_for_recall ?? '',
+    classification: item.classification ?? '',
+    recall_initiation_date: item.recall_initiation_date ?? '',
+    recalling_firm: item.recalling_firm ?? 'Unknown firm',
+    distribution_pattern: item.distribution_pattern ?? '',
+    status: item.status ?? '',
+    report_date: item.report_date ?? '',
+    product_description: item.product_description ?? '',
+    product_quantity: item.product_quantity ?? '',
+    voluntary_mandated: item.voluntary_mandated ?? '',
+    initial_firm_notification: item.initial_firm_notification ?? '',
+    code_info: item.code_info ?? '',
+    more_code_info: item.more_code_info ?? '',
+    address_1: item.address_1 ?? '',
+    address_2: item.address_2 ?? '',
+    city: item.city ?? '',
+    state: item.state ?? '',
+    postal_code: item.postal_code ?? '',
+    country: item.country ?? '',
+    event_id: item.event_id ?? '',
+    brand_slug: slugify(item.recalling_firm ?? 'unknown'),
+    severity_score: severityScore(item.classification ?? ''),
+    collected_at: new Date().toISOString(),
+  };
+}
+
+async function fetchPage(skip: number): Promise<OpenFdaResponse> {
+  const response = await fetch(buildUrl(skip));
+  if (!response.ok) {
+    throw new Error(`openFDA error ${response.status}: ${await response.text()}`);
   }
-  return res.json() as Promise<FDAResponse>;
+  return (await response.json()) as OpenFdaResponse;
 }
 
-function loadExisting(): ProcessedRecall[] {
-  try {
-    if (fs.existsSync(DATA_FILE)) {
-      const raw = fs.readFileSync(DATA_FILE, 'utf-8');
-      return JSON.parse(raw) as ProcessedRecall[];
-    }
-  } catch (err) {
-    console.warn('Could not read existing data file, starting fresh:', err);
-  }
-  return [];
-}
-
-async function collectRecalls(): Promise<void> {
-  console.log('🦝 Inspector Morsel starting data collection...');
-  console.log(`FDA API: ${FDA_API.baseUrl}`);
-
-  const existing = loadExisting();
-  const existingIds = new Set(existing.map((r) => r.recall_number));
-  console.log(`Existing records: ${existing.length}`);
-
-  const newRecalls: ProcessedRecall[] = [];
+async function main() {
+  const existing = readExisting();
+  const byRecall = new Map(existing.map((entry) => [entry.recall_number, entry]));
+  let total = Number.POSITIVE_INFINITY;
   let skip = 0;
-  let total = Infinity;
 
-  while (skip < Math.min(total, FDA_API.maxResults)) {
-    try {
-      console.log(`Fetching records ${skip}–${skip + FDA_API.limit}...`);
-      const page = await fetchPage(skip);
-      total = page.meta.results.total;
+  while (skip < Math.min(total, MAX_RESULTS)) {
+    const page = await fetchPage(skip);
+    total = page.meta?.results?.total ?? 0;
+    const results = page.results ?? [];
+    if (results.length === 0) break;
 
-      for (const item of page.results) {
-        const recallNumber = item['recall_number'] ?? '';
-        if (existingIds.has(recallNumber)) continue;
-
-        const processed: ProcessedRecall = {
-          recall_number: recallNumber,
-          reason_for_recall: item['reason_for_recall'] ?? '',
-          classification: item['classification'] ?? '',
-          recalling_firm: item['recalling_firm'] ?? '',
-          distribution_pattern: item['distribution_pattern'] ?? '',
-          status: item['status'] ?? '',
-          report_date: item['report_date'] ?? '',
-          product_description: item['product_description'] ?? '',
-          product_quantity: item['product_quantity'] ?? '',
-          voluntary_mandated: item['voluntary_mandated'] ?? '',
-          initial_firm_notification: item['initial_firm_notification'] ?? '',
-          code_info: item['code_info'] ?? '',
-          more_code_info: item['more_code_info'] ?? '',
-          address_1: item['address_1'] ?? '',
-          address_2: item['address_2'] ?? '',
-          city: item['city'] ?? '',
-          state: item['state'] ?? '',
-          postal_code: item['postal_code'] ?? '',
-          country: item['country'] ?? '',
-          event_id: item['event_id'] ?? '',
-          brand_slug: slugify(item['recalling_firm'] ?? 'unknown'),
-          severity_score: getSeverityScore(item['classification'] ?? ''),
-          collected_at: new Date().toISOString(),
-        };
-
-        newRecalls.push(processed);
-        existingIds.add(recallNumber);
-      }
-
-      skip += FDA_API.limit;
-
-      // Rate limiting — be nice to the FDA API
-      if (skip < total) {
-        await new Promise((resolve) => setTimeout(resolve, 200));
-      }
-    } catch (err) {
-      console.error(`Error fetching at skip=${skip}:`, err);
-      break;
+    for (const item of results) {
+      const record = normalize(item);
+      if (!record.recall_number) continue;
+      byRecall.set(record.recall_number, record);
     }
+
+    skip += LIMIT;
+    await new Promise((resolve) => setTimeout(resolve, 150));
   }
 
-  console.log(`New records found: ${newRecalls.length}`);
-
-  const allRecalls = [...existing, ...newRecalls];
-
-  // Ensure data directory exists
-  fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
-  fs.writeFileSync(DATA_FILE, JSON.stringify(allRecalls, null, 2));
-
-  console.log(`✅ Total records saved: ${allRecalls.length}`);
-  console.log(`📄 Written to: ${DATA_FILE}`);
+  const records = [...byRecall.values()].sort((a, b) => b.report_date.localeCompare(a.report_date));
+  fs.mkdirSync(path.dirname(OUTPUT), { recursive: true });
+  fs.writeFileSync(OUTPUT, JSON.stringify(records, null, 2));
+  console.log(`Saved ${records.length} recall records to ${OUTPUT}`);
 }
 
-collectRecalls().catch((err) => {
-  console.error('Fatal error in collect-recalls:', err);
+main().catch((error) => {
+  console.error(error);
   process.exit(1);
 });

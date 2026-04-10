@@ -1,0 +1,15 @@
+---
+const { score } = Astro.props as { score: number };
+const clamped = Math.max(0, Math.min(score, 100));
+---
+<div>
+  <div class="mb-2 flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-navy/60">
+    <span>Trust thermometer</span>
+    <span>{clamped}/100 risk</span>
+  </div>
+  <div class="h-3 rounded-full bg-gradient-to-r from-emerald-500 via-amber to-danger">
+    <div class="relative h-3 rounded-full">
+      <span class="absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full border-2 border-white bg-navy shadow" style={`left: calc(${clamped}% - 10px)`}></span>
+    </div>
+  </div>
+</div>

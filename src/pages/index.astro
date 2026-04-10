@@ -1,105 +1,92 @@
 ---
-import Base from '../layouts/Base.astro';
-import fs from 'node:fs';
-import path from 'node:path';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import RecallCounter from '@/components/RecallCounter.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import BrandScoreCard from '@/components/BrandScoreCard.astro';
+import TrendChart from '@/components/TrendChart';
+import { getBrands, getStats } from '@/lib/data';
+import { withBase } from '@/lib/utils';
 
-const dataDir = path.resolve('data');
-let stats = { totalRecalls: 0, classI: 0, repeatOffenders: 0 };
-let brands: any[] = [];
-let articles: any[] = [];
-
-function stripMd(text: string): string {
-  return text.replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1').replace(/\[(.+?)\]\(.+?\)/g, '$1');
-}
-
-try {
-  const raw = JSON.parse(fs.readFileSync(path.join(dataDir, 'stats.json'), 'utf-8'));
-  stats = {
-    totalRecalls: raw.total_recalls_this_year ?? raw.totalRecalls ?? 0,
-    classI: raw.class_i_this_year ?? raw.classI ?? 0,
-    repeatOffenders: raw.repeat_offenders_count ?? raw.repeatOffenders ?? 0,
-  };
-} catch {}
-try { brands = JSON.parse(fs.readFileSync(path.join(dataDir, 'brands.json'), 'utf-8')); } catch {}
-try { articles = JSON.parse(fs.readFileSync(path.join('public', 'data', 'articles-index.json'), 'utf-8')); } catch {}
-
-const topBrands = brands.sort((a: any, b: any) => b.total_recalls - a.total_recalls).slice(0, 6);
-const recentArticles = articles.sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 6);
-const base = import.meta.env.BASE_URL;
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+);
+const latestArticles = articles.slice(0, 6);
+const worstBrands = getBrands().sort((a, b) => b.accountability_score - a.accountability_score).slice(0, 5);
+const stats = getStats();
+const months = Object.entries(stats.monthly_breakdown)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .slice(-12);
+const labels = months.map(([month]) => `${month.slice(0, 4)}-${month.slice(4)}`);
+const values = months.map(([, count]) => count);
 ---
-<Base title="Home" description="The food industry's accountability report card. Tracking every recall, every repeat offender.">
-  <div class="hero">
-    <div class="container">
-      <h1>The Food Industry's<br/>Accountability Report Card</h1>
-      {stats.totalRecalls > 0 ? (
-        <div class="counter">{stats.totalRecalls}</div>
-      ) : null}
-      <p>FDA food recalls in 2026 so far. <strong>Inspector Morsel</strong> 🦝 is watching.</p>
-      <p style="margin-top: 1rem;">
-        <span class="badge badge-red">Class I: {stats.classI || 0}</span>&nbsp;
-        <span class="badge badge-amber">Repeat offenders: {stats.repeatOffenders || 0}</span>
-      </p>
-    </div>
-  </div>
-
-  <section>
-    <div class="container">
-      <h2>Latest Reports</h2>
-      {recentArticles.length > 0 ? (
-        <div class="grid">
-          {recentArticles.map((a: any) => (
-            <a href={`${base}/articles/${a.slug}/`} style="text-decoration: none; color: inherit;">
-              <div class="card" style="cursor: pointer; transition: box-shadow 0.2s;">
-                <div class="meta">{a.date} · <span class={`badge ${a.severity === 'Class I' ? 'badge-red' : 'badge-amber'}`}>{a.severity || 'Info'}</span></div>
-                <h3>{a.title}</h3>
-                <p>{stripMd(a.tldr?.slice(0, 150) || 'Read the full report...')}…</p>
+<BaseLayout title="Home" description="Shelf Check tracks FDA food recalls, repeat offenders, and trend lines that matter.">
+  <section class="bg-navy text-white">
+    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px] lg:px-8 lg:py-20">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-amber">Food recall intelligence</p>
+        <h1 class="mt-5 max-w-4xl font-headline text-6xl uppercase leading-none sm:text-7xl">
+          The grocery aisle's least flattering audit.
+        </h1>
+        <div class="mt-8 flex items-end gap-4">
+          <RecallCounter value={stats.total_recalls_this_year} />
+          <p class="max-w-xs pb-2 text-sm uppercase tracking-[0.2em] text-white/70">recalls in 2026 so far</p>
+        </div>
+        <p class="mt-6 max-w-2xl text-lg text-white/80">
+          Inspector Morsel keeps score so the labels can't hide behind cheerful packaging.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href={withBase('daily-digest')} class="rounded-full bg-amber px-5 py-3 text-sm font-bold text-navy">Read the digest</a>
+          <a href={withBase('brands')} class="rounded-full border border-white/20 px-5 py-3 text-sm font-bold text-white">See worst offenders</a>
+        </div>
+      </div>
+      <aside class="rounded-3xl border border-white/10 bg-white/5 p-6">
+        <p class="font-headline text-2xl uppercase text-white">Worst offenders</p>
+        <div class="mt-5 space-y-4">
+          {worstBrands.map((brand) => (
+            <div class="rounded-2xl bg-white/5 p-4">
+              <div class="flex items-center justify-between gap-3">
+                <p class="font-semibold text-white">{brand.brand_name}</p>
+                <span class="rounded-full bg-danger px-3 py-1 text-[10px] font-bold uppercase tracking-wide text-white">{brand.grade}</span>
               </div>
-            </a>
+              <p class="mt-2 text-sm text-white/70">{brand.total_recalls} recalls · {brand.class_i_recalls} Class I · score {brand.accountability_score}</p>
+            </div>
           ))}
         </div>
-      ) : (
-        <div class="verdict">
-          First data collection hasn't run yet. Trigger the <code>daily-collect</code> workflow to populate the site with real FDA data.
-        </div>
-      )}
+      </aside>
     </div>
   </section>
 
-  {topBrands.length > 0 && (
-    <section style="background: var(--light); padding: 2rem 0;">
-      <div class="container">
-        <h2>🔍 Worst Offenders</h2>
-        <div class="grid">
-          {topBrands.map((b: any) => {
-            const imgPath = `${base}/images/generated/brand-${b.brand_slug}.png`;
-            return (
-              <div class="card">
-                <img src={imgPath} alt={`${b.recalling_firm || b.brand_slug} recall card`} style="width:100%; border-radius:6px; margin-bottom:0.75rem;" loading="lazy" />
-                <h3>{b.recalling_firm || b.brand_slug}</h3>
-                <p>
-                  <strong>{b.total_recalls}</strong> recalls · 
-                  Score: <strong style={`color: ${b.accountability_score > 60 ? '#2a9d8f' : b.accountability_score > 30 ? '#f0a500' : '#e63946'}`}>{b.accountability_score}/100</strong>
-                </p>
-              </div>
-            );
-          })}
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">Coverage lanes</p>
+        <h2 class="font-headline text-4xl uppercase text-navy">Latest stories</h2>
+      </div>
+      <div class="flex flex-wrap gap-2 text-sm font-semibold">
+        <a href={withBase('daily-digest')} class="rounded-full bg-paper px-4 py-2 text-navy">Daily Digest</a>
+        <a href={withBase('deep-dives')} class="rounded-full bg-paper px-4 py-2 text-navy">Deep Dives</a>
+        <a href={withBase('brands')} class="rounded-full bg-paper px-4 py-2 text-navy">Brand Reports</a>
+      </div>
+    </div>
+    <div class="mt-8 grid gap-6 xl:grid-cols-3 md:grid-cols-2">
+      {latestArticles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+
+  <section class="bg-paper">
+    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[minmax(0,1fr)_360px] lg:px-8">
+      <div class="editorial-card rounded-3xl bg-white p-6">
+        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">Trend line</p>
+        <h2 class="font-headline text-4xl uppercase text-navy">Recall velocity</h2>
+        <p class="mt-3 max-w-2xl text-sm text-slate-600">Client-side Chart.js island, because static pages can still arrive with a pulse.</p>
+        <div class="mt-6">
+          <TrendChart client:load title="Monthly recall count" labels={labels} values={values} />
         </div>
       </div>
-    </section>
-  )}
-
-  <section>
-    <div class="container">
-      <h2>📊 Recall Trends</h2>
-      <img src={`${base}/images/generated/trend-chart.png`} alt="FDA recall trends — last 12 months" style="width:100%; border-radius:8px; margin: 1rem 0;" loading="lazy" />
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="verdict">
-        Every data point comes from official government databases. We use math, not outrage. <a href={`${base}/about/`}>Read our methodology →</a>
+      <div class="space-y-5">
+        {worstBrands.slice(0, 2).map((brand) => <BrandScoreCard brand={brand} compact />)}
       </div>
     </div>
   </section>
-</Base>
+</BaseLayout>

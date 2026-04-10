@@ -1,0 +1,20 @@
+---
+import SeverityBadge from '@/components/SeverityBadge.astro';
+import { formatDate, withBase } from '@/lib/utils';
+import type { CollectionEntry } from 'astro:content';
+const { article } = Astro.props as { article: CollectionEntry<'articles'> };
+---
+<article class="editorial-card rounded-3xl bg-white p-6 transition hover:-translate-y-1">
+  <div class="flex items-center justify-between gap-3 text-xs uppercase tracking-[0.2em] text-navy/60">
+    <span>{formatDate(article.data.date)}</span>
+    <SeverityBadge severity={article.data.severity} small />
+  </div>
+  <h3 class="mt-4 text-3xl leading-tight text-navy">
+    <a href={withBase(`articles/${article.slug}`)}>{article.data.title}</a>
+  </h3>
+  <p class="mt-3 text-sm text-slate-700">{article.data.tldr}</p>
+  <div class="mt-5 flex items-center justify-between">
+    <span class="text-xs font-semibold uppercase tracking-[0.2em] text-amber">{article.data.category.replace('-', ' ')}</span>
+    <a href={withBase(`articles/${article.slug}`)} class="text-sm font-bold text-navy hover:text-amber">Read report →</a>
+  </div>
+</article>

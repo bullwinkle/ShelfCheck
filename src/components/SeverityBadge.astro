@@ -1,0 +1,23 @@
+---
+import type { Severity } from '@/types';
+const { severity, small = false } = Astro.props as { severity: Severity; small?: boolean };
+const labels: Record<Severity, string> = {
+  'class-1': 'Class I',
+  'class-2': 'Class II',
+  'class-3': 'Class III',
+  informational: 'Informational',
+};
+const styles: Record<Severity, string> = {
+  'class-1': 'bg-danger text-white',
+  'class-2': 'bg-amber text-navy',
+  'class-3': 'bg-emerald-600 text-white',
+  informational: 'bg-slate-200 text-slate-700',
+};
+---
+<span class:list={[
+  'inline-flex rounded-full font-bold uppercase tracking-wide',
+  small ? 'px-2.5 py-1 text-[10px]' : 'px-3 py-1.5 text-xs',
+  styles[severity],
+]}>
+  {labels[severity]}
+</span>

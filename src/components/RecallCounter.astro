@@ -1,0 +1,19 @@
+---
+const { value } = Astro.props as { value: number };
+---
+<p class="text-6xl font-headline leading-none text-amber sm:text-7xl" data-counter={value}>
+  0
+</p>
+<script>
+  document.querySelectorAll('[data-counter]').forEach((node) => {
+    const target = Number(node.getAttribute('data-counter') || '0');
+    const start = performance.now();
+    const duration = 1000;
+    const tick = (time: number) => {
+      const progress = Math.min((time - start) / duration, 1);
+      node.textContent = Math.round(progress * target).toLocaleString();
+      if (progress < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  });
+</script>

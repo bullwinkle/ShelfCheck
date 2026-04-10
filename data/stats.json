@@ -1,23 +1,23 @@
 {
-  "total_recalls_this_year": 286,
-  "total_recalls_all_time": 644,
-  "class_i_this_year": 82,
-  "class_ii_this_year": 185,
-  "class_iii_this_year": 18,
-  "repeat_offenders_count": 0,
-  "most_recent_recall_date": "20260401",
-  "last_updated": "2026-04-09T18:29:37.830Z",
+  "total_recalls_this_year": 222,
+  "total_recalls_all_time": 580,
+  "class_i_this_year": 71,
+  "class_ii_this_year": 133,
+  "class_iii_this_year": 17,
+  "repeat_offenders_count": 54,
+  "most_recent_recall_date": "20260318",
+  "last_updated": "2026-04-10T00:52:00.307Z",
   "top_brands_by_recalls": [
     "CHETAK NEW YORK LLC",
     "Made Fresh Salads Inc",
     "Diva Fam Inc",
     "Moonlight Packing Corporation",
-    "Albertsons Companies LLC",
     "WHOLESALE PRODUCE SUPPLY LLC DBA",
-    "Ajinomoto Foods North America Inc.",
-    "Prima Vera Nueva, Inc.",
+    "Albertsons Companies LLC",
+    "Black Sheep Egg Company, LLC",
     "Nate's Fine Foods, LLC",
-    "Black Sheep Egg Company, LLC"
+    "Prima Vera Nueva, Inc.",
+    "A New Life Herbs, LLC"
   ],
   "monthly_breakdown": {
     "202510": 146,
@@ -25,15 +25,14 @@
     "202512": 145,
     "202601": 68,
     "202602": 102,
-    "202603": 73,
-    "202604": 43
+    "202603": 52
   },
   "category_breakdown": {
-    "Allergen": 171,
+    "Allergen": 158,
     "Listeria": 113,
-    "Other": 167,
-    "Foreign Object": 78,
-    "Salmonella": 103,
+    "Other": 150,
+    "Foreign Object": 49,
+    "Salmonella": 98,
     "Mislabeling": 3,
     "E. coli": 9
   }

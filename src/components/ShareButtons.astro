@@ -1,0 +1,24 @@
+---
+import { withBase } from '@/lib/utils';
+const { title, path } = Astro.props as { title: string; path: string };
+const url = new URL(withBase(path), Astro.site ?? 'https://bullwinkle.js.org').toString();
+const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`;
+const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+---
+<div class="flex flex-wrap gap-3">
+  <a class="rounded-full border border-navy/15 px-4 py-2 text-sm font-semibold text-navy hover:border-amber hover:text-amber" href={twitterUrl} target="_blank" rel="noreferrer">Twitter</a>
+  <a class="rounded-full border border-navy/15 px-4 py-2 text-sm font-semibold text-navy hover:border-amber hover:text-amber" href={facebookUrl} target="_blank" rel="noreferrer">Facebook</a>
+  <button class="rounded-full border border-navy/15 px-4 py-2 text-sm font-semibold text-navy hover:border-amber hover:text-amber" data-copy-link={url}>Copy link</button>
+</div>
+<script>
+  document.querySelectorAll('[data-copy-link]').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const url = button.getAttribute('data-copy-link') || '';
+      await navigator.clipboard.writeText(url);
+      button.textContent = 'Copied';
+      setTimeout(() => {
+        button.textContent = 'Copy link';
+      }, 1200);
+    });
+  });
+</script>

@@ -1,11 +1,25 @@
 ---
-import Base from '../layouts/Base.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import DonateCTA from '@/components/DonateCTA.astro';
+import { SITE } from '@/lib/site';
 ---
-<Base title="Support" description="Help Inspector Morsel keep watching the watchers.">
-  <section><div class="container" style="text-align: center; padding: 3rem 1rem;">
-    <h1>🦝 Support Inspector Morsel</h1>
-    <p style="max-width: 500px; margin: 1rem auto;">Help us keep watching the watchers. Every dollar goes toward keeping this data free and accessible.</p>
-    <p style="margin: 2rem 0;"><a class="btn" href="https://github.com/bullwinkle/ShelfCheck" target="_blank">⭐ Star on GitHub</a></p>
-    <div class="verdict">100% of this site is automated, open-source, and free. Your support keeps the servers running and the raccoon fed.</div>
-  </div></section>
-</Base>
+<BaseLayout title="Support" description="Support Shelf Check and keep food recall coverage public.">
+  <section class="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
+    <p class="text-xs font-semibold uppercase tracking-[0.25em] text-amber">Support Shelf Check</p>
+    <h1 class="mt-3 font-headline text-5xl uppercase text-navy">Independent coverage tastes better.</h1>
+    <p class="mt-5 max-w-3xl text-lg text-slate-700">If Shelf Check saves you time, stories, or a suspect snack, support the project so the data pipeline and editorial work stay public.</p>
+    <div class="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_380px]">
+      <div class="prose prose-slate max-w-none">
+        <p>Support helps cover build minutes, image generation, data refreshes, and the occasional raccoon-grade burst of indignation.</p>
+        <ul>
+          <li>Daily and weekly FDA collection workflows</li>
+          <li>Open-source static hosting on GitHub Pages</li>
+          <li>Git-based editorial workflow through Keystatic</li>
+          <li>Shareable graphics and accountability snapshots</li>
+        </ul>
+        <p><a href={SITE.donateUrl}>Back the project on GitHub Sponsors</a>.</p>
+      </div>
+      <DonateCTA />
+    </div>
+  </section>
+</BaseLayout>

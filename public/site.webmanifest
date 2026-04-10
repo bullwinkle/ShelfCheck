@@ -1,0 +1,15 @@
+{
+  "name": "Shelf Check",
+  "short_name": "ShelfCheck",
+  "start_url": "/ShelfCheck/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "icons": [
+    {
+      "src": "/ShelfCheck/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}

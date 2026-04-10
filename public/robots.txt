@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bullwinkle.js.org/ShelfCheck/sitemap-index.xml
