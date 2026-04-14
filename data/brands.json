@@ -1360,6 +1360,69 @@
     "national_recall_ratio": 0.67
   },
   {
+    "brand_name": "JFE FRANCHISING INC",
+    "brand_slug": "jfe-franchising-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 67,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20251119",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Foreign Object",
+      "Listeria"
+    ],
+    "states_affected": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MS",
+      "MT",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 30,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "VH FOODS INC",
     "brand_slug": "vh-foods-inc",
     "total_recalls": 1,
@@ -1387,45 +1450,6 @@
     "trend": "stable",
     "average_days_to_recall": 34,
     "national_recall_ratio": 0.67
-  },
-  {
-    "brand_name": "JFE FRANCHISING INC",
-    "brand_slug": "jfe-franchising-inc",
-    "total_recalls": 1,
-    "class_i_recalls": 1,
-    "class_ii_recalls": 0,
-    "class_iii_recalls": 0,
-    "accountability_score": 66,
-    "grade": "C",
-    "is_repeat_offender": false,
-    "first_recall_date": "20251119",
-    "last_recall_date": "20251119",
-    "categories": [
-      "Listeria"
-    ],
-    "states_affected": [
-      "AL",
-      "AZ",
-      "CO",
-      "ID",
-      "IL",
-      "IN",
-      "KS",
-      "KY",
-      "MI",
-      "NE",
-      "OH",
-      "TN",
-      "TX",
-      "UT",
-      "VA",
-      "WA",
-      "WV",
-      "WY"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 21,
-    "national_recall_ratio": 1
   },
   {
     "brand_name": "New York Mutual Trading, Inc.",
@@ -1891,6 +1915,61 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 13,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Imu-Tek Animal Health, Incorporated",
+    "brand_slug": "imu-tek-animal-health-incorporated",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 62,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260211",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Other",
+      "Allergen"
+    ],
+    "states_affected": [
+      "AK",
+      "AL",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "MA",
+      "MD",
+      "ME",
+      "MN",
+      "MO",
+      "MS",
+      "NC",
+      "NE",
+      "NH",
+      "NV",
+      "NY",
+      "OK",
+      "OR",
+      "RI",
+      "SC",
+      "TN",
+      "TX",
+      "UT",
+      "WA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 55,
     "national_recall_ratio": 1
   },
   {
@@ -2730,6 +2809,55 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "TG FOODS INC",
+    "brand_slug": "tg-foods-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260408",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "DE",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MI",
+      "MO",
+      "MS",
+      "NC",
+      "NH",
+      "NY",
+      "OH",
+      "OR",
+      "PA",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "American Laboratories, LLC",
     "brand_slug": "american-laboratories-llc",
     "total_recalls": 3,
@@ -2846,42 +2974,6 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 37,
-    "national_recall_ratio": 1
-  },
-  {
-    "brand_name": "Imu-Tek Animal Health, Incorporated",
-    "brand_slug": "imu-tek-animal-health-incorporated",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 57,
-    "grade": "C",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260211",
-    "last_recall_date": "20260211",
-    "categories": [
-      "Allergen"
-    ],
-    "states_affected": [
-      "AZ",
-      "CA",
-      "CO",
-      "FL",
-      "MA",
-      "ME",
-      "MN",
-      "NC",
-      "NH",
-      "OK",
-      "RI",
-      "TN",
-      "TX",
-      "UT",
-      "WI"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 78,
     "national_recall_ratio": 1
   },
   {
@@ -4137,6 +4229,28 @@
     "national_recall_ratio": 0.25
   },
   {
+    "brand_name": "Lone Star Dairy Products LLC",
+    "brand_slug": "lone-star-dairy-products-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 54,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260408",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 28,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Bakkavor",
     "brand_slug": "bakkavor",
     "total_recalls": 3,
@@ -4738,6 +4852,46 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 20,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Super World Trading Inc.",
+    "brand_slug": "super-world-trading-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 3,
+    "accountability_score": 50,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260408",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "IL",
+      "MA",
+      "MD",
+      "MI",
+      "NC",
+      "NJ",
+      "NY",
+      "OH",
+      "OR",
+      "PA",
+      "TX",
+      "UT",
+      "VA",
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 48,
     "national_recall_ratio": 1
   },
   {
@@ -5788,6 +5942,28 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "The Maros Group, LLC",
+    "brand_slug": "the-maros-group-llc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 43,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260408",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AZ"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 154,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Sevillo Fine Foods, Inc",
     "brand_slug": "sevillo-fine-foods-inc",
     "total_recalls": 2,
@@ -6268,6 +6444,36 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.83
+  },
+  {
+    "brand_name": "Pocas International Corp.",
+    "brand_slug": "pocas-international-corp",
+    "total_recalls": 4,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 4,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260408",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA",
+      "FL",
+      "LA",
+      "MA",
+      "NJ",
+      "NY",
+      "TX",
+      "UT",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 23,
+    "national_recall_ratio": 0.67
   },
   {
     "brand_name": "Willamette Valley Pie Company, LLC",
@@ -7881,6 +8087,28 @@
       "NY"
     ],
     "trend": "stable",
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "HEYTEA USA INC",
+    "brand_slug": "heytea-usa-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 26,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260408",
+    "last_recall_date": "20260408",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 9,
     "national_recall_ratio": 0.15
   },
   {
