@@ -2362,6 +2362,28 @@
     "national_recall_ratio": 0.33
   },
   {
+    "brand_name": "Pure Vitamins and Natural Supplements, LLC",
+    "brand_slug": "pure-vitamins-and-natural-supplements-llc",
+    "total_recalls": 3,
+    "class_i_recalls": 3,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 60,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "FL"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Palmetto Gourmet Foods Inc.",
     "brand_slug": "palmetto-gourmet-foods-inc",
     "total_recalls": 2,
@@ -5054,6 +5076,36 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Riverence Provisions LLC",
+    "brand_slug": "riverence-provisions-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 49,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA",
+      "ID",
+      "MA",
+      "NJ",
+      "NY",
+      "OR",
+      "TX",
+      "UT",
+      "VT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 0.67
+  },
+  {
     "brand_name": "MG Foods-Compass Group",
     "brand_slug": "mg-foods-compass-group",
     "total_recalls": 1,
@@ -6446,6 +6498,30 @@
     "national_recall_ratio": 0.83
   },
   {
+    "brand_name": "Zarlengo Italian Ice",
+    "brand_slug": "zarlengo-italian-ice",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "IL",
+      "IN",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 20,
+    "national_recall_ratio": 0.25
+  },
+  {
     "brand_name": "Pocas International Corp.",
     "brand_slug": "pocas-international-corp",
     "total_recalls": 4,
@@ -7542,6 +7618,30 @@
     "national_recall_ratio": 0.25
   },
   {
+    "brand_name": "Connecticut Crab Company LLC",
+    "brand_slug": "connecticut-crab-company-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CT",
+      "NJ",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "SLADE GORTON & CO., INC.",
     "brand_slug": "slade-gorton-co-inc",
     "total_recalls": 1,
@@ -7722,6 +7822,52 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "MEI YU CHENG DA TRADING INC",
+    "brand_slug": "mei-yu-cheng-da-trading-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 2,
+    "accountability_score": 33,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "FL",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 153,
+    "national_recall_ratio": 0.25
+  },
+  {
+    "brand_name": "Blueroot Health, Inc.",
+    "brand_slug": "blueroot-health-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 33,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 19,
     "national_recall_ratio": 0.15
   },
   {
@@ -7911,6 +8057,29 @@
     "trend": "stable",
     "average_days_to_recall": 32,
     "national_recall_ratio": 0.25
+  },
+  {
+    "brand_name": "F&S Fresh Foods, Inc.",
+    "brand_slug": "f-s-fresh-foods-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 29,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "NJ",
+      "OR"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 13,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Vitalabs, Inc.",
