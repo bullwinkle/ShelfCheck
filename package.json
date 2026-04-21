@@ -25,7 +25,7 @@
     "@keystatic/astro": "^5.0.6",
     "@keystatic/core": "^0.5.50",
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^5.18.1",
+    "astro": "^6.1.6",
     "chart.js": "^4.4.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
