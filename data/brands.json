@@ -3765,28 +3765,6 @@
     "national_recall_ratio": 0.15
   },
   {
-    "brand_name": "Shaman Botanicals, LLC",
-    "brand_slug": "shaman-botanicals-llc",
-    "total_recalls": 1,
-    "class_i_recalls": 1,
-    "class_ii_recalls": 0,
-    "class_iii_recalls": 0,
-    "accountability_score": 55,
-    "grade": "C",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260325",
-    "last_recall_date": "20260325",
-    "categories": [
-      "Other"
-    ],
-    "states_affected": [
-      "MO"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 42,
-    "national_recall_ratio": 0.15
-  },
-  {
     "brand_name": "Karns Prime And Fancy Foods",
     "brand_slug": "karns-prime-and-fancy-foods",
     "total_recalls": 1,
@@ -4249,6 +4227,31 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.25
+  },
+  {
+    "brand_name": "AYCO FARMS INC",
+    "brand_slug": "ayco-farms-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 54,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260415",
+    "last_recall_date": "20260415",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "CA",
+      "FL",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 22,
+    "national_recall_ratio": 0.33
   },
   {
     "brand_name": "Lone Star Dairy Products LLC",
@@ -6575,6 +6578,28 @@
     "national_recall_ratio": 0.17
   },
   {
+    "brand_name": "Booey's Gourmet LLC",
+    "brand_slug": "booey-s-gourmet-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260422",
+    "last_recall_date": "20260422",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 30,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Rose and Shore, Inc.",
     "brand_slug": "rose-and-shore-inc",
     "total_recalls": 1,
@@ -8105,6 +8130,28 @@
     "national_recall_ratio": 0.17
   },
   {
+    "brand_name": "Bee Well Honey Farm & Supply Inc.",
+    "brand_slug": "bee-well-honey-farm-supply-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 1,
+    "accountability_score": 28,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260422",
+    "last_recall_date": "20260422",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "SC"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "LUBNA QUALITY PRODUCTS INC.",
     "brand_slug": "lubna-quality-products-inc",
     "total_recalls": 1,
@@ -8278,6 +8325,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 9,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "PURE PALM C/O DVD",
+    "brand_slug": "pure-palm-c-o-dvd",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 19,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260422",
+    "last_recall_date": "20260422",
+    "categories": [
+      "Mislabeling"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
     "national_recall_ratio": 0.15
   },
   {
