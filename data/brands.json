@@ -1766,6 +1766,67 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Costco Wholesale Corporation",
+    "brand_slug": "costco-wholesale-corporation",
+    "total_recalls": 4,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 64,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20251210",
+    "last_recall_date": "20260429",
+    "categories": [
+      "Allergen",
+      "Other"
+    ],
+    "states_affected": [
+      "AL",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NY",
+      "OH",
+      "OK",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 0.7
+  },
+  {
     "brand_name": "Prime Food Processing LLC.",
     "brand_slug": "prime-food-processing-llc",
     "total_recalls": 3,
@@ -2438,64 +2499,6 @@
     "national_recall_ratio": 1
   },
   {
-    "brand_name": "Costco Wholesale Corporation",
-    "brand_slug": "costco-wholesale-corporation",
-    "total_recalls": 3,
-    "class_i_recalls": 1,
-    "class_ii_recalls": 2,
-    "class_iii_recalls": 0,
-    "accountability_score": 60,
-    "grade": "C",
-    "is_repeat_offender": true,
-    "first_recall_date": "20251210",
-    "last_recall_date": "20260218",
-    "categories": [
-      "Allergen",
-      "Other"
-    ],
-    "states_affected": [
-      "AL",
-      "CT",
-      "DC",
-      "DE",
-      "FL",
-      "GA",
-      "IA",
-      "IL",
-      "IN",
-      "KS",
-      "KY",
-      "MA",
-      "MD",
-      "ME",
-      "MI",
-      "MN",
-      "MO",
-      "MS",
-      "NC",
-      "ND",
-      "NE",
-      "NH",
-      "NJ",
-      "NY",
-      "OH",
-      "OK",
-      "PA",
-      "RI",
-      "SC",
-      "SD",
-      "TN",
-      "VA",
-      "VT",
-      "WA",
-      "WI",
-      "WV"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 28,
-    "national_recall_ratio": 0.72
-  },
-  {
     "brand_name": "VENTURA FOODS LLC",
     "brand_slug": "ventura-foods-llc",
     "total_recalls": 2,
@@ -2829,6 +2832,81 @@
     "trend": "stable",
     "average_days_to_recall": 77,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Marquez Brothers International, Inc.",
+    "brand_slug": "marquez-brothers-international-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260429",
+    "last_recall_date": "20260429",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "LA",
+      "MI",
+      "MN",
+      "MO",
+      "MT",
+      "NE",
+      "NM",
+      "NV",
+      "OH",
+      "OK",
+      "OR",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 22,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Unistel Industries Inc.",
+    "brand_slug": "unistel-industries-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260429",
+    "last_recall_date": "20260429",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "CA",
+      "HI",
+      "NY",
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 36,
+    "national_recall_ratio": 0.25
   },
   {
     "brand_name": "TG FOODS INC",
@@ -3539,6 +3617,46 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Mondelez Global Llc",
+    "brand_slug": "mondelez-global-llc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20251231",
+    "last_recall_date": "20260429",
+    "categories": [
+      "Other",
+      "Allergen"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "KY",
+      "MN",
+      "MO",
+      "NC",
+      "NJ",
+      "NY",
+      "OH",
+      "OK",
+      "PA",
+      "TN",
+      "VA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 77,
+    "national_recall_ratio": 0.79
+  },
+  {
     "brand_name": "Juniper Granola, LLC",
     "brand_slug": "juniper-granola-llc",
     "total_recalls": 2,
@@ -3762,6 +3880,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 26,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Shaman Botanicals, LLC",
+    "brand_slug": "shaman-botanicals-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260325",
+    "last_recall_date": "20260325",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "MO"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 42,
     "national_recall_ratio": 0.15
   },
   {
@@ -4763,8 +4903,8 @@
     "national_recall_ratio": 0.15
   },
   {
-    "brand_name": "Mondelez Global Llc",
-    "brand_slug": "mondelez-global-llc",
+    "brand_name": "Summit Import Corporation",
+    "brand_slug": "summit-import-corporation",
     "total_recalls": 1,
     "class_i_recalls": 0,
     "class_ii_recalls": 1,
@@ -4772,23 +4912,23 @@
     "accountability_score": 51,
     "grade": "B",
     "is_repeat_offender": false,
-    "first_recall_date": "20251231",
-    "last_recall_date": "20251231",
+    "first_recall_date": "20260429",
+    "last_recall_date": "20260429",
     "categories": [
-      "Allergen"
+      "Other"
     ],
     "states_affected": [
-      "AL",
-      "AR",
-      "GA",
-      "MO",
+      "FL",
+      "MA",
+      "ME",
       "NJ",
       "NY",
-      "OK",
-      "PA"
+      "PA",
+      "SC",
+      "VA"
     ],
     "trend": "stable",
-    "average_days_to_recall": 33,
+    "average_days_to_recall": 559,
     "national_recall_ratio": 0.67
   },
   {
@@ -5994,6 +6134,29 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 13,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Ethnic Foods Inc",
+    "brand_slug": "ethnic-foods-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 43,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260429",
+    "last_recall_date": "20260429",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 35,
     "national_recall_ratio": 0.15
   },
   {
@@ -7758,6 +7921,28 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "PURE PALM C/O DVD",
+    "brand_slug": "pure-palm-c-o-dvd",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 34,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260422",
+    "last_recall_date": "20260422",
+    "categories": [
+      "Mislabeling"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Uncle Ray's LLC",
     "brand_slug": "uncle-ray-s-llc",
     "total_recalls": 1,
@@ -8325,28 +8510,6 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 9,
-    "national_recall_ratio": 0.15
-  },
-  {
-    "brand_name": "PURE PALM C/O DVD",
-    "brand_slug": "pure-palm-c-o-dvd",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 0,
-    "class_iii_recalls": 0,
-    "accountability_score": 19,
-    "grade": "A",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260422",
-    "last_recall_date": "20260422",
-    "categories": [
-      "Mislabeling"
-    ],
-    "states_affected": [
-      "CA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 21,
     "national_recall_ratio": 0.15
   },
   {
