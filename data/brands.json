@@ -2834,6 +2834,30 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "HEMU TRADING INC",
+    "brand_slug": "hemu-trading-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Listeria"
+    ],
+    "states_affected": [
+      "CA",
+      "FL",
+      "MD"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 34,
+    "national_recall_ratio": 0.25
+  },
+  {
     "brand_name": "Marquez Brothers International, Inc.",
     "brand_slug": "marquez-brothers-international-inc",
     "total_recalls": 3,
@@ -4903,6 +4927,39 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Hadson (Toko) Trading Co. Inc.",
+    "brand_slug": "hadson-toko-trading-co-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 51,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CT",
+      "GA",
+      "IL",
+      "MA",
+      "MD",
+      "NJ",
+      "NY",
+      "OH",
+      "PA",
+      "TX",
+      "UT",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 20,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Summit Import Corporation",
     "brand_slug": "summit-import-corporation",
     "total_recalls": 1,
@@ -5381,6 +5438,28 @@
     "national_recall_ratio": 0.57
   },
   {
+    "brand_name": "The Mochi Ice Cream Company, LLC",
+    "brand_slug": "the-mochi-ice-cream-company-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 48,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 16,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Kradjian Importing Company, Inc.",
     "brand_slug": "kradjian-importing-company-inc",
     "total_recalls": 1,
@@ -5633,6 +5712,56 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "King Juice Company, Inc.",
+    "brand_slug": "king-juice-company-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 46,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "US",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 13,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Ganesha Enterprises LLC",
+    "brand_slug": "ganesha-enterprises-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 46,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "GA",
+      "IL",
+      "NV",
+      "NY",
+      "TN"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 81,
+    "national_recall_ratio": 0.42
   },
   {
     "brand_name": "Ukrop's Homestyle Foods, LLC",
@@ -5985,6 +6114,61 @@
     "trend": "stable",
     "average_days_to_recall": 36,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "LACTALIS CANADA, INC",
+    "brand_slug": "lactalis-canada-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 44,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "FL",
+      "IL",
+      "IN",
+      "MD",
+      "MI",
+      "NY",
+      "Quebec",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 22,
+    "national_recall_ratio": 0.58
+  },
+  {
+    "brand_name": "Schreiber Foods Inc",
+    "brand_slug": "schreiber-foods-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 44,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "CO",
+      "OR",
+      "SC",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 41,
+    "national_recall_ratio": 0.33
   },
   {
     "brand_name": "Dr. Praeger's Sensible Foods Inc.",
@@ -6662,6 +6846,28 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.83
+  },
+  {
+    "brand_name": "Guangdong Zonegoing Food Co., LTD",
+    "brand_slug": "guangdong-zonegoing-food-co-ltd",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260506",
+    "last_recall_date": "20260506",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 23,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Zarlengo Italian Ice",

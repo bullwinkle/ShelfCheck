@@ -1,12 +1,12 @@
 {
-  "total_recalls_this_year": 327,
-  "total_recalls_all_time": 685,
-  "class_i_this_year": 90,
-  "class_ii_this_year": 209,
+  "total_recalls_this_year": 337,
+  "total_recalls_all_time": 695,
+  "class_i_this_year": 91,
+  "class_ii_this_year": 218,
   "class_iii_this_year": 28,
-  "repeat_offenders_count": 67,
-  "most_recent_recall_date": "20260429",
-  "last_updated": "2026-05-11T18:47:34.968Z",
+  "repeat_offenders_count": 68,
+  "most_recent_recall_date": "20260506",
+  "last_updated": "2026-05-12T07:11:59.334Z",
   "top_brands_by_recalls": [
     "CHETAK NEW YORK LLC",
     "Made Fresh Salads Inc",
@@ -26,15 +26,16 @@
     "202601": 68,
     "202602": 102,
     "202603": 73,
-    "202604": 84
+    "202604": 84,
+    "202605": 10
   },
   "category_breakdown": {
-    "Allergen": 184,
-    "Other": 189,
+    "Allergen": 188,
+    "Other": 192,
+    "Foreign Object": 82,
+    "Listeria": 114,
     "Salmonella": 106,
     "Mislabeling": 4,
-    "Foreign Object": 80,
-    "Listeria": 113,
     "E. coli": 9
   }
 }
