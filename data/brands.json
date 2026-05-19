@@ -371,6 +371,73 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Raw Farm LLC",
+    "brand_slug": "raw-farm-llc",
+    "total_recalls": 5,
+    "class_i_recalls": 5,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 79,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "E. coli"
+    ],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "MD",
+      "NV",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 41,
+    "national_recall_ratio": 0.83
+  },
+  {
+    "brand_name": "Griffith Foods Inc.",
+    "brand_slug": "griffith-foods-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 3,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 77,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "IL",
+      "LA",
+      "MD",
+      "MI",
+      "NC",
+      "PA",
+      "SC",
+      "TN",
+      "TX",
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 63,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Reser's Fine Foods, Inc.",
     "brand_slug": "reser-s-fine-foods-inc",
     "total_recalls": 4,
@@ -1423,6 +1490,90 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Silver Moon LP dba Loard's Ice Cream",
+    "brand_slug": "silver-moon-lp-dba-loard-s-ice-cream",
+    "total_recalls": 48,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 46,
+    "class_iii_recalls": 2,
+    "accountability_score": 66,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 28,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "French Broad Chocolate Factory",
+    "brand_slug": "french-broad-chocolate-factory",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 66,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 20,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "VH FOODS INC",
     "brand_slug": "vh-foods-inc",
     "total_recalls": 1,
@@ -1977,6 +2128,28 @@
     "trend": "stable",
     "average_days_to_recall": 13,
     "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Walker Honey Co",
+    "brand_slug": "walker-honey-co",
+    "total_recalls": 10,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 10,
+    "class_iii_recalls": 0,
+    "accountability_score": 62,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Imu-Tek Animal Health, Incorporated",
@@ -2834,6 +3007,39 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Wehah Farms",
+    "brand_slug": "wehah-farms",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "CA",
+      "CT",
+      "FL",
+      "IL",
+      "NC",
+      "NH",
+      "NY",
+      "PA",
+      "TN",
+      "VT",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "HEMU TRADING INC",
     "brand_slug": "hemu-trading-inc",
     "total_recalls": 1,
@@ -3639,6 +3845,28 @@
     "trend": "stable",
     "average_days_to_recall": 33,
     "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "California Dairies Inc.",
+    "brand_slug": "california-dairies-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 3,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 23,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Mondelez Global Llc",
@@ -4745,6 +4973,26 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Green Organic Vegetables",
+    "brand_slug": "green-organic-vegetables",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 52,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [],
+    "trend": "stable",
+    "average_days_to_recall": 22,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Oregon Potato Company LLC",
     "brand_slug": "oregon-potato-company-llc",
     "total_recalls": 1,
@@ -5074,6 +5322,49 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 20,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Target Corporation",
+    "brand_slug": "target-corporation",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 50,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AL",
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "LA",
+      "MN",
+      "MO",
+      "NC",
+      "ND",
+      "NE",
+      "OK",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 19,
     "national_recall_ratio": 1
   },
   {
@@ -6116,6 +6407,32 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Horizon Organic Dairy, LLC",
+    "brand_slug": "horizon-organic-dairy-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 44,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CO",
+      "NV",
+      "OR"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 63,
+    "national_recall_ratio": 0.33
+  },
+  {
     "brand_name": "LACTALIS CANADA, INC",
     "brand_slug": "lactalis-canada-inc",
     "total_recalls": 1,
@@ -6649,6 +6966,60 @@
     "national_recall_ratio": 0.42
   },
   {
+    "brand_name": "Falcon Trading Co., Inc.",
+    "brand_slug": "falcon-trading-co-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 3,
+    "accountability_score": 42,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA",
+      "CO",
+      "HI",
+      "MO",
+      "TX",
+      "VT",
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 50,
+    "national_recall_ratio": 0.58
+  },
+  {
+    "brand_name": "Post Consumer Brands, LLC",
+    "brand_slug": "post-consumer-brands-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 42,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "AL",
+      "FL",
+      "GA",
+      "MN",
+      "NC"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 0.33
+  },
+  {
     "brand_name": "BlueFrog Foods",
     "brand_slug": "bluefrog-foods",
     "total_recalls": 2,
@@ -6848,6 +7219,30 @@
     "national_recall_ratio": 0.83
   },
   {
+    "brand_name": "SUNGAL INC",
+    "brand_slug": "sungal-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY",
+      "RI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 90,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Guangdong Zonegoing Food Co., LTD",
     "brand_slug": "guangdong-zonegoing-food-co-ltd",
     "total_recalls": 3,
@@ -6945,6 +7340,28 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Disaronno Ingredients S.p.a.",
+    "brand_slug": "disaronno-ingredients-s-p-a",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "MD"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 70,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Booey's Gourmet LLC",
@@ -8239,6 +8656,30 @@
     "trend": "stable",
     "average_days_to_recall": 21,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Tops Markets LLC",
+    "brand_slug": "tops-markets-llc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 2,
+    "accountability_score": 33,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "NY",
+      "PA",
+      "VT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 50,
+    "national_recall_ratio": 0.25
   },
   {
     "brand_name": "MEI YU CHENG DA TRADING INC",
