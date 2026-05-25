@@ -1,12 +1,12 @@
 {
-  "total_recalls_this_year": 419,
-  "total_recalls_all_time": 777,
-  "class_i_this_year": 103,
-  "class_ii_this_year": 281,
+  "total_recalls_this_year": 433,
+  "total_recalls_all_time": 791,
+  "class_i_this_year": 105,
+  "class_ii_this_year": 293,
   "class_iii_this_year": 35,
-  "repeat_offenders_count": 74,
-  "most_recent_recall_date": "20260513",
-  "last_updated": "2026-05-25T10:21:57.777Z",
+  "repeat_offenders_count": 75,
+  "most_recent_recall_date": "20260520",
+  "last_updated": "2026-05-25T19:50:06.765Z",
   "top_brands_by_recalls": [
     "CHETAK NEW YORK LLC",
     "Silver Moon LP dba Loard's Ice Cream",
@@ -27,14 +27,14 @@
     "202602": 102,
     "202603": 73,
     "202604": 84,
-    "202605": 92
+    "202605": 106
   },
   "category_breakdown": {
-    "Allergen": 240,
-    "Salmonella": 112,
+    "Foreign Object": 91,
+    "Allergen": 246,
+    "Salmonella": 114,
     "E. coli": 14,
     "Other": 208,
-    "Foreign Object": 85,
     "Listeria": 114,
     "Mislabeling": 4
   }

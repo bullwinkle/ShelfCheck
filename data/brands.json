@@ -1427,6 +1427,30 @@
     "national_recall_ratio": 0.67
   },
   {
+    "brand_name": "Dakota Honey Company",
+    "brand_slug": "dakota-honey-company",
+    "total_recalls": 5,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 5,
+    "class_iii_recalls": 0,
+    "accountability_score": 67,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "FL",
+      "GA",
+      "SD"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 46,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "JFE FRANCHISING INC",
     "brand_slug": "jfe-franchising-inc",
     "total_recalls": 3,
@@ -3847,6 +3871,37 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Raja Foods and Vegetables Inc.",
+    "brand_slug": "raja-foods-and-vegetables-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "CT",
+      "DE",
+      "MA",
+      "MD",
+      "NH",
+      "NJ",
+      "NY",
+      "PA",
+      "VT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 37,
+    "national_recall_ratio": 0.83
+  },
+  {
     "brand_name": "California Dairies Inc.",
     "brand_slug": "california-dairies-inc",
     "total_recalls": 3,
@@ -4799,6 +4854,31 @@
     "national_recall_ratio": 0.92
   },
   {
+    "brand_name": "Sugar Foods LLC",
+    "brand_slug": "sugar-foods-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 53,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "GA",
+      "IN",
+      "TN",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 23,
+    "national_recall_ratio": 0.25
+  },
+  {
     "brand_name": "Western Mixers Produce & Nuts, Inc.",
     "brand_slug": "western-mixers-produce-nuts-inc",
     "total_recalls": 2,
@@ -5567,6 +5647,29 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Givaudan Flavors Corp",
+    "brand_slug": "givaudan-flavors-corp",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 49,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260513",
+    "last_recall_date": "20260513",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MO",
+      "OH"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Riverence Provisions LLC",
     "brand_slug": "riverence-provisions-llc",
     "total_recalls": 1,
@@ -5860,6 +5963,33 @@
     "trend": "stable",
     "average_days_to_recall": 42,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Ferris Coffee and Nut Company, Inc.",
+    "brand_slug": "ferris-coffee-and-nut-company-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 47,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "IL",
+      "IN",
+      "KY",
+      "MI",
+      "OH",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 29,
+    "national_recall_ratio": 0.5
   },
   {
     "brand_name": "Lidl US TRADING",
@@ -7219,6 +7349,29 @@
     "national_recall_ratio": 0.83
   },
   {
+    "brand_name": "WE R NUTS",
+    "brand_slug": "we-r-nuts",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 30,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "SUNGAL INC",
     "brand_slug": "sungal-inc",
     "total_recalls": 1,
@@ -7340,6 +7493,29 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "FINESALER LLC",
+    "brand_slug": "finesaler-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "MA",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 55,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Disaronno Ingredients S.p.a.",
@@ -8429,6 +8605,29 @@
     "national_recall_ratio": 0.25
   },
   {
+    "brand_name": "Prospector Popcorn, LLC",
+    "brand_slug": "prospector-popcorn-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 35,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CT",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 22,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Connecticut Crab Company LLC",
     "brand_slug": "connecticut-crab-company-llc",
     "total_recalls": 1,
@@ -8655,6 +8854,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Ocinet, Inc.",
+    "brand_slug": "ocinet-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 33,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260520",
+    "last_recall_date": "20260520",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 19,
     "national_recall_ratio": 0.15
   },
   {
