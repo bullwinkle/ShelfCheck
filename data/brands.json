@@ -880,6 +880,33 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Wawa Beverage Company",
+    "brand_slug": "wawa-beverage-company",
+    "total_recalls": 11,
+    "class_i_recalls": 4,
+    "class_ii_recalls": 7,
+    "class_iii_recalls": 0,
+    "accountability_score": 74,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20251022",
+    "last_recall_date": "20260603",
+    "categories": [
+      "Allergen",
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "DE",
+      "MD",
+      "NJ",
+      "PA",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 44,
+    "national_recall_ratio": 0.36
+  },
+  {
     "brand_name": "Wegmans Food Markets, Inc.",
     "brand_slug": "wegmans-food-markets-inc",
     "total_recalls": 7,
@@ -2856,6 +2883,29 @@
     "national_recall_ratio": 0.33
   },
   {
+    "brand_name": "Legacy Bakehouse LLC",
+    "brand_slug": "legacy-bakehouse-llc",
+    "total_recalls": 3,
+    "class_i_recalls": 3,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 60,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260603",
+    "last_recall_date": "20260603",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "PA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 29,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Pure Vitamins and Natural Supplements, LLC",
     "brand_slug": "pure-vitamins-and-natural-supplements-llc",
     "total_recalls": 3,
@@ -3131,31 +3181,6 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 43,
-    "national_recall_ratio": 0.33
-  },
-  {
-    "brand_name": "Wawa Beverage Company",
-    "brand_slug": "wawa-beverage-company",
-    "total_recalls": 7,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 7,
-    "class_iii_recalls": 0,
-    "accountability_score": 58,
-    "grade": "C",
-    "is_repeat_offender": true,
-    "first_recall_date": "20251022",
-    "last_recall_date": "20260325",
-    "categories": [
-      "Foreign Object"
-    ],
-    "states_affected": [
-      "DE",
-      "MD",
-      "NJ",
-      "PA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 33,
     "national_recall_ratio": 0.33
   },
   {
@@ -4402,6 +4427,50 @@
     "trend": "stable",
     "average_days_to_recall": 37,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Honeyville, Inc",
+    "brand_slug": "honeyville-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260603",
+    "last_recall_date": "20260603",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "UT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 43,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Fly By Jing Inc.",
+    "brand_slug": "fly-by-jing-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260603",
+    "last_recall_date": "20260603",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 26,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "Shining Sea Fish Co. LLC",
