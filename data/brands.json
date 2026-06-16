@@ -427,6 +427,31 @@
     "national_recall_ratio": 0.42
   },
   {
+    "brand_name": "JCB Flavors, LLC",
+    "brand_slug": "jcb-flavors-llc",
+    "total_recalls": 10,
+    "class_i_recalls": 10,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 81,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "KS",
+      "MN",
+      "NY",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 0.33
+  },
+  {
     "brand_name": "Ajinomoto Foods North America Inc.",
     "brand_slug": "ajinomoto-foods-north-america-inc",
     "total_recalls": 11,
@@ -488,6 +513,68 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 29,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "The Coffee Connexion Co., Inc",
+    "brand_slug": "the-coffee-connexion-co-inc",
+    "total_recalls": 4,
+    "class_i_recalls": 4,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 80,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 35,
     "national_recall_ratio": 1
   },
   {
@@ -1749,6 +1836,85 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 30,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Straus Family Creamery",
+    "brand_slug": "straus-family-creamery",
+    "total_recalls": 5,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 5,
+    "class_iii_recalls": 0,
+    "accountability_score": 66,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "MD",
+      "NJ",
+      "OR",
+      "PA",
+      "SC",
+      "TX",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 29,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Hometown Food Company",
+    "brand_slug": "hometown-food-company",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 66,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KY",
+      "MD",
+      "NH",
+      "NJ",
+      "NV",
+      "NY",
+      "OR",
+      "PA",
+      "TX",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
     "national_recall_ratio": 1
   },
   {
@@ -3184,6 +3350,31 @@
     "national_recall_ratio": 0.33
   },
   {
+    "brand_name": "Terra Medi LLC",
+    "brand_slug": "terra-medi-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 58,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "IL",
+      "MA",
+      "NJ",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 28,
+    "national_recall_ratio": 0.33
+  },
+  {
     "brand_name": "Bluegrass Ingredients Inc.",
     "brand_slug": "bluegrass-ingredients-inc",
     "total_recalls": 2,
@@ -3290,6 +3481,28 @@
     "trend": "stable",
     "average_days_to_recall": 77,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "SECOND NATURE BRAND",
+    "brand_slug": "second-nature-brand",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "MI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "Wehah Farms",
@@ -4132,6 +4345,29 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Nassar Investment Company LLC",
+    "brand_slug": "nassar-investment-company-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MI",
+      "NC"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 41,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Raja Foods and Vegetables Inc.",
     "brand_slug": "raja-foods-and-vegetables-inc",
     "total_recalls": 2,
@@ -4427,6 +4663,51 @@
     "trend": "stable",
     "average_days_to_recall": 37,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Guittard Chocolate Company",
+    "brand_slug": "guittard-chocolate-company",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "CA",
+      "OH"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 36,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "The a2 Milk Company",
+    "brand_slug": "the-a2-milk-company",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CO"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Honeyville, Inc",
@@ -5204,6 +5485,28 @@
     "national_recall_ratio": 0.92
   },
   {
+    "brand_name": "IQ PRODUCE, LLC",
+    "brand_slug": "iq-produce-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 53,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Listeria"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Sugar Foods LLC",
     "brand_slug": "sugar-foods-llc",
     "total_recalls": 1,
@@ -5602,6 +5905,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 25,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Wilco Peanut Co",
+    "brand_slug": "wilco-peanut-co",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 51,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 23,
     "national_recall_ratio": 0.15
   },
   {
@@ -6553,6 +6878,58 @@
     "national_recall_ratio": 0.33
   },
   {
+    "brand_name": "Jesse Withrow",
+    "brand_slug": "jesse-withrow",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 46,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AL",
+      "OH",
+      "TX",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 36,
+    "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "Creative Compounds, LLC",
+    "brand_slug": "creative-compounds-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 46,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "FL",
+      "GA",
+      "MO",
+      "NJ",
+      "OR",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 177,
+    "national_recall_ratio": 0.42
+  },
+  {
     "brand_name": "King Juice Company, Inc.",
     "brand_slug": "king-juice-company-inc",
     "total_recalls": 1,
@@ -6744,6 +7121,28 @@
     "trend": "stable",
     "average_days_to_recall": 16,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Sato Pharmaceutical Inc.",
+    "brand_slug": "sato-pharmaceutical-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 1,
+    "accountability_score": 45,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 90,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "Winder Laboratories, LLC",
@@ -7911,6 +8310,74 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "J and J Bunting, Inc",
+    "brand_slug": "j-and-j-bunting-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "MN",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Market of Choice Inc",
+    "brand_slug": "market-of-choice-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "OR"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 37,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "The Brownie Baker Inc.",
+    "brand_slug": "the-brownie-baker-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260610",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "IL"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 44,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "FINESALER LLC",
