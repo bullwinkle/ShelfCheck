@@ -1,23 +1,23 @@
 {
-  "total_recalls_this_year": 543,
-  "total_recalls_all_time": 901,
-  "class_i_this_year": 173,
-  "class_ii_this_year": 334,
-  "class_iii_this_year": 36,
-  "repeat_offenders_count": 86,
-  "most_recent_recall_date": "20260610",
-  "last_updated": "2026-06-22T19:15:10.121Z",
+  "total_recalls_this_year": 577,
+  "total_recalls_all_time": 935,
+  "class_i_this_year": 176,
+  "class_ii_this_year": 361,
+  "class_iii_this_year": 39,
+  "repeat_offenders_count": 87,
+  "most_recent_recall_date": "20260617",
+  "last_updated": "2026-06-23T07:27:58.551Z",
   "top_brands_by_recalls": [
     "CHETAK NEW YORK LLC",
     "Silver Moon LP dba Loard's Ice Cream",
+    "Galaxy RG Corp",
     "Made Fresh Salads Inc",
     "Wellnov Supplements LLC",
     "Diva Fam Inc",
     "LIQUID BLENZ CORP",
     "Moonlight Packing Corporation",
     "Albertsons Companies LLC",
-    "WHOLESALE PRODUCE SUPPLY LLC DBA",
-    "Ajinomoto Foods North America Inc."
+    "WHOLESALE PRODUCE SUPPLY LLC DBA"
   ],
   "monthly_breakdown": {
     "202510": 146,
@@ -25,17 +25,17 @@
     "202512": 145,
     "202601": 68,
     "202602": 102,
-    "202603": 73,
+    "202603": 72,
     "202604": 84,
     "202605": 173,
-    "202606": 43
+    "202606": 78
   },
   "category_breakdown": {
-    "Other": 242,
-    "Foreign Object": 98,
-    "Salmonella": 172,
-    "Allergen": 256,
-    "Listeria": 115,
+    "Other": 245,
+    "Allergen": 283,
+    "Salmonella": 173,
+    "Foreign Object": 100,
+    "Listeria": 116,
     "E. coli": 14,
     "Mislabeling": 4
   }
