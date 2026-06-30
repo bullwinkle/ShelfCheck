@@ -108,46 +108,6 @@
     "national_recall_ratio": 1
   },
   {
-    "brand_name": "Albertsons Companies LLC",
-    "brand_slug": "albertsons-companies-llc",
-    "total_recalls": 11,
-    "class_i_recalls": 10,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 94,
-    "grade": "F",
-    "is_repeat_offender": true,
-    "first_recall_date": "20251029",
-    "last_recall_date": "20260401",
-    "categories": [
-      "Foreign Object",
-      "Listeria"
-    ],
-    "states_affected": [
-      "AK",
-      "AR",
-      "AZ",
-      "CA",
-      "CO",
-      "HI",
-      "ID",
-      "LA",
-      "NE",
-      "NM",
-      "NV",
-      "OK",
-      "OR",
-      "SD",
-      "TX",
-      "UT",
-      "WA",
-      "WY"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 31,
-    "national_recall_ratio": 0.95
-  },
-  {
     "brand_name": "Ambriola Co., Inc., The",
     "brand_slug": "ambriola-co-inc-the",
     "total_recalls": 8,
@@ -450,6 +410,47 @@
     "trend": "stable",
     "average_days_to_recall": 40,
     "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "Albertsons Companies LLC",
+    "brand_slug": "albertsons-companies-llc",
+    "total_recalls": 132,
+    "class_i_recalls": 10,
+    "class_ii_recalls": 68,
+    "class_iii_recalls": 54,
+    "accountability_score": 81,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20251029",
+    "last_recall_date": "20260610",
+    "categories": [
+      "Other",
+      "Foreign Object",
+      "Listeria"
+    ],
+    "states_affected": [
+      "AK",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "HI",
+      "ID",
+      "LA",
+      "NE",
+      "NM",
+      "NV",
+      "OK",
+      "OR",
+      "SD",
+      "TX",
+      "UT",
+      "WA",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 35,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "Ajinomoto Foods North America Inc.",
@@ -1561,6 +1562,44 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 28,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Azuma Foods International Inc USA",
+    "brand_slug": "azuma-foods-international-inc-usa",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 70,
+    "grade": "D",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AK",
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "HI",
+      "IL",
+      "MA",
+      "MD",
+      "NC",
+      "NJ",
+      "NV",
+      "NY",
+      "OR",
+      "TX",
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
     "national_recall_ratio": 1
   },
   {
@@ -3484,6 +3523,28 @@
     "national_recall_ratio": 0.25
   },
   {
+    "brand_name": "Shaman Botanicals, LLC",
+    "brand_slug": "shaman-botanicals-llc",
+    "total_recalls": 2,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 58,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260325",
+    "last_recall_date": "20260325",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "MO"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "ZIYAD BROTHERS IMPORTING",
     "brand_slug": "ziyad-brothers-importing",
     "total_recalls": 2,
@@ -3565,6 +3626,102 @@
     "trend": "stable",
     "average_days_to_recall": 77,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "United States Bakery",
+    "brand_slug": "united-states-bakery",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "LA",
+      "ME",
+      "MN",
+      "MO",
+      "MS",
+      "NC",
+      "NE",
+      "NM",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "SC",
+      "TX",
+      "UT",
+      "VA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Nutrisystem Inc",
+    "brand_slug": "nutrisystem-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "CO",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "ND",
+      "NE",
+      "NM",
+      "OH",
+      "OK",
+      "PA",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 42,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "U.S. Tov, Inc. dba U.S. Trading Company",
@@ -4495,6 +4652,29 @@
     "trend": "stable",
     "average_days_to_recall": 33,
     "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Jonco Industries",
+    "brand_slug": "jonco-industries",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MS",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 51,
+    "national_recall_ratio": 0.17
   },
   {
     "brand_name": "Nassar Investment Company LLC",
@@ -5926,6 +6106,28 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "SENSORY SUPPLEMENT LLC",
+    "brand_slug": "sensory-supplement-llc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 52,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260617",
+    "last_recall_date": "20260617",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 42,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Green Organic Vegetables",
     "brand_slug": "green-organic-vegetables",
     "total_recalls": 1,
@@ -6928,6 +7130,31 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "International Food Products Corporation",
+    "brand_slug": "international-food-products-corporation",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 47,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MO",
+      "OK",
+      "TN",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 37,
+    "national_recall_ratio": 0.25
+  },
+  {
     "brand_name": "Ferris Coffee and Nut Company, Inc.",
     "brand_slug": "ferris-coffee-and-nut-company-inc",
     "total_recalls": 1,
@@ -7068,6 +7295,29 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "GREENWORLD FOOD EXPRESS (USA) LLC",
+    "brand_slug": "greenworld-food-express-usa-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 46,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MI",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 15,
+    "national_recall_ratio": 0.17
   },
   {
     "brand_name": "Jesse Withrow",
@@ -7777,6 +8027,26 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "MID DOLCIARIA SRL",
+    "brand_slug": "mid-dolciaria-srl",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 43,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [],
+    "trend": "stable",
+    "average_days_to_recall": 49,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Ethnic Foods Inc",
     "brand_slug": "ethnic-foods-inc",
     "total_recalls": 2,
@@ -8103,28 +8373,6 @@
     "trend": "stable",
     "average_days_to_recall": 26,
     "national_recall_ratio": 0.42
-  },
-  {
-    "brand_name": "SENSORY SUPPLEMENT LLC",
-    "brand_slug": "sensory-supplement-llc",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 0,
-    "class_iii_recalls": 0,
-    "accountability_score": 42,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260617",
-    "last_recall_date": "20260617",
-    "categories": [
-      "Other"
-    ],
-    "states_affected": [
-      "CA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 42,
-    "national_recall_ratio": 1
   },
   {
     "brand_name": "Falcon Trading Co., Inc.",
@@ -8524,6 +8772,50 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Dkiru LLC",
+    "brand_slug": "dkiru-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 43,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Fairhope Roasting Company",
+    "brand_slug": "fairhope-roasting-company",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AL"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 34,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "J and J Bunting, Inc",
@@ -10302,6 +10594,28 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "United Salt Corp",
+    "brand_slug": "united-salt-corp",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 1,
+    "accountability_score": 28,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260624",
+    "last_recall_date": "20260624",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 41,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Refresqueria Estrella Inc.",
