@@ -1,12 +1,12 @@
 {
-  "total_recalls_this_year": 714,
-  "total_recalls_all_time": 1072,
-  "class_i_this_year": 181,
-  "class_ii_this_year": 438,
-  "class_iii_this_year": 94,
-  "repeat_offenders_count": 88,
-  "most_recent_recall_date": "20260624",
-  "last_updated": "2026-07-05T18:29:22.751Z",
+  "total_recalls_this_year": 759,
+  "total_recalls_all_time": 1117,
+  "class_i_this_year": 206,
+  "class_ii_this_year": 457,
+  "class_iii_this_year": 95,
+  "repeat_offenders_count": 93,
+  "most_recent_recall_date": "20260701",
+  "last_updated": "2026-07-06T18:47:39.797Z",
   "top_brands_by_recalls": [
     "Albertsons Companies LLC",
     "CHETAK NEW YORK LLC",
@@ -15,9 +15,9 @@
     "Made Fresh Salads Inc",
     "Wellnov Supplements LLC",
     "Diva Fam Inc",
+    "Joy Gourmet Foods LLC.",
     "LIQUID BLENZ CORP",
-    "Moonlight Packing Corporation",
-    "WHOLESALE PRODUCE SUPPLY LLC DBA"
+    "Spring & Mulberry Inc."
   ],
   "monthly_breakdown": {
     "202510": 146,
@@ -28,12 +28,13 @@
     "202603": 74,
     "202604": 84,
     "202605": 173,
-    "202606": 213
+    "202606": 213,
+    "202607": 45
   },
   "category_breakdown": {
-    "Other": 374,
-    "Salmonella": 178,
-    "Allergen": 286,
+    "Other": 390,
+    "Salmonella": 196,
+    "Allergen": 297,
     "Foreign Object": 100,
     "Listeria": 116,
     "E. coli": 14,

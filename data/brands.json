@@ -1,5 +1,27 @@
 [
   {
+    "brand_name": "Spring & Mulberry Inc.",
+    "brand_slug": "spring-mulberry-inc",
+    "total_recalls": 11,
+    "class_i_recalls": 11,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 96,
+    "grade": "F",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "NC"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 173,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Moonlight Packing Corporation",
     "brand_slug": "moonlight-packing-corporation",
     "total_recalls": 11,
@@ -264,6 +286,107 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 33,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Utz Quality Foods, LLC",
+    "brand_slug": "utz-quality-foods-llc",
+    "total_recalls": 6,
+    "class_i_recalls": 6,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 84,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "NC",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "SC",
+      "TN",
+      "TX",
+      "VA",
+      "VT",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 64,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "George J Howe Company, Inc.",
+    "brand_slug": "george-j-howe-company-inc",
+    "total_recalls": 6,
+    "class_i_recalls": 6,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 84,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "FL",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "MD",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "NC",
+      "NJ",
+      "NY",
+      "OH",
+      "OK",
+      "PA",
+      "SC",
+      "TN",
+      "VA",
+      "WI",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 63,
     "national_recall_ratio": 1
   },
   {
@@ -1565,6 +1688,87 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Joy Gourmet Foods LLC.",
+    "brand_slug": "joy-gourmet-foods-llc",
+    "total_recalls": 14,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 14,
+    "class_iii_recalls": 0,
+    "accountability_score": 70,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 69,
+    "national_recall_ratio": 0.25
+  },
+  {
+    "brand_name": "Prime Food Processing LLC.",
+    "brand_slug": "prime-food-processing-llc",
+    "total_recalls": 4,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 70,
+    "grade": "D",
+    "is_repeat_offender": true,
+    "first_recall_date": "20251210",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AL",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "GA",
+      "HI",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MO",
+      "MS",
+      "NC",
+      "NE",
+      "NH",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Azuma Foods International Inc USA",
     "brand_slug": "azuma-foods-international-inc-usa",
     "total_recalls": 1,
@@ -2527,62 +2731,6 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.7
-  },
-  {
-    "brand_name": "Prime Food Processing LLC.",
-    "brand_slug": "prime-food-processing-llc",
-    "total_recalls": 3,
-    "class_i_recalls": 1,
-    "class_ii_recalls": 2,
-    "class_iii_recalls": 0,
-    "accountability_score": 64,
-    "grade": "C",
-    "is_repeat_offender": true,
-    "first_recall_date": "20251210",
-    "last_recall_date": "20260304",
-    "categories": [
-      "Other"
-    ],
-    "states_affected": [
-      "AL",
-      "AZ",
-      "CA",
-      "CO",
-      "CT",
-      "FL",
-      "GA",
-      "HI",
-      "ID",
-      "IL",
-      "IN",
-      "KS",
-      "LA",
-      "MA",
-      "MD",
-      "ME",
-      "MI",
-      "MO",
-      "MS",
-      "NC",
-      "NE",
-      "NJ",
-      "NV",
-      "NY",
-      "OH",
-      "OK",
-      "OR",
-      "PA",
-      "RI",
-      "TN",
-      "TX",
-      "UT",
-      "VA",
-      "WA",
-      "WI"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 26,
-    "national_recall_ratio": 1
   },
   {
     "brand_name": "WFM Purchasing, LP",
@@ -3626,6 +3774,28 @@
     "trend": "stable",
     "average_days_to_recall": 77,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Champion Foods, LLC",
+    "brand_slug": "champion-foods-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "United States Bakery",
@@ -4995,6 +5165,28 @@
     "trend": "stable",
     "average_days_to_recall": 37,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "CERELES EN GENERAL SAS",
+    "brand_slug": "cereles-en-general-sas",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "N/A"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 49,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Rich Products Corp",
@@ -7565,6 +7757,28 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Boichik Bagels, Inc.",
+    "brand_slug": "boichik-bagels-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 3,
+    "class_iii_recalls": 0,
+    "accountability_score": 45,
+    "grade": "B",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 40,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Sato Pharmaceutical Inc.",
     "brand_slug": "sato-pharmaceutical-inc",
     "total_recalls": 1,
@@ -8626,6 +8840,29 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.83
+  },
+  {
+    "brand_name": "Alb-USA Enterprises Inc",
+    "brand_slug": "alb-usa-enterprises-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 41,
+    "national_recall_ratio": 0.17
   },
   {
     "brand_name": "WE R NUTS",
@@ -10383,6 +10620,31 @@
     "trend": "stable",
     "average_days_to_recall": 19,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Produce Innovations",
+    "brand_slug": "produce-innovations",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 1,
+    "accountability_score": 32,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260701",
+    "last_recall_date": "20260701",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "IA",
+      "IL",
+      "KS",
+      "MO"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 35,
+    "national_recall_ratio": 0.33
   },
   {
     "brand_name": "Bendon Publishing",
