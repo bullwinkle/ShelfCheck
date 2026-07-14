@@ -1230,6 +1230,28 @@
     "national_recall_ratio": 0.32
   },
   {
+    "brand_name": "MOGO Moringa LLC",
+    "brand_slug": "mogo-moringa-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 72,
+    "grade": "D",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MO"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 45,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Kettle Cuisine, LLC",
     "brand_slug": "kettle-cuisine-llc",
     "total_recalls": 1,
@@ -1920,6 +1942,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 27,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "NARA ORGANICS INC",
+    "brand_slug": "nara-organics-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 69,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 25,
     "national_recall_ratio": 1
   },
   {
@@ -3962,6 +4006,28 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "SENSORY SUPPLEMENT LLC",
+    "brand_slug": "sensory-supplement-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260617",
+    "last_recall_date": "20260617",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 42,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "SECOND NATURE BRAND",
     "brand_slug": "second-nature-brand",
     "total_recalls": 1,
@@ -4822,6 +4888,29 @@
     "trend": "stable",
     "average_days_to_recall": 33,
     "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Western Mixers Produce & Nuts, Inc.",
+    "brand_slug": "western-mixers-produce-nuts-inc",
+    "total_recalls": 3,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260401",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Allergen",
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.72
   },
   {
     "brand_name": "Jonco Industries",
@@ -6077,6 +6166,67 @@
     "national_recall_ratio": 0.92
   },
   {
+    "brand_name": "MARS SNACKING",
+    "brand_slug": "mars-snacking",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 53,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "GA",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "NC",
+      "NE",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "SC",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 20,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "IQ PRODUCE, LLC",
     "brand_slug": "iq-produce-llc",
     "total_recalls": 1,
@@ -6122,28 +6272,6 @@
     "trend": "stable",
     "average_days_to_recall": 23,
     "national_recall_ratio": 0.25
-  },
-  {
-    "brand_name": "Western Mixers Produce & Nuts, Inc.",
-    "brand_slug": "western-mixers-produce-nuts-inc",
-    "total_recalls": 2,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 2,
-    "class_iii_recalls": 0,
-    "accountability_score": 53,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260401",
-    "last_recall_date": "20260401",
-    "categories": [
-      "Foreign Object"
-    ],
-    "states_affected": [
-      "CA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 20,
-    "national_recall_ratio": 1
   },
   {
     "brand_name": "Pacific Coast Fresh CO",
@@ -6295,28 +6423,6 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 23,
-    "national_recall_ratio": 1
-  },
-  {
-    "brand_name": "SENSORY SUPPLEMENT LLC",
-    "brand_slug": "sensory-supplement-llc",
-    "total_recalls": 2,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 52,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260617",
-    "last_recall_date": "20260617",
-    "categories": [
-      "Other"
-    ],
-    "states_affected": [
-      "CA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 42,
     "national_recall_ratio": 1
   },
   {
@@ -9989,6 +10095,29 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Fry Pie Factory LLC",
+    "brand_slug": "fry-pie-factory-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 39,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "OH",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 28,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Khee Trading, Inc.",
     "brand_slug": "khee-trading-inc",
     "total_recalls": 1,
@@ -10159,6 +10288,28 @@
     "trend": "stable",
     "average_days_to_recall": 25,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Provision Health Corp. dba PH Labs",
+    "brand_slug": "provision-health-corp-dba-ph-labs",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 36,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 20,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "South Florida Food, LLC",
@@ -11119,6 +11270,29 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 9,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Wells Enterprises, Inc.",
+    "brand_slug": "wells-enterprises-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 24,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "IA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 28,
     "national_recall_ratio": 0.15
   },
   {
