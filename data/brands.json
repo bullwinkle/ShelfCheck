@@ -2210,6 +2210,28 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Lehi Valley Trading Company, Inc",
+    "brand_slug": "lehi-valley-trading-company-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 66,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AZ"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Straus Family Creamery",
     "brand_slug": "straus-family-creamery",
     "total_recalls": 5,
@@ -2871,6 +2893,28 @@
     "trend": "stable",
     "average_days_to_recall": 13,
     "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "Adams Extract & Spice LLC",
+    "brand_slug": "adams-extract-spice-llc",
+    "total_recalls": 5,
+    "class_i_recalls": 4,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 62,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 69,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Fontana Flavors, Inc",
@@ -3663,6 +3707,30 @@
     "trend": "stable",
     "average_days_to_recall": 43,
     "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "Fresh & Ready Foods LLC",
+    "brand_slug": "fresh-ready-foods-llc",
+    "total_recalls": 6,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 4,
+    "class_iii_recalls": 0,
+    "accountability_score": 58,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260114",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Salmonella",
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "OR",
+      "WA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 0.17
   },
   {
     "brand_name": "Terra Medi LLC",
@@ -7110,6 +7178,57 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Wise Foods Inc",
+    "brand_slug": "wise-foods-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 49,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "FL",
+      "NC",
+      "NJ",
+      "NY",
+      "PA",
+      "SC",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 48,
+    "national_recall_ratio": 0.58
+  },
+  {
+    "brand_name": "Trafa Pharmaceutical Inc.",
+    "brand_slug": "trafa-pharmaceutical-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 49,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "MA",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Givaudan Flavors Corp",
     "brand_slug": "givaudan-flavors-corp",
     "total_recalls": 1,
@@ -7359,29 +7478,6 @@
     "trend": "stable",
     "average_days_to_recall": 41,
     "national_recall_ratio": 0.15
-  },
-  {
-    "brand_name": "Fresh & Ready Foods LLC",
-    "brand_slug": "fresh-ready-foods-llc",
-    "total_recalls": 4,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 4,
-    "class_iii_recalls": 0,
-    "accountability_score": 48,
-    "grade": "B",
-    "is_repeat_offender": true,
-    "first_recall_date": "20260114",
-    "last_recall_date": "20260114",
-    "categories": [
-      "Foreign Object"
-    ],
-    "states_affected": [
-      "OR",
-      "WA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 40,
-    "national_recall_ratio": 0.17
   },
   {
     "brand_name": "FRC INC",
@@ -8114,6 +8210,31 @@
     "trend": "stable",
     "average_days_to_recall": 36,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Wondermade LLC",
+    "brand_slug": "wondermade-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 44,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "FL",
+      "IN",
+      "PA",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 34,
+    "national_recall_ratio": 0.33
   },
   {
     "brand_name": "Horizon Organic Dairy, LLC",
@@ -9117,6 +9238,50 @@
     "national_recall_ratio": 0.17
   },
   {
+    "brand_name": "Specialty Bakers, LLC",
+    "brand_slug": "specialty-bakers-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 48,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Le Chef Bakery",
+    "brand_slug": "le-chef-bakery",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Dkiru LLC",
     "brand_slug": "dkiru-llc",
     "total_recalls": 1,
@@ -10118,6 +10283,29 @@
     "national_recall_ratio": 0.17
   },
   {
+    "brand_name": "Wells Enterprises, Inc.",
+    "brand_slug": "wells-enterprises-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 39,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260708",
+    "last_recall_date": "20260708",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "IA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 28,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Khee Trading, Inc.",
     "brand_slug": "khee-trading-inc",
     "total_recalls": 1,
@@ -10519,6 +10707,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 22,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Bear Stewart Co",
+    "brand_slug": "bear-stewart-co",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 34,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260715",
+    "last_recall_date": "20260715",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "IL"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
     "national_recall_ratio": 0.15
   },
   {
@@ -11270,29 +11480,6 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 9,
-    "national_recall_ratio": 0.15
-  },
-  {
-    "brand_name": "Wells Enterprises, Inc.",
-    "brand_slug": "wells-enterprises-inc",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 0,
-    "class_iii_recalls": 0,
-    "accountability_score": 24,
-    "grade": "A",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260708",
-    "last_recall_date": "20260708",
-    "categories": [
-      "Other"
-    ],
-    "states_affected": [
-      "IA",
-      "WI"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 28,
     "national_recall_ratio": 0.15
   },
   {
