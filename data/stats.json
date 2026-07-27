@@ -1,23 +1,23 @@
 {
-  "total_recalls_this_year": 781,
-  "total_recalls_all_time": 1139,
-  "class_i_this_year": 217,
-  "class_ii_this_year": 469,
+  "total_recalls_this_year": 807,
+  "total_recalls_all_time": 1165,
+  "class_i_this_year": 234,
+  "class_ii_this_year": 478,
   "class_iii_this_year": 95,
-  "repeat_offenders_count": 95,
-  "most_recent_recall_date": "20260715",
-  "last_updated": "2026-07-27T10:02:14.431Z",
+  "repeat_offenders_count": 96,
+  "most_recent_recall_date": "20260722",
+  "last_updated": "2026-07-27T19:43:39.833Z",
   "top_brands_by_recalls": [
     "Albertsons Companies LLC",
     "CHETAK NEW YORK LLC",
     "Silver Moon LP dba Loard's Ice Cream",
     "Galaxy RG Corp",
+    "D'Dioses Fruit Pops, Inc.",
     "Made Fresh Salads Inc",
     "Wellnov Supplements LLC",
     "Diva Fam Inc",
     "Joy Gourmet Foods LLC.",
-    "LIQUID BLENZ CORP",
-    "Spring & Mulberry Inc."
+    "LIQUID BLENZ CORP"
   ],
   "monthly_breakdown": {
     "202510": 146,
@@ -29,15 +29,15 @@
     "202604": 84,
     "202605": 173,
     "202606": 212,
-    "202607": 68
+    "202607": 94
   },
   "category_breakdown": {
-    "Allergen": 311,
+    "Allergen": 329,
+    "Other": 396,
+    "Foreign Object": 105,
+    "E. coli": 15,
     "Salmonella": 200,
-    "Foreign Object": 101,
-    "Other": 393,
     "Listeria": 116,
-    "E. coli": 14,
     "Mislabeling": 4
   }
 }

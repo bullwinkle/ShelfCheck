@@ -171,6 +171,31 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "D'Dioses Fruit Pops, Inc.",
+    "brand_slug": "d-dioses-fruit-pops-inc",
+    "total_recalls": 16,
+    "class_i_recalls": 16,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 87,
+    "grade": "F",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CT",
+      "NJ",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 79,
+    "national_recall_ratio": 0.33
+  },
+  {
     "brand_name": "Everpress Juice",
     "brand_slug": "everpress-juice",
     "total_recalls": 7,
@@ -3408,6 +3433,118 @@
     "national_recall_ratio": 0.33
   },
   {
+    "brand_name": "Nutricia North America",
+    "brand_slug": "nutricia-north-america",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 60,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 57,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "General Mills James Ford Bell Technical Center",
+    "brand_slug": "general-mills-james-ford-bell-technical-center",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 60,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "AR",
+      "CA",
+      "FL",
+      "GA",
+      "IN",
+      "LA",
+      "ME",
+      "MN",
+      "MO",
+      "NM",
+      "NY",
+      "OH",
+      "OK",
+      "PA",
+      "SC",
+      "TN",
+      "TX",
+      "VA",
+      "WA",
+      "WY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Legacy Bakehouse LLC",
     "brand_slug": "legacy-bakehouse-llc",
     "total_recalls": 3,
@@ -4955,6 +5092,62 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 33,
+    "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "AMY'S KITCHEN INC.",
+    "brand_slug": "amy-s-kitchen-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20251022",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Other",
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "FL",
+      "GA",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "NC",
+      "NH",
+      "NJ",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "PA",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "VA",
+      "VT",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 25,
     "national_recall_ratio": 1
   },
   {
@@ -6871,48 +7064,6 @@
     "national_recall_ratio": 0.17
   },
   {
-    "brand_name": "AMY'S KITCHEN INC.",
-    "brand_slug": "amy-s-kitchen-inc",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 51,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "first_recall_date": "20251022",
-    "last_recall_date": "20251022",
-    "categories": [
-      "Foreign Object"
-    ],
-    "states_affected": [
-      "CA",
-      "CO",
-      "CT",
-      "IA",
-      "IL",
-      "IN",
-      "KS",
-      "LA",
-      "MA",
-      "MD",
-      "ME",
-      "MI",
-      "MN",
-      "NY",
-      "OH",
-      "OK",
-      "PA",
-      "TX",
-      "VA",
-      "VT",
-      "WI"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 20,
-    "national_recall_ratio": 1
-  },
-  {
     "brand_name": "Stoltzfus Family Dairy LLC",
     "brand_slug": "stoltzfus-family-dairy-llc",
     "total_recalls": 1,
@@ -7412,6 +7563,28 @@
     "trend": "stable",
     "average_days_to_recall": 25,
     "national_recall_ratio": 0.57
+  },
+  {
+    "brand_name": "Frutas y Hortalizas del Sur S.A.",
+    "brand_slug": "frutas-y-hortalizas-del-sur-s-a",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 48,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "E. coli"
+    ],
+    "states_affected": [
+      "FL"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 19,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "The Mochi Ice Cream Company, LLC",
@@ -8210,6 +8383,56 @@
     "trend": "stable",
     "average_days_to_recall": 36,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "GELLERT GLOBAL GROUP",
+    "brand_slug": "gellert-global-group",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 44,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "CT",
+      "NJ",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 68,
+    "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "W.Y. Industries, Inc.",
+    "brand_slug": "w-y-industries-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 44,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY",
+      "OH",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 48,
+    "national_recall_ratio": 0.33
   },
   {
     "brand_name": "Wondermade LLC",
@@ -9236,6 +9459,51 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Fayus Inc.",
+    "brand_slug": "fayus-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 33,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Chocolate Bar Holdings LLC",
+    "brand_slug": "chocolate-bar-holdings-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260722",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 86,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Specialty Bakers, LLC",
