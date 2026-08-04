@@ -1,12 +1,12 @@
 {
-  "total_recalls_this_year": 807,
-  "total_recalls_all_time": 1165,
-  "class_i_this_year": 234,
-  "class_ii_this_year": 478,
-  "class_iii_this_year": 95,
-  "repeat_offenders_count": 96,
-  "most_recent_recall_date": "20260722",
-  "last_updated": "2026-08-03T18:40:44.989Z",
+  "total_recalls_this_year": 818,
+  "total_recalls_all_time": 1176,
+  "class_i_this_year": 238,
+  "class_ii_this_year": 482,
+  "class_iii_this_year": 98,
+  "repeat_offenders_count": 97,
+  "most_recent_recall_date": "20260729",
+  "last_updated": "2026-08-04T07:01:23.130Z",
   "top_brands_by_recalls": [
     "Albertsons Companies LLC",
     "CHETAK NEW YORK LLC",
@@ -29,14 +29,14 @@
     "202604": 84,
     "202605": 173,
     "202606": 212,
-    "202607": 94
+    "202607": 105
   },
   "category_breakdown": {
-    "Allergen": 329,
-    "Other": 396,
+    "Salmonella": 202,
+    "Other": 399,
+    "Allergen": 335,
     "Foreign Object": 105,
     "E. coli": 15,
-    "Salmonella": 200,
     "Listeria": 116,
     "Mislabeling": 4
   }

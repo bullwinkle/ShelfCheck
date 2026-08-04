@@ -1116,6 +1116,28 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "Total Nutrition Inc",
+    "brand_slug": "total-nutrition-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 2,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 74,
+    "grade": "D",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260617",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 30,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Wawa Beverage Company",
     "brand_slug": "wawa-beverage-company",
     "total_recalls": 11,
@@ -1253,6 +1275,28 @@
     "trend": "stable",
     "average_days_to_recall": 21,
     "national_recall_ratio": 0.32
+  },
+  {
+    "brand_name": "Modern Warrior Life, LLC",
+    "brand_slug": "modern-warrior-life-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 72,
+    "grade": "D",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260729",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "AZ"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 201,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "MOGO Moringa LLC",
@@ -1851,28 +1895,6 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 27,
-    "national_recall_ratio": 1
-  },
-  {
-    "brand_name": "Total Nutrition Inc",
-    "brand_slug": "total-nutrition-inc",
-    "total_recalls": 1,
-    "class_i_recalls": 1,
-    "class_ii_recalls": 0,
-    "class_iii_recalls": 0,
-    "accountability_score": 70,
-    "grade": "D",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260617",
-    "last_recall_date": "20260617",
-    "categories": [
-      "Salmonella"
-    ],
-    "states_affected": [
-      "NY"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 26,
     "national_recall_ratio": 1
   },
   {
@@ -5095,6 +5117,35 @@
     "national_recall_ratio": 1
   },
   {
+    "brand_name": "GELLERT GLOBAL GROUP",
+    "brand_slug": "gellert-global-group",
+    "total_recalls": 2,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 56,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260722",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Allergen",
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "CT",
+      "MD",
+      "NC",
+      "NJ",
+      "NY",
+      "PA",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 51,
+    "national_recall_ratio": 0.42
+  },
+  {
     "brand_name": "AMY'S KITCHEN INC.",
     "brand_slug": "amy-s-kitchen-inc",
     "total_recalls": 2,
@@ -7329,6 +7380,28 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Green Jeeva LLC",
+    "brand_slug": "green-jeeva-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 49,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260729",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Wise Foods Inc",
     "brand_slug": "wise-foods-inc",
     "total_recalls": 1,
@@ -8385,31 +8458,6 @@
     "national_recall_ratio": 0.15
   },
   {
-    "brand_name": "GELLERT GLOBAL GROUP",
-    "brand_slug": "gellert-global-group",
-    "total_recalls": 1,
-    "class_i_recalls": 0,
-    "class_ii_recalls": 1,
-    "class_iii_recalls": 0,
-    "accountability_score": 44,
-    "grade": "B",
-    "is_repeat_offender": false,
-    "first_recall_date": "20260722",
-    "last_recall_date": "20260722",
-    "categories": [
-      "Foreign Object"
-    ],
-    "states_affected": [
-      "CT",
-      "NJ",
-      "NY",
-      "PA"
-    ],
-    "trend": "stable",
-    "average_days_to_recall": 68,
-    "national_recall_ratio": 0.33
-  },
-  {
     "brand_name": "W.Y. Industries, Inc.",
     "brand_slug": "w-y-industries-inc",
     "total_recalls": 1,
@@ -9459,6 +9507,28 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Vintage Roots LLC",
+    "brand_slug": "vintage-roots-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260729",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "MT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 46,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Fayus Inc.",
@@ -10528,6 +10598,29 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Brooklyn Roasting Works LLC",
+    "brand_slug": "brooklyn-roasting-works-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 39,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260729",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "NJ",
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Fry Pie Factory LLC",
     "brand_slug": "fry-pie-factory-llc",
     "total_recalls": 1,
@@ -10721,6 +10814,29 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Man Fon, Inc.",
+    "brand_slug": "man-fon-inc",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 37,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260729",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "NM"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 21,
+    "national_recall_ratio": 0.17
   },
   {
     "brand_name": "MG FOODS, INC",
@@ -11111,6 +11227,29 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Shandong Ling Xian Food Co.,LTD",
+    "brand_slug": "shandong-ling-xian-food-co-ltd",
+    "total_recalls": 3,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 3,
+    "accountability_score": 33,
+    "grade": "A",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260729",
+    "last_recall_date": "20260729",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "N/A"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 57,
     "national_recall_ratio": 0.15
   },
   {
