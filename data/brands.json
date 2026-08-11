@@ -4047,6 +4047,28 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Mellish Island Corp",
+    "brand_slug": "mellish-island-corp",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260805",
+    "last_recall_date": "20260805",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 35,
+    "national_recall_ratio": 1
+  },
+  {
     "brand_name": "Champion Foods, LLC",
     "brand_slug": "champion-foods-llc",
     "total_recalls": 1,
@@ -5566,6 +5588,28 @@
     "trend": "stable",
     "average_days_to_recall": 37,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "Nelson & Isa Lacteos LLC",
+    "brand_slug": "nelson-isa-lacteos-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 55,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260805",
+    "last_recall_date": "20260805",
+    "categories": [
+      "Listeria"
+    ],
+    "states_affected": [
+      "NY"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 61,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "CERELES EN GENERAL SAS",
@@ -7935,6 +7979,32 @@
     ],
     "trend": "stable",
     "national_recall_ratio": 0.33
+  },
+  {
+    "brand_name": "Galliker Dairy Co, Inc.",
+    "brand_slug": "galliker-dairy-co-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 46,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260805",
+    "last_recall_date": "20260805",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "DE",
+      "MD",
+      "NJ",
+      "NY",
+      "PA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 76,
+    "national_recall_ratio": 0.42
   },
   {
     "brand_name": "GREENWORLD FOOD EXPRESS (USA) LLC",
