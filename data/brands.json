@@ -270,6 +270,30 @@
     "national_recall_ratio": 0.58
   },
   {
+    "brand_name": "Clover Hill Dairy, LLC",
+    "brand_slug": "clover-hill-dairy-llc",
+    "total_recalls": 18,
+    "class_i_recalls": 18,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 85,
+    "grade": "F",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Listeria"
+    ],
+    "states_affected": [
+      "MD",
+      "NY",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 72,
+    "national_recall_ratio": 0.25
+  },
+  {
     "brand_name": "Wellnov Supplements LLC",
     "brand_slug": "wellnov-supplements-llc",
     "total_recalls": 14,
@@ -1275,6 +1299,28 @@
     "trend": "stable",
     "average_days_to_recall": 21,
     "national_recall_ratio": 0.32
+  },
+  {
+    "brand_name": "AKKARCO LLC",
+    "brand_slug": "akkarco-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 72,
+    "grade": "D",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 196,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "Modern Warrior Life, LLC",
@@ -2846,6 +2892,29 @@
     "national_recall_ratio": 0.7
   },
   {
+    "brand_name": "La Colonia Foods Llc",
+    "brand_slug": "la-colonia-foods-llc",
+    "total_recalls": 4,
+    "class_i_recalls": 4,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 63,
+    "grade": "C",
+    "is_repeat_offender": true,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Listeria"
+    ],
+    "states_affected": [
+      "MD",
+      "VA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 69,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "WFM Purchasing, LP",
     "brand_slug": "wfm-purchasing-lp",
     "total_recalls": 4,
@@ -2940,6 +3009,35 @@
     "trend": "stable",
     "average_days_to_recall": 13,
     "national_recall_ratio": 1
+  },
+  {
+    "brand_name": "M.G. Foods, Inc.",
+    "brand_slug": "m-g-foods-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 62,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "AL",
+      "GA",
+      "KY",
+      "NC",
+      "SC",
+      "TN",
+      "VA",
+      "WV"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 25,
+    "national_recall_ratio": 0.67
   },
   {
     "brand_name": "Adams Extract & Spice LLC",
@@ -4045,6 +4143,50 @@
     "trend": "stable",
     "average_days_to_recall": 77,
     "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "PT Organics Limited",
+    "brand_slug": "pt-organics-limited",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 57,
+    "grade": "C",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Foreign Object"
+    ],
+    "states_affected": [
+      "AL",
+      "AZ",
+      "CA",
+      "CO",
+      "GA",
+      "IA",
+      "IL",
+      "IN",
+      "KS",
+      "MI",
+      "MN",
+      "NC",
+      "NJ",
+      "NY",
+      "OH",
+      "OR",
+      "PA",
+      "SC",
+      "TN",
+      "TX",
+      "VA",
+      "WA",
+      "WI"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 30,
+    "national_recall_ratio": 1
   },
   {
     "brand_name": "Mellish Island Corp",
@@ -6984,6 +7126,28 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "FACTORY6, INC.",
+    "brand_slug": "factory6-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 1,
+    "class_ii_recalls": 0,
+    "class_iii_recalls": 0,
+    "accountability_score": 51,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Salmonella"
+    ],
+    "states_affected": [
+      "UT"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 24,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Wilco Peanut Co",
     "brand_slug": "wilco-peanut-co",
     "total_recalls": 1,
@@ -8809,6 +8973,29 @@
     "national_recall_ratio": 0.15
   },
   {
+    "brand_name": "Eunha Fisheries Co., LTD",
+    "brand_slug": "eunha-fisheries-co-ltd",
+    "total_recalls": 2,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 2,
+    "class_iii_recalls": 0,
+    "accountability_score": 43,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "NJ"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 42,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "MID DOLCIARIA SRL",
     "brand_slug": "mid-dolciaria-srl",
     "total_recalls": 2,
@@ -9410,6 +9597,30 @@
     "national_recall_ratio": 0.83
   },
   {
+    "brand_name": "Pack'n Fresh LLC",
+    "brand_slug": "pack-n-fresh-llc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 41,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA",
+      "NJ",
+      "TX"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 34,
+    "national_recall_ratio": 0.17
+  },
+  {
     "brand_name": "Alb-USA Enterprises Inc",
     "brand_slug": "alb-usa-enterprises-inc",
     "total_recalls": 1,
@@ -9577,6 +9788,26 @@
     "trend": "stable",
     "average_days_to_recall": 27,
     "national_recall_ratio": 0.17
+  },
+  {
+    "brand_name": "JINA F&C",
+    "brand_slug": "jina-f-c",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 40,
+    "grade": "B",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [],
+    "trend": "stable",
+    "average_days_to_recall": 42,
+    "national_recall_ratio": 0.15
   },
   {
     "brand_name": "Vintage Roots LLC",
@@ -10789,6 +11020,29 @@
     "national_recall_ratio": 0.17
   },
   {
+    "brand_name": "CHEER PACK",
+    "brand_slug": "cheer-pack",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 38,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Other"
+    ],
+    "states_affected": [
+      "MA",
+      "OR"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 27,
+    "national_recall_ratio": 0.15
+  },
+  {
     "brand_name": "Tipp Distributors, Inc. dba Novamex",
     "brand_slug": "tipp-distributors-inc-dba-novamex",
     "total_recalls": 1,
@@ -11297,6 +11551,28 @@
     ],
     "trend": "stable",
     "average_days_to_recall": 21,
+    "national_recall_ratio": 0.15
+  },
+  {
+    "brand_name": "Big Way Ca Inc",
+    "brand_slug": "big-way-ca-inc",
+    "total_recalls": 1,
+    "class_i_recalls": 0,
+    "class_ii_recalls": 1,
+    "class_iii_recalls": 0,
+    "accountability_score": 33,
+    "grade": "A",
+    "is_repeat_offender": false,
+    "first_recall_date": "20260812",
+    "last_recall_date": "20260812",
+    "categories": [
+      "Allergen"
+    ],
+    "states_affected": [
+      "CA"
+    ],
+    "trend": "stable",
+    "average_days_to_recall": 19,
     "national_recall_ratio": 0.15
   },
   {
