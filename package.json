@@ -18,14 +18,14 @@
     "generate:images": "tsx scripts/generate-images.ts"
   },
   "dependencies": {
-    "@astrojs/markdoc": "^0.15.11",
+    "@astrojs/markdoc": "^1.0.6",
     "@astrojs/react": "^4.4.2",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
-    "@keystatic/astro": "^5.0.6",
+    "@keystatic/astro": "^5.1.0",
     "@keystatic/core": "^0.5.50",
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^5.18.1",
+    "astro": "^6.4.8",
     "chart.js": "^4.4.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
